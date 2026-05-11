@@ -1,0 +1,6 @@
+Invoking command in '/ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_msgs
+Invoked command in '/ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/uros/micro_ros_msgs -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_msgs
+Invoking command in '/ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_msgs -- -j4 -l4
+Invoked command in '/ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_msgs -- -j4 -l4
+Invoking command in '/ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_msgs
+Invoked command in '/ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_msgs

@@ -1,0 +1,33 @@
+running develop
+Removing /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+running egg_info
+writing ../../build/detector/detector.egg-info/PKG-INFO
+writing dependency_links to ../../build/detector/detector.egg-info/dependency_links.txt
+writing entry points to ../../build/detector/detector.egg-info/entry_points.txt
+writing requirements to ../../build/detector/detector.egg-info/requires.txt
+writing top-level names to ../../build/detector/detector.egg-info/top_level.txt
+reading manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros/build/detector/build
+creating /ros/build/detector/build/lib
+creating /ros/build/detector/build/lib/detector
+copying detector/__init__.py -> /ros/build/detector/build/lib/detector
+copying detector/apriltags.py -> /ros/build/detector/build/lib/detector
+running install
+running install_lib
+creating /ros/install/detector/lib/python3.10/site-packages/detector
+copying /ros/build/detector/build/lib/detector/__init__.py -> /ros/install/detector/lib/python3.10/site-packages/detector
+copying /ros/build/detector/build/lib/detector/apriltags.py -> /ros/install/detector/lib/python3.10/site-packages/detector
+byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/apriltags.py to apriltags.cpython-310.pyc
+running install_data
+copying resource/detector -> /ros/install/detector/share/ament_index/resource_index/packages
+copying package.xml -> /ros/install/detector/share/detector
+running install_egg_info
+Copying ../../build/detector/detector.egg-info to /ros/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info
+running install_scripts
+Installing apriltags script to /ros/install/detector/lib/detector
+writing list of installed files to '/ros/build/detector/install.log'

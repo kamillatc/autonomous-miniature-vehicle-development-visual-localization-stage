@@ -1,0 +1,37 @@
+[1.909s] Invoking command in '/ros/build/detector': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros/build/detector/build
+[2.311s] running develop
+[2.473s] Removing /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+[2.628s] Invoked command in '/ros/build/detector' returned '0': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros/build/detector/build
+[2.629s] Invoking command in '/ros/src/detector': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /ros/build/detector/build install --record /ros/build/detector/install.log --single-version-externally-managed install_data --force
+[3.209s] running egg_info
+[3.209s] writing ../../build/detector/detector.egg-info/PKG-INFO
+[3.209s] writing dependency_links to ../../build/detector/detector.egg-info/dependency_links.txt
+[3.218s] writing entry points to ../../build/detector/detector.egg-info/entry_points.txt
+[3.218s] writing requirements to ../../build/detector/detector.egg-info/requires.txt
+[3.219s] writing top-level names to ../../build/detector/detector.egg-info/top_level.txt
+[3.233s] reading manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+[3.234s] adding license file 'LICENSE'
+[3.236s] writing manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+[3.241s] running build
+[3.241s] running build_py
+[3.241s] creating /ros/build/detector/build
+[3.241s] creating /ros/build/detector/build/lib
+[3.241s] creating /ros/build/detector/build/lib/detector
+[3.242s] copying detector/__init__.py -> /ros/build/detector/build/lib/detector
+[3.242s] copying detector/apriltags.py -> /ros/build/detector/build/lib/detector
+[3.246s] running install
+[3.246s] running install_lib
+[3.258s] creating /ros/install/detector/lib/python3.10/site-packages/detector
+[3.259s] copying /ros/build/detector/build/lib/detector/__init__.py -> /ros/install/detector/lib/python3.10/site-packages/detector
+[3.259s] copying /ros/build/detector/build/lib/detector/apriltags.py -> /ros/install/detector/lib/python3.10/site-packages/detector
+[3.263s] byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/__init__.py to __init__.cpython-310.pyc
+[3.264s] byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/apriltags.py to apriltags.cpython-310.pyc
+[3.270s] running install_data
+[3.273s] copying resource/detector -> /ros/install/detector/share/ament_index/resource_index/packages
+[3.274s] copying package.xml -> /ros/install/detector/share/detector
+[3.274s] running install_egg_info
+[3.281s] Copying ../../build/detector/detector.egg-info to /ros/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info
+[3.286s] running install_scripts
+[3.336s] Installing apriltags script to /ros/install/detector/lib/detector
+[3.336s] writing list of installed files to '/ros/build/detector/install.log'
+[3.438s] Invoked command in '/ros/src/detector' returned '0': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /ros/build/detector/build install --record /ros/build/detector/install.log --single-version-externally-managed install_data --force

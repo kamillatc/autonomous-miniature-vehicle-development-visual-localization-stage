@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/ros/build/micro_ros_agent/CMakeFiles/xrceagent
+/ros/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/ros/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/ros/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

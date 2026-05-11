@@ -1,0 +1,37 @@
+[1.910s] Invoking command in '/ros/build/lidar_teste': PYTHONPATH=/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros/build/lidar_teste/build
+[2.286s] running develop
+[2.447s] Removing /ros/install/lidar_teste/lib/python3.10/site-packages/lidar-teste.egg-link (link to .)
+[2.612s] Invoked command in '/ros/build/lidar_teste' returned '0': PYTHONPATH=/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /ros/build/lidar_teste/build
+[2.613s] Invoking command in '/ros/src/lidar_teste': PYTHONPATH=/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /ros/build/lidar_teste/build install --record /ros/build/lidar_teste/install.log --single-version-externally-managed install_data --force
+[3.059s] running egg_info
+[3.061s] writing ../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO
+[3.062s] writing dependency_links to ../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt
+[3.066s] writing entry points to ../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt
+[3.067s] writing requirements to ../../build/lidar_teste/lidar_teste.egg-info/requires.txt
+[3.067s] writing top-level names to ../../build/lidar_teste/lidar_teste.egg-info/top_level.txt
+[3.074s] reading manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[3.079s] adding license file 'LICENSE'
+[3.080s] writing manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[3.080s] running build
+[3.081s] running build_py
+[3.081s] creating /ros/build/lidar_teste/build
+[3.081s] creating /ros/build/lidar_teste/build/lib
+[3.081s] creating /ros/build/lidar_teste/build/lib/lidar_teste
+[3.083s] copying lidar_teste/__init__.py -> /ros/build/lidar_teste/build/lib/lidar_teste
+[3.083s] copying lidar_teste/save_lidar.py -> /ros/build/lidar_teste/build/lib/lidar_teste
+[3.088s] running install
+[3.088s] running install_lib
+[3.094s] creating /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+[3.095s] copying /ros/build/lidar_teste/build/lib/lidar_teste/__init__.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+[3.095s] copying /ros/build/lidar_teste/build/lib/lidar_teste/save_lidar.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+[3.096s] byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/__init__.py to __init__.cpython-310.pyc
+[3.097s] byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/save_lidar.py to save_lidar.cpython-310.pyc
+[3.098s] running install_data
+[3.102s] copying resource/lidar_teste -> /ros/install/lidar_teste/share/ament_index/resource_index/packages
+[3.102s] copying package.xml -> /ros/install/lidar_teste/share/lidar_teste
+[3.103s] running install_egg_info
+[3.111s] Copying ../../build/lidar_teste/lidar_teste.egg-info to /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste-0.0.0-py3.10.egg-info
+[3.119s] running install_scripts
+[3.160s] Installing save_lidar script to /ros/install/lidar_teste/lib/lidar_teste
+[3.160s] writing list of installed files to '/ros/build/lidar_teste/install.log'
+[3.273s] Invoked command in '/ros/src/lidar_teste' returned '0': PYTHONPATH=/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /ros/build/lidar_teste/build install --record /ros/build/lidar_teste/install.log --single-version-externally-managed install_data --force

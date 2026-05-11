@@ -1,0 +1,6 @@
+Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_setup
+Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_setup
+Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_setup -- -j4 -l4
+Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_setup -- -j4 -l4
+Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_setup
+Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_setup

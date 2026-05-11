@@ -1,0 +1,17 @@
+[4.399s] Invoking command in '/ros/build/detector': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/detector/build --no-deps symlink_data
+[5.708s] running develop
+[6.303s] running egg_info
+[6.305s] writing detector.egg-info/PKG-INFO
+[6.307s] writing dependency_links to detector.egg-info/dependency_links.txt
+[6.325s] writing entry points to detector.egg-info/entry_points.txt
+[6.331s] writing requirements to detector.egg-info/requires.txt
+[6.331s] writing top-level names to detector.egg-info/top_level.txt
+[6.363s] reading manifest file 'detector.egg-info/SOURCES.txt'
+[6.372s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[6.391s] running build_ext
+[6.392s] Creating /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+[6.404s] Installing apriltags script to /ros/install/detector/lib/detector
+[6.412s] 
+[6.412s] Installed /ros/build/detector
+[6.413s] running symlink_data
+[7.269s] Invoked command in '/ros/build/detector' returned '0': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/detector/build --no-deps symlink_data

@@ -1,0 +1,33 @@
+running develop
+Removing /ros/install/lidar_teste/lib/python3.10/site-packages/lidar-teste.egg-link (link to .)
+running egg_info
+writing ../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO
+writing dependency_links to ../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt
+writing entry points to ../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt
+writing requirements to ../../build/lidar_teste/lidar_teste.egg-info/requires.txt
+writing top-level names to ../../build/lidar_teste/lidar_teste.egg-info/top_level.txt
+reading manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /ros/build/lidar_teste/build
+creating /ros/build/lidar_teste/build/lib
+creating /ros/build/lidar_teste/build/lib/lidar_teste
+copying lidar_teste/__init__.py -> /ros/build/lidar_teste/build/lib/lidar_teste
+copying lidar_teste/save_lidar.py -> /ros/build/lidar_teste/build/lib/lidar_teste
+running install
+running install_lib
+creating /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+copying /ros/build/lidar_teste/build/lib/lidar_teste/__init__.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+copying /ros/build/lidar_teste/build/lib/lidar_teste/save_lidar.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste
+byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/__init__.py to __init__.cpython-310.pyc
+byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/save_lidar.py to save_lidar.cpython-310.pyc
+running install_data
+copying resource/lidar_teste -> /ros/install/lidar_teste/share/ament_index/resource_index/packages
+copying package.xml -> /ros/install/lidar_teste/share/lidar_teste
+running install_egg_info
+Copying ../../build/lidar_teste/lidar_teste.egg-info to /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste-0.0.0-py3.10.egg-info
+running install_scripts
+Installing save_lidar script to /ros/install/lidar_teste/lib/lidar_teste
+writing list of installed files to '/ros/build/lidar_teste/install.log'

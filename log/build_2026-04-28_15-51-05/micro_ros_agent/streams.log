@@ -1,0 +1,26 @@
+[0.095s] Invoking command in '/ros/build/micro_ros_agent': CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/ros/install/rplidar_ros:/ros/install/micro_ros_setup:/ros/install/micro_ros_agent:/ros/install/imu_bno055:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/ros/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros/build/micro_ros_agent -- -j4 -l4
+[0.354s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[0.508s] [100%] Built target micro_ros_agent
+[0.589s] Invoked command in '/ros/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/ros/install/rplidar_ros:/ros/install/micro_ros_setup:/ros/install/micro_ros_agent:/ros/install/imu_bno055:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/ros/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /ros/build/micro_ros_agent -- -j4 -l4
+[0.601s] Invoking command in '/ros/build/micro_ros_agent': CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/ros/install/rplidar_ros:/ros/install/micro_ros_setup:/ros/install/micro_ros_agent:/ros/install/imu_bno055:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/ros/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros/build/micro_ros_agent
+[0.677s] -- Install configuration: ""
+[0.683s] -- Execute custom install script
+[0.686s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[0.687s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[0.697s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[0.698s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[0.701s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[0.701s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[0.701s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[0.701s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[0.710s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[0.722s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[0.729s] -- Symlinking: /ros/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[0.872s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[0.873s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.881s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[0.881s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[0.881s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[0.892s] -- Up-to-date symlink: /ros/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[0.896s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[0.969s] Invoked command in '/ros/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/ros/install/rplidar_ros:/ros/install/micro_ros_setup:/ros/install/micro_ros_agent:/ros/install/imu_bno055:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/ros/install/micro_ros_agent/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /ros/build/micro_ros_agent

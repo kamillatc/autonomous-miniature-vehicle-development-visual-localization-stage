@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating detector.egg-info
+writing detector.egg-info/PKG-INFO
+writing dependency_links to detector.egg-info/dependency_links.txt
+writing entry points to detector.egg-info/entry_points.txt
+writing requirements to detector.egg-info/requires.txt
+writing top-level names to detector.egg-info/top_level.txt
+writing manifest file 'detector.egg-info/SOURCES.txt'
+reading manifest file 'detector.egg-info/SOURCES.txt'
+writing manifest file 'detector.egg-info/SOURCES.txt'
+running build_ext
+Creating /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+Installing apriltags script to /ros/install/detector/lib/detector
+
+Installed /ros/build/detector
+running symlink_data
+creating /ros/install/detector/share/ament_index
+creating /ros/install/detector/share/ament_index/resource_index
+creating /ros/install/detector/share/ament_index/resource_index/packages
+symbolically linking /ros/build/detector/resource/detector -> /ros/install/detector/share/ament_index/resource_index/packages
+symbolically linking /ros/build/detector/package.xml -> /ros/install/detector/share/detector

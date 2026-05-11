@@ -1,0 +1,212 @@
+[0.087s] Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_setup
+[0.546s] -- The C compiler identification is GNU 11.4.0
+[1.087s] -- The CXX compiler identification is GNU 11.4.0
+[1.205s] -- Detecting C compiler ABI info
+[1.923s] -- Detecting C compiler ABI info - done
+[1.990s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.991s] -- Detecting C compile features
+[1.991s] -- Detecting C compile features - done
+[2.029s] -- Detecting CXX compiler ABI info
+[2.876s] -- Detecting CXX compiler ABI info - done
+[2.955s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.959s] -- Detecting CXX compile features
+[2.960s] -- Detecting CXX compile features - done
+[2.982s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.247s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.824s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.973s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.847s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.250s] -- Added test 'flake8' to check Python code syntax and style conventions
+[6.281s] -- Added test 'lint_cmake' to check CMake code style
+[6.300s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[6.480s] -- Added test 'xmllint' to check XML markup files
+[6.511s] -- Configuring done
+[6.521s] -- Generating done
+[6.535s] -- Build files have been written to: /ros/build/micro_ros_setup
+[6.599s] Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake /ros/src/microros_ws/src/micro_ros_setup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_setup
+[6.620s] Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_setup -- -j4 -l4
+[6.883s] Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_setup -- -j4 -l4
+[6.962s] Invoking command in '/ros/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_setup
+[7.009s] -- Install configuration: ""
+[7.009s] -- Execute custom install script
+[7.009s] -- Symlinking: /ros/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[7.029s] -- Symlinking: /ros/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[7.092s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[7.171s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[7.222s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[7.253s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[7.292s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[7.320s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[7.366s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[7.399s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[7.448s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[7.479s] -- Symlinking: /ros/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[7.508s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[7.555s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[7.589s] -- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[7.637s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[7.700s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[7.799s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[7.911s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[8.068s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[8.158s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[8.362s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[8.511s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[8.612s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[8.702s] -- Symlinking: /ros/install/micro_ros_setup/lib/micro_ros_setup/component
+[8.788s] -- Installing: /ros/install/micro_ros_setup/./config
+[8.788s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib
+[8.789s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic
+[8.790s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[8.793s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[8.803s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[8.808s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[8.809s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[8.811s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[8.814s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[8.816s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[8.816s] -- Installing: /ros/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[8.822s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra
+[8.823s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos
+[8.830s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5
+[8.831s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos
+[8.841s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh
+[8.867s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh
+[8.871s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh
+[8.883s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta
+[8.883s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos
+[8.884s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh
+[8.884s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/list_apps.sh
+[8.884s] -- Installing: /ros/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt
+[8.893s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian
+[8.894s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic
+[8.902s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[8.903s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[8.909s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[8.915s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[8.918s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[8.918s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[8.930s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[8.949s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[8.970s] -- Installing: /ros/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[8.970s] -- Installing: /ros/install/micro_ros_setup/./config/agent_uros_packages.repos
+[8.970s] -- Installing: /ros/install/micro_ros_setup/./config/utils.sh
+[8.979s] -- Installing: /ros/install/micro_ros_setup/./config/mbed
+[8.983s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic
+[8.983s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/supported_platforms
+[8.983s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/board.repos
+[8.984s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/create.sh
+[8.984s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/package.xml
+[8.984s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/flash.sh
+[8.984s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/build.sh
+[8.995s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos
+[8.996s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos
+[8.996s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/list_apps.sh
+[8.996s] -- Installing: /ros/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt
+[8.997s] -- Installing: /ros/install/micro_ros_setup/./config/client_ros2_packages.txt
+[9.009s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr
+[9.009s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic
+[9.009s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[9.011s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[9.014s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[9.021s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[9.029s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[9.043s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[9.079s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[9.110s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[9.111s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[9.115s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[9.127s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[9.134s] -- Installing: /ros/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[9.139s] -- Installing: /ros/install/micro_ros_setup/./config/freertos
+[9.140s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32
+[9.140s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/README.md
+[9.153s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[9.154s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[9.172s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[9.188s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[9.222s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[9.243s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[9.244s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[9.244s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[9.255s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21
+[9.256s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[9.275s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[9.290s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[9.296s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[9.308s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[9.315s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[9.320s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[9.346s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[9.353s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[9.353s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[9.389s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[9.395s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[9.419s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[9.419s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[9.420s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[9.424s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[9.430s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[9.440s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[9.453s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/list_apps.sh
+[9.466s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[9.466s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[9.466s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[9.491s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[9.492s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[9.502s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[9.502s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[9.516s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[9.517s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[9.557s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[9.573s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[9.586s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[9.587s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[9.587s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[9.587s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[9.589s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[9.596s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[9.596s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[9.605s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[9.605s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[9.608s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[9.623s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[9.626s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[9.629s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[9.641s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[9.642s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[9.642s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[9.643s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[9.643s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[9.670s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[9.670s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[9.671s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[9.671s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[9.671s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[9.671s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[9.671s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[9.674s] -- Installing: /ros/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[9.679s] -- Installing: /ros/install/micro_ros_setup/./config/host
+[9.683s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic
+[9.687s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/create.sh
+[9.687s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/package.xml
+[9.687s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/flash.sh
+[9.688s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[9.693s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/build.sh
+[9.693s] -- Installing: /ros/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[9.696s] -- Installing: /ros/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[9.696s] -- Installing: /ros/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[9.696s] -- Installing: /ros/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[9.704s] -- Installing: /ros/install/micro_ros_setup/./config/android
+[9.706s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic
+[9.712s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/create.sh
+[9.714s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/package.xml
+[9.715s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/flash.sh
+[9.715s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/build.sh
+[9.715s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[9.715s] -- Installing: /ros/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[9.716s] -- Installing: /ros/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[9.716s] -- Installing: /ros/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[9.729s] -- Installing: /ros/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[9.732s] -- Installing: /ros/install/micro_ros_setup/./config/client_uros_packages.repos
+[9.818s] Invoked command in '/ros/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/src/install/lidar_teste:/ros/src/install/detector:/ros/src/install/bno055:/ros/install/lidar_teste:/ros/install/detector:/ros/install/bno055:/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_setup

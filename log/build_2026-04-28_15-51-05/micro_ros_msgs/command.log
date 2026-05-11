@@ -1,0 +1,4 @@
+Invoking command in '/ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_msgs -- -j4 -l4
+Invoked command in '/ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble /usr/bin/cmake --build /ros/build/micro_ros_msgs -- -j4 -l4
+Invoking command in '/ros/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_msgs
+Invoked command in '/ros/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/ros/install/lidar_teste:/ros/install/detector:/opt/ros/humble /usr/bin/cmake --install /ros/build/micro_ros_msgs

@@ -1,0 +1,7 @@
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/microxrcedds_agent.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/edit_cache.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/rebuild_cache.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/list_install_components.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/local.dir
+/ros/build/micro_ros_agent/agent/src/xrceagent-build/CMakeFiles/install/strip.dir

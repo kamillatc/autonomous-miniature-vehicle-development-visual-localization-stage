@@ -1,0 +1,45 @@
+[0.025s] Invoking command in '/ros/build/micro_ros_agent': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros/src/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_agent
+[0.046s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.245s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.305s] -- Found rosidl_cmake: 3.1.8 (/opt/ros/humble/share/rosidl_cmake/cmake)
+[0.306s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.342s] -- Found fastrtps_cmake_module: 2.2.4 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)
+[0.342s] -- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)
+[0.372s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.383s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.397s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.413s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.434s] -- Found rmw_fastrtps_shared_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)
+[0.507s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.509s] -- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[0.509s] -- Found micro_ros_msgs: 3.0.1 (/ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake)
+[0.647s] -- Configuring done
+[0.679s] -- Generating done
+[0.688s] -- Build files have been written to: /ros/build/micro_ros_agent
+[0.699s] Invoked command in '/ros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /ros/src/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent -DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_agent
+[0.702s] Invoking command in '/ros/build/micro_ros_agent': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros/build/micro_ros_agent -- -j4 -l4
+[0.783s] [35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[0.851s] [100%] Built target micro_ros_agent
+[0.871s] Invoked command in '/ros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /ros/build/micro_ros_agent -- -j4 -l4
+[0.876s] Invoking command in '/ros/build/micro_ros_agent': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros/build/micro_ros_agent
+[0.888s] -- Install configuration: ""
+[0.889s] -- Execute custom install script
+[0.893s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[0.893s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[0.894s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[0.894s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[0.895s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[0.895s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[0.896s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[0.896s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[0.897s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[0.897s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[0.897s] -- Symlinking: /ros/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[0.920s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[0.921s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.922s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[0.924s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[0.926s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[0.928s] -- Up-to-date symlink: /ros/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[0.933s] -- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[0.938s] Invoked command in '/ros/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/ros/install/micro_ros_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/ros/install/micro_ros_msgs:/opt/ros/humble LD_LIBRARY_PATH=/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib PYTHONPATH=/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /ros/build/micro_ros_agent

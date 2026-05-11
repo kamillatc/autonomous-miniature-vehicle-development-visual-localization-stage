@@ -1,0 +1,756 @@
+[0.000000] (-) TimerEvent: {}
+[0.000709] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.001109] (detector) JobQueued: {'identifier': 'detector', 'dependencies': OrderedDict()}
+[0.001139] (lidar_teste) JobQueued: {'identifier': 'lidar_teste', 'dependencies': OrderedDict()}
+[0.001162] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001184] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001214] (rplidar_ros) JobQueued: {'identifier': 'rplidar_ros', 'dependencies': OrderedDict()}
+[0.001235] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict([('micro_ros_msgs', '/ros/install/micro_ros_msgs')])}
+[0.001261] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.017742] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.037531] (detector) JobStarted: {'identifier': 'detector'}
+[0.045071] (lidar_teste) JobStarted: {'identifier': 'lidar_teste'}
+[0.053640] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.058912] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '/ros/src/microros_ws/src/uros/micro_ros_msgs', '-DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_msgs'], 'cwd': '/ros/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099590] (-) TimerEvent: {}
+[0.199968] (-) TimerEvent: {}
+[0.300348] (-) TimerEvent: {}
+[0.400905] (-) TimerEvent: {}
+[0.501363] (-) TimerEvent: {}
+[0.601752] (-) TimerEvent: {}
+[0.702198] (-) TimerEvent: {}
+[0.802881] (-) TimerEvent: {}
+[0.815230] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.815842] (micro_ros_msgs) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.816428] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.1 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.816840] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.816961] (micro_ros_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.817268] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.817356] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.903018] (-) TimerEvent: {}
+[1.003572] (-) TimerEvent: {}
+[1.050973] (micro_ros_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.103700] (-) TimerEvent: {}
+[1.204644] (-) TimerEvent: {}
+[1.306665] (-) TimerEvent: {}
+[1.379598] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.406792] (-) TimerEvent: {}
+[1.508636] (-) TimerEvent: {}
+[1.609481] (-) TimerEvent: {}
+[1.712856] (-) TimerEvent: {}
+[1.814112] (-) TimerEvent: {}
+[1.880105] (micro_ros_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.914723] (-) TimerEvent: {}
+[1.937473] (detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/ros/build/detector/build'], 'cwd': '/ros/build/detector', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/detector', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.948139] (lidar_teste) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/ros/build/lidar_teste/build'], 'cwd': '/ros/build/lidar_teste', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/lidar_teste', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.956404] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/ros/build/bno055/build'], 'cwd': '/ros/build/bno055', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/bno055', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[1.957695] (micro_ros_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.994485] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.994987] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.995325] (micro_ros_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[2.017627] (-) TimerEvent: {}
+[2.118661] (-) TimerEvent: {}
+[2.160418] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.188070] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.198578] (micro_ros_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.218785] (-) TimerEvent: {}
+[2.226401] (micro_ros_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.318926] (-) TimerEvent: {}
+[2.331376] (lidar_teste) StdoutLine: {'line': b'running develop\n'}
+[2.348230] (detector) StdoutLine: {'line': b'running develop\n'}
+[2.369640] (bno055) StdoutLine: {'line': b'running develop\n'}
+[2.412112] (micro_ros_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[2.421601] (-) TimerEvent: {}
+[2.454013] (micro_ros_msgs) StdoutLine: {'line': b'-- Build files have been written to: /ros/build/micro_ros_msgs\n'}
+[2.486948] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.487452] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[2.487495] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/ros/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.492695] (lidar_teste) StdoutLine: {'line': b'Removing /ros/install/lidar_teste/lib/python3.10/site-packages/lidar-teste.egg-link (link to .)\n'}
+[2.511086] (detector) StdoutLine: {'line': b'Removing /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)\n'}
+[2.521796] (-) TimerEvent: {}
+[2.562791] (bno055) StdoutLine: {'line': b'Removing /ros/install/bno055/lib/python3.10/site-packages/bno055.egg-link (link to .)\n'}
+[2.622043] (-) TimerEvent: {}
+[2.657792] (lidar_teste) CommandEnded: {'returncode': 0}
+[2.658508] (lidar_teste) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_teste', 'build', '--build-base', '/ros/build/lidar_teste/build', 'install', '--record', '/ros/build/lidar_teste/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/ros/src/lidar_teste', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/lidar_teste', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/lidar_teste/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.665682] (detector) CommandEnded: {'returncode': 0}
+[2.666295] (detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/detector', 'build', '--build-base', '/ros/build/detector/build', 'install', '--record', '/ros/build/detector/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/ros/src/detector', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/detector', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.702681] (micro_ros_msgs) StdoutLine: {'line': b'[  2%] Built target micro_ros_msgs__cpp\n'}
+[2.703057] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.722141] (-) TimerEvent: {}
+[2.725889] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target micro_ros_msgs__rs\n'}
+[2.740196] (bno055) CommandEnded: {'returncode': 0}
+[2.740805] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/ros/build/bno055/build', 'install', '--record', '/ros/build/bno055/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/ros/src/bno055', 'env': {'HOSTNAME': 'epiibots-desktop', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib', 'HOME': '/root', 'OLDPWD': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'QT_X11_NO_MITSHM': '1', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':11.0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/root/.Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'PWD': '/ros/build/bno055', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/ros/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/bno055/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[2.741385] (micro_ros_msgs) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_symlink_micro_ros_msgs\n'}
+[2.760698] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.763601] (micro_ros_msgs) StdoutLine: {'line': b'[ 14%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[2.787423] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.789749] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.807128] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[2.822255] (-) TimerEvent: {}
+[2.856764] (micro_ros_msgs) StdoutLine: {'line': b'[ 37%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[2.863703] (micro_ros_msgs) StdoutLine: {'line': b'[ 45%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[2.870701] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.919719] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.922387] (-) TimerEvent: {}
+[2.925230] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.932631] (micro_ros_msgs) StdoutLine: {'line': b'[ 56%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[2.982734] (micro_ros_msgs) StdoutLine: {'line': b'[ 66%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[2.991450] (micro_ros_msgs) StdoutLine: {'line': b'[ 77%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.022557] (-) TimerEvent: {}
+[3.091475] (micro_ros_msgs) StdoutLine: {'line': b'[ 77%] Built target micro_ros_msgs\n'}
+[3.104734] (lidar_teste) StdoutLine: {'line': b'running egg_info\n'}
+[3.106218] (lidar_teste) StdoutLine: {'line': b'writing ../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO\n'}
+[3.107112] (lidar_teste) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt\n'}
+[3.111983] (lidar_teste) StdoutLine: {'line': b'writing entry points to ../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt\n'}
+[3.112277] (lidar_teste) StdoutLine: {'line': b'writing requirements to ../../build/lidar_teste/lidar_teste.egg-info/requires.txt\n'}
+[3.112923] (lidar_teste) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_teste/lidar_teste.egg-info/top_level.txt\n'}
+[3.119653] (lidar_teste) StdoutLine: {'line': b"reading manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'\n"}
+[3.122647] (-) TimerEvent: {}
+[3.124283] (lidar_teste) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.125212] (lidar_teste) StdoutLine: {'line': b"writing manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'\n"}
+[3.125506] (lidar_teste) StdoutLine: {'line': b'running build\n'}
+[3.126064] (lidar_teste) StdoutLine: {'line': b'running build_py\n'}
+[3.126691] (lidar_teste) StdoutLine: {'line': b'creating /ros/build/lidar_teste/build\n'}
+[3.126844] (lidar_teste) StdoutLine: {'line': b'creating /ros/build/lidar_teste/build/lib\n'}
+[3.126961] (lidar_teste) StdoutLine: {'line': b'creating /ros/build/lidar_teste/build/lib/lidar_teste\n'}
+[3.128093] (lidar_teste) StdoutLine: {'line': b'copying lidar_teste/__init__.py -> /ros/build/lidar_teste/build/lib/lidar_teste\n'}
+[3.128316] (lidar_teste) StdoutLine: {'line': b'copying lidar_teste/save_lidar.py -> /ros/build/lidar_teste/build/lib/lidar_teste\n'}
+[3.133634] (lidar_teste) StdoutLine: {'line': b'running install\n'}
+[3.134059] (lidar_teste) StdoutLine: {'line': b'running install_lib\n'}
+[3.139867] (lidar_teste) StdoutLine: {'line': b'creating /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste\n'}
+[3.140244] (lidar_teste) StdoutLine: {'line': b'copying /ros/build/lidar_teste/build/lib/lidar_teste/__init__.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste\n'}
+[3.140357] (lidar_teste) StdoutLine: {'line': b'copying /ros/build/lidar_teste/build/lib/lidar_teste/save_lidar.py -> /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste\n'}
+[3.141342] (lidar_teste) StdoutLine: {'line': b'byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/__init__.py to __init__.cpython-310.pyc\n'}
+[3.142027] (lidar_teste) StdoutLine: {'line': b'byte-compiling /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste/save_lidar.py to save_lidar.cpython-310.pyc\n'}
+[3.143355] (lidar_teste) StdoutLine: {'line': b'running install_data\n'}
+[3.147296] (lidar_teste) StdoutLine: {'line': b'copying resource/lidar_teste -> /ros/install/lidar_teste/share/ament_index/resource_index/packages\n'}
+[3.147988] (lidar_teste) StdoutLine: {'line': b'copying package.xml -> /ros/install/lidar_teste/share/lidar_teste\n'}
+[3.148246] (lidar_teste) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.156234] (lidar_teste) StdoutLine: {'line': b'Copying ../../build/lidar_teste/lidar_teste.egg-info to /ros/install/lidar_teste/lib/python3.10/site-packages/lidar_teste-0.0.0-py3.10.egg-info\n'}
+[3.164609] (lidar_teste) StdoutLine: {'line': b'running install_scripts\n'}
+[3.166009] (micro_ros_msgs) StdoutLine: {'line': b'[ 79%] Built target micro_ros_msgs__py\n'}
+[3.205041] (lidar_teste) StdoutLine: {'line': b'Installing save_lidar script to /ros/install/lidar_teste/lib/lidar_teste\n'}
+[3.205706] (lidar_teste) StdoutLine: {'line': b"writing list of installed files to '/ros/build/lidar_teste/install.log'\n"}
+[3.222775] (-) TimerEvent: {}
+[3.223908] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_generator_py\x1b[0m\n'}
+[3.244732] (detector) StdoutLine: {'line': b'running egg_info\n'}
+[3.246903] (detector) StdoutLine: {'line': b'writing ../../build/detector/detector.egg-info/PKG-INFO\n'}
+[3.247079] (detector) StdoutLine: {'line': b'writing dependency_links to ../../build/detector/detector.egg-info/dependency_links.txt\n'}
+[3.253891] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[3.255495] (detector) StdoutLine: {'line': b'writing entry points to ../../build/detector/detector.egg-info/entry_points.txt\n'}
+[3.256078] (detector) StdoutLine: {'line': b'writing requirements to ../../build/detector/detector.egg-info/requires.txt\n'}
+[3.256944] (detector) StdoutLine: {'line': b'writing top-level names to ../../build/detector/detector.egg-info/top_level.txt\n'}
+[3.262659] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[3.264371] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[3.266091] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[3.266412] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[3.267600] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[3.270806] (detector) StdoutLine: {'line': b"reading manifest file '../../build/detector/detector.egg-info/SOURCES.txt'\n"}
+[3.271958] (detector) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.273387] (detector) StdoutLine: {'line': b"writing manifest file '../../build/detector/detector.egg-info/SOURCES.txt'\n"}
+[3.277176] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.277764] (detector) StdoutLine: {'line': b'running build\n'}
+[3.278605] (detector) StdoutLine: {'line': b'running build_py\n'}
+[3.278806] (detector) StdoutLine: {'line': b'creating /ros/build/detector/build\n'}
+[3.278978] (detector) StdoutLine: {'line': b'creating /ros/build/detector/build/lib\n'}
+[3.279111] (detector) StdoutLine: {'line': b'creating /ros/build/detector/build/lib/detector\n'}
+[3.279240] (detector) StdoutLine: {'line': b'copying detector/__init__.py -> /ros/build/detector/build/lib/detector\n'}
+[3.279358] (detector) StdoutLine: {'line': b'copying detector/apriltags.py -> /ros/build/detector/build/lib/detector\n'}
+[3.281723] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[3.282087] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[3.283199] (detector) StdoutLine: {'line': b'running install\n'}
+[3.283570] (detector) StdoutLine: {'line': b'running install_lib\n'}
+[3.284297] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[3.285185] (bno055) StdoutLine: {'line': b'running build\n'}
+[3.285677] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[3.286426] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build\n'}
+[3.287089] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib\n'}
+[3.287709] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib/bno055\n'}
+[3.289059] (bno055) StdoutLine: {'line': b'copying bno055/__init__.py -> /ros/build/bno055/build/lib/bno055\n'}
+[3.290193] (bno055) StdoutLine: {'line': b'copying bno055/bno055.py -> /ros/build/bno055/build/lib/bno055\n'}
+[3.292473] (bno055) StdoutLine: {'line': b'copying bno055/registers.py -> /ros/build/bno055/build/lib/bno055\n'}
+[3.292964] (micro_ros_msgs) StdoutLine: {'line': b'[ 87%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[3.294775] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib/bno055/params\n'}
+[3.295573] (bno055) StdoutLine: {'line': b'copying bno055/params/NodeParameters.py -> /ros/build/bno055/build/lib/bno055/params\n'}
+[3.295975] (detector) StdoutLine: {'line': b'creating /ros/install/detector/lib/python3.10/site-packages/detector\n'}
+[3.296225] (detector) StdoutLine: {'line': b'copying /ros/build/detector/build/lib/detector/__init__.py -> /ros/install/detector/lib/python3.10/site-packages/detector\n'}
+[3.297005] (detector) StdoutLine: {'line': b'copying /ros/build/detector/build/lib/detector/apriltags.py -> /ros/install/detector/lib/python3.10/site-packages/detector\n'}
+[3.297249] (bno055) StdoutLine: {'line': b'copying bno055/params/__init__.py -> /ros/build/bno055/build/lib/bno055/params\n'}
+[3.299903] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib/bno055/connectors\n'}
+[3.300261] (bno055) StdoutLine: {'line': b'copying bno055/connectors/__init__.py -> /ros/build/bno055/build/lib/bno055/connectors\n'}
+[3.300836] (detector) StdoutLine: {'line': b'byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/__init__.py to __init__.cpython-310.pyc\n'}
+[3.301529] (detector) StdoutLine: {'line': b'byte-compiling /ros/install/detector/lib/python3.10/site-packages/detector/apriltags.py to apriltags.cpython-310.pyc\n'}
+[3.302088] (bno055) StdoutLine: {'line': b'copying bno055/connectors/Connector.py -> /ros/build/bno055/build/lib/bno055/connectors\n'}
+[3.303822] (bno055) StdoutLine: {'line': b'copying bno055/connectors/uart.py -> /ros/build/bno055/build/lib/bno055/connectors\n'}
+[3.304550] (bno055) StdoutLine: {'line': b'copying bno055/connectors/i2c.py -> /ros/build/bno055/build/lib/bno055/connectors\n'}
+[3.305984] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib/bno055/sensor\n'}
+[3.306939] (bno055) StdoutLine: {'line': b'copying bno055/sensor/__init__.py -> /ros/build/bno055/build/lib/bno055/sensor\n'}
+[3.307291] (detector) StdoutLine: {'line': b'running install_data\n'}
+[3.307839] (bno055) StdoutLine: {'line': b'copying bno055/sensor/SensorService.py -> /ros/build/bno055/build/lib/bno055/sensor\n'}
+[3.310093] (detector) StdoutLine: {'line': b'copying resource/detector -> /ros/install/detector/share/ament_index/resource_index/packages\n'}
+[3.310632] (bno055) StdoutLine: {'line': b'creating /ros/build/bno055/build/lib/bno055/error_handling\n'}
+[3.311635] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/exceptions.py -> /ros/build/bno055/build/lib/bno055/error_handling\n'}
+[3.311805] (detector) StdoutLine: {'line': b'copying package.xml -> /ros/install/detector/share/detector\n'}
+[3.311925] (detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.312008] (bno055) StdoutLine: {'line': b'copying bno055/error_handling/__init__.py -> /ros/build/bno055/build/lib/bno055/error_handling\n'}
+[3.313311] (bno055) StdoutLine: {'line': b'running install\n'}
+[3.315244] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[3.318412] (detector) StdoutLine: {'line': b'Copying ../../build/detector/detector.egg-info to /ros/install/detector/lib/python3.10/site-packages/detector-0.0.0-py3.10.egg-info\n'}
+[3.318718] (lidar_teste) CommandEnded: {'returncode': 0}
+[3.319285] (bno055) StdoutLine: {'line': b'creating /ros/install/bno055/lib/python3.10/site-packages/bno055\n'}
+[3.320000] (bno055) StdoutLine: {'line': b'creating /ros/install/bno055/lib/python3.10/site-packages/bno055/params\n'}
+[3.320569] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/params/NodeParameters.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/params\n'}
+[3.321338] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/params/__init__.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/params\n'}
+[3.323362] (detector) StdoutLine: {'line': b'running install_scripts\n'}
+[3.323671] (-) TimerEvent: {}
+[3.325663] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/__init__.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055\n'}
+[3.325934] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/registers.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055\n'}
+[3.327601] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/bno055.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055\n'}
+[3.327868] (bno055) StdoutLine: {'line': b'creating /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors\n'}
+[3.328442] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/connectors/__init__.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors\n'}
+[3.330279] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/connectors/Connector.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors\n'}
+[3.330729] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/connectors/uart.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors\n'}
+[3.333274] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/connectors/i2c.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors\n'}
+[3.333735] (bno055) StdoutLine: {'line': b'creating /ros/install/bno055/lib/python3.10/site-packages/bno055/sensor\n'}
+[3.339049] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.339383] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/sensor/__init__.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/sensor\n'}
+[3.339510] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/sensor/SensorService.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/sensor\n'}
+[3.339739] (bno055) StdoutLine: {'line': b'creating /ros/install/bno055/lib/python3.10/site-packages/bno055/error_handling\n'}
+[3.340903] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/error_handling\n'}
+[3.342060] (bno055) StdoutLine: {'line': b'copying /ros/build/bno055/build/lib/bno055/error_handling/__init__.py -> /ros/install/bno055/lib/python3.10/site-packages/bno055/error_handling\n'}
+[3.348636] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.348928] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-310.pyc\n'}
+[3.353795] (micro_ros_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.363651] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/params/__init__.py to __init__.cpython-310.pyc\n'}
+[3.363939] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/__init__.py to __init__.cpython-310.pyc\n'}
+[3.364087] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/registers.py to registers.cpython-310.pyc\n'}
+[3.364292] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/bno055.py to bno055.cpython-310.pyc\n'}
+[3.364425] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors/__init__.py to __init__.cpython-310.pyc\n'}
+[3.368920] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors/Connector.py to Connector.cpython-310.pyc\n'}
+[3.369392] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors/uart.py to uart.cpython-310.pyc\n'}
+[3.369613] (micro_ros_msgs) StdoutLine: {'line': b'[ 91%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.373089] (detector) StdoutLine: {'line': b'Installing apriltags script to /ros/install/detector/lib/detector\n'}
+[3.373506] (detector) StdoutLine: {'line': b"writing list of installed files to '/ros/build/detector/install.log'\n"}
+[3.380927] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/connectors/i2c.py to i2c.cpython-310.pyc\n'}
+[3.381280] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/sensor/__init__.py to __init__.cpython-310.pyc\n'}
+[3.381430] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-310.pyc\n'}
+[3.384640] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.385659] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[3.394197] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[3.394702] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[3.397216] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-310.pyc\n'}
+[3.400397] (bno055) StdoutLine: {'line': b'byte-compiling /ros/install/bno055/lib/python3.10/site-packages/bno055/error_handling/__init__.py to __init__.cpython-310.pyc\n'}
+[3.401118] (micro_ros_msgs) StdoutLine: {'line': b'[ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext\n'}
+[3.405306] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[3.405770] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.409858] (bno055) StdoutLine: {'line': b'copying resource/bno055 -> /ros/install/bno055/share/ament_index/resource_index/packages\n'}
+[3.410116] (bno055) StdoutLine: {'line': b'copying package.xml -> /ros/install/bno055/share/bno055\n'}
+[3.410210] (bno055) StdoutLine: {'line': b'copying launch/bno055.launch.py -> /ros/install/bno055/share/bno055/launch\n'}
+[3.412013] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_test.yaml -> /ros/install/bno055/share/bno055/config\n'}
+[3.412399] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[3.416649] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[3.420348] (lidar_teste) JobEnded: {'identifier': 'lidar_teste', 'rc': 0}
+[3.428948] (-) TimerEvent: {}
+[3.430981] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[3.433967] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params.yaml -> /ros/install/bno055/share/bno055/config\n'}
+[3.436032] (bno055) StdoutLine: {'line': b'copying bno055/params/bno055_params_i2c.yaml -> /ros/install/bno055/share/bno055/config\n'}
+[3.436687] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.436866] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /ros/install/bno055/lib/python3.10/site-packages/bno055-0.5.0-py3.10.egg-info\n'}
+[3.444782] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[3.450809] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[3.467911] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '/ros/src/microros_ws/src/micro_ros_setup', '-DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_setup'], 'cwd': '/ros/build/micro_ros_setup', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_setup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.475723] (detector) CommandEnded: {'returncode': 0}
+[3.498548] (detector) JobEnded: {'identifier': 'detector', 'rc': 0}
+[3.500186] (rplidar_ros) JobStarted: {'identifier': 'rplidar_ros'}
+[3.505478] (bno055) StdoutLine: {'line': b'Installing bno055 script to /ros/install/bno055/lib/bno055\n'}
+[3.505853] (bno055) StdoutLine: {'line': b"writing list of installed files to '/ros/build/bno055/install.log'\n"}
+[3.513992] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.517791] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'cmake'}
+[3.528336] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '/ros/src/rplidar_ros', '-DCMAKE_INSTALL_PREFIX=/ros/install/rplidar_ros'], 'cwd': '/ros/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.538708] (-) TimerEvent: {}
+[3.541789] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[3.562762] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.565788] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[3.576266] (rplidar_ros) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.592918] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros/build/micro_ros_msgs'], 'cwd': '/ros/build/micro_ros_msgs', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.614620] (bno055) CommandEnded: {'returncode': 0}
+[3.618463] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.622953] (micro_ros_msgs) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.628735] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[3.629350] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[3.635462] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[3.636133] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[3.636731] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[3.637137] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[3.637910] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[3.638802] (-) TimerEvent: {}
+[3.639404] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[3.642578] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[3.643477] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[3.644495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[3.645213] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[3.645643] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[3.646334] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[3.646945] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[3.647747] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[3.648020] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[3.652501] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[3.652858] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[3.653028] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[3.653242] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[3.654230] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[3.654807] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[3.655401] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[3.656037] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[3.657482] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[3.658094] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[3.658709] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[3.659323] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[3.659924] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[3.660583] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[3.661224] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[3.661837] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[3.662443] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[3.663038] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[3.663854] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[3.664594] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[3.665225] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[3.665943] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[3.666546] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[3.667933] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[3.668486] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.669366] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.670373] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[3.671577] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[3.672195] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.672810] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.673474] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[3.674462] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[3.674782] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[3.678135] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO\n'}
+[3.679062] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[3.679659] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[3.681182] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt\n'}
+[3.681989] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py\n'}
+[3.682801] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[3.683821] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[3.685916] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[3.686161] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.688743] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.689014] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.689100] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.689192] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py\n'}
+[3.689692] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py\n'}
+[3.690275] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[3.690904] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py\n'}
+[3.691495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[3.692102] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py\n'}
+[3.694017] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[3.694261] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.694347] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.694418] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[3.695196] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/ament_index/resource_index/rust_packages/micro_ros_msgs\n'}
+[3.696994] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml\n'}
+[3.697848] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs\n'}
+[3.699170] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs\n'}
+[3.699906] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs\n'}
+[3.700948] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs\n'}
+[3.701949] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[3.702691] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[3.704061] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[3.704257] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[3.704333] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[3.704414] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[3.705328] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[3.706644] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[3.708487] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[3.708839] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[3.709734] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[3.709956] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[3.710446] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[3.711098] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[3.713224] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[3.713680] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[3.713878] (micro_ros_msgs) StdoutLine: {'line': b'-- Symlinking: /ros/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[3.735533] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[3.738899] (-) TimerEvent: {}
+[3.739321] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[3.739592] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[3.739699] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[3.739773] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[3.739841] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[3.741809] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[3.742060] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[3.742186] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[3.742504] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[3.742884] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[3.747199] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[3.749434] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[3.751508] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[3.752683] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[3.755209] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[3.757348] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[3.758728] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[3.780273] (micro_ros_setup) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.800536] (micro_ros_setup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.822825] (rplidar_ros) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[3.833619] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...\n"}
+[3.833914] (micro_ros_msgs) StdoutLine: {'line': b"Compiling '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py'...\n"}
+[3.834012] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...\n"}
+[3.839060] (-) TimerEvent: {}
+[3.840419] (rplidar_ros) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[3.849600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[3.850475] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[3.850730] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[3.851628] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[3.851777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[3.851915] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[3.852040] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[3.852565] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[3.852710] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[3.853225] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[3.854763] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[3.854930] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[3.855013] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[3.855082] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[3.855630] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[3.855777] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[3.856415] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[3.856578] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[3.860885] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[3.898988] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[3.901946] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[3.915842] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[3.922470] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.925480] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '/ros/src/microros_ws/src/uros/micro-ROS-Agent/micro_ros_agent', '-DCMAKE_INSTALL_PREFIX=/ros/install/micro_ros_agent'], 'cwd': '/ros/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[3.928651] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.935838] (rplidar_ros) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[3.939168] (-) TimerEvent: {}
+[3.939547] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.947855] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.953887] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.975603] (rplidar_ros) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.005779] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[4.012003] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[4.015661] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[4.039279] (-) TimerEvent: {}
+[4.041484] (micro_ros_setup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[4.045440] (micro_ros_setup) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.064810] (micro_ros_setup) StdoutLine: {'line': b'-- Generating done\n'}
+[4.072732] (micro_ros_setup) StdoutLine: {'line': b'-- Build files have been written to: /ros/build/micro_ros_setup\n'}
+[4.077074] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[4.077852] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[4.079111] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/ros/build/micro_ros_setup', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_setup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.082880] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[4.085590] (rplidar_ros) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[4.139433] (-) TimerEvent: {}
+[4.146416] (micro_ros_agent) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[4.161101] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[4.161793] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[4.162948] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros/build/micro_ros_setup'], 'cwd': '/ros/build/micro_ros_setup', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_setup'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.177436] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.178151] (micro_ros_setup) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.181174] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[4.182077] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[4.182257] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[4.182429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[4.182895] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[4.183475] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[4.183681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[4.184246] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[4.185177] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[4.185419] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[4.185587] (micro_ros_setup) StdoutLine: {'line': b'-- Symlinking: /ros/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[4.204960] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[4.206385] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[4.206967] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[4.207181] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_cmake: 3.1.8 (/opt/ros/humble/share/rosidl_cmake/cmake)\n'}
+[4.207394] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[4.207615] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.208713] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[4.209245] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[4.209795] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[4.210334] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[4.210871] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[4.211406] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[4.211941] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[4.213587] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[4.213844] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[4.213974] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[4.214061] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config\n'}
+[4.214271] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib\n'}
+[4.214437] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[4.214767] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[4.214970] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[4.215060] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[4.215230] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[4.215323] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[4.215453] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[4.215582] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[4.215681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[4.215837] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[4.215982] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra\n'}
+[4.216407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/dev_uros_packages.repos\n'}
+[4.216556] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5\n'}
+[4.217024] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/board.repos\n'}
+[4.217170] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/create.sh\n'}
+[4.217358] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/flash.sh\n'}
+[4.217475] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/build.sh\n'}
+[4.217655] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client-colcon.meta\n'}
+[4.217764] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/client_uros_packages.repos\n'}
+[4.217955] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/ra6m5/configure.sh\n'}
+[4.218121] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/list_apps.sh\n'}
+[4.218213] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/renesas_ra/dev_ros2_packages.txt\n'}
+[4.218304] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian\n'}
+[4.218730] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic\n'}
+[4.219102] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[4.219231] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[4.219346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[4.219461] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[4.219550] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[4.219830] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[4.219912] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[4.219987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[4.220064] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[4.220138] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[4.220244] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/utils.sh\n'}
+[4.220324] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed\n'}
+[4.220428] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic\n'}
+[4.221580] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/supported_platforms\n'}
+[4.221796] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/board.repos\n'}
+[4.221887] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/create.sh\n'}
+[4.221959] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/package.xml\n'}
+[4.222042] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/flash.sh\n'}
+[4.222112] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/build.sh\n'}
+[4.222180] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/generic/client_uros_packages.repos\n'}
+[4.222246] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/dev_uros_packages.repos\n'}
+[4.222312] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/list_apps.sh\n'}
+[4.222377] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/mbed/dev_ros2_packages.txt\n'}
+[4.222440] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[4.222503] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr\n'}
+[4.222681] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic\n'}
+[4.223667] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[4.223845] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[4.224026] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[4.224201] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[4.224384] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[4.224536] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[4.224640] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[4.224726] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[4.224832] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[4.224946] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[4.225049] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[4.225149] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[4.225222] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos\n'}
+[4.225382] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32\n'}
+[4.225616] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[4.225811] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[4.225969] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[4.226086] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[4.226160] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[4.226228] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[4.226296] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[4.226388] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[4.226608] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[4.226782] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[4.226987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[4.227111] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[4.227198] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[4.227263] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[4.227330] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[4.227407] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[4.227484] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[4.227575] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[4.227722] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[4.227820] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[4.227908] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[4.227988] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[4.228083] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[4.228195] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[4.230664] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[4.231049] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[4.231167] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[4.231346] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[4.231479] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[4.231950] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[4.232079] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[4.232200] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[4.232363] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[4.232454] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[4.232571] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[4.232697] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[4.232784] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[4.232862] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[4.232950] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[4.233024] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[4.233101] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[4.233184] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[4.233271] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[4.233344] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[4.233410] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[4.233482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[4.233716] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[4.233811] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[4.233888] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[4.233969] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[4.234055] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[4.234130] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[4.234198] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[4.234264] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[4.234332] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[4.234403] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[4.234471] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[4.234565] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[4.234669] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[4.234760] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[4.234852] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[4.234941] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[4.235021] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[4.235097] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[4.235187] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[4.235267] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[4.235347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host\n'}
+[4.235429] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic\n'}
+[4.235504] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[4.235616] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[4.235718] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[4.235808] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[4.235892] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[4.235987] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[4.236064] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[4.236138] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[4.236217] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[4.236296] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android\n'}
+[4.236369] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic\n'}
+[4.236642] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[4.236853] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[4.236974] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[4.237047] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[4.237116] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[4.237185] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[4.237266] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[4.237352] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[4.237482] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[4.237607] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /ros/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[4.240570] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[4.240927] (-) TimerEvent: {}
+[4.243777] (micro_ros_agent) StdoutLine: {'line': b'-- Found fastrtps_cmake_module: 2.2.4 (/opt/ros/humble/share/fastrtps_cmake_module/cmake)\n'}
+[4.243971] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_dds_common: 1.6.0 (/opt/ros/humble/share/rmw_dds_common/cmake)\n'}
+[4.267918] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[4.274122] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.284776] (micro_ros_agent) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.293017] (rplidar_ros) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[4.298997] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.314502] (micro_ros_agent) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.336213] (micro_ros_agent) StdoutLine: {'line': b'-- Found rmw_fastrtps_shared_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_shared_cpp/cmake)\n'}
+[4.341019] (-) TimerEvent: {}
+[4.408890] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[4.410500] (micro_ros_agent) StdoutLine: {'line': b'-- Found ament_cmake_gtest: 1.3.14 (/opt/ros/humble/share/ament_cmake_gtest/cmake)\n'}
+[4.411411] (micro_ros_agent) StdoutLine: {'line': b'-- Found micro_ros_msgs: 3.0.1 (/ros/install/micro_ros_msgs/share/micro_ros_msgs/cmake)\n'}
+[4.414752] (rplidar_ros) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.441108] (-) TimerEvent: {}
+[4.486414] (rplidar_ros) StdoutLine: {'line': b'-- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[4.541241] (-) TimerEvent: {}
+[4.548405] (micro_ros_agent) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.580474] (micro_ros_agent) StdoutLine: {'line': b'-- Generating done\n'}
+[4.589540] (micro_ros_agent) StdoutLine: {'line': b'-- Build files have been written to: /ros/build/micro_ros_agent\n'}
+[4.600325] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[4.601261] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[4.601743] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/ros/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[4.639861] (rplidar_ros) StdoutLine: {'line': b'-- Configuring done\n'}
+[4.641323] (-) TimerEvent: {}
+[4.684559] (micro_ros_agent) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target micro_ros_agent\x1b[0m\n'}
+[4.710529] (rplidar_ros) StdoutLine: {'line': b'-- Generating done\n'}
+[4.726386] (rplidar_ros) StdoutLine: {'line': b'-- Build files have been written to: /ros/build/rplidar_ros\n'}
+[4.740329] (rplidar_ros) CommandEnded: {'returncode': 0}
+[4.741208] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'build'}
+[4.742502] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--build', '/ros/build/rplidar_ros', '--', '-j4', '-l4'], 'cwd': '/ros/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.744071] (-) TimerEvent: {}
+[4.752276] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[4.772465] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[4.775820] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[4.777019] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros/build/micro_ros_agent'], 'cwd': '/ros/build/micro_ros_agent', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/ros/install/micro_ros_msgs/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble'), ('PWD', '/ros/build/micro_ros_agent'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/ros/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/ros/install/micro_ros_msgs:/opt/ros/humble')]), 'shell': False}
+[4.789790] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.790483] (micro_ros_agent) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.794405] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[4.795391] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[4.796018] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[4.796244] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[4.796943] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[4.797167] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[4.797688] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[4.798232] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[4.798758] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[4.798976] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[4.799141] (micro_ros_agent) StdoutLine: {'line': b'-- Symlinking: /ros/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[4.821988] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[4.823155] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.824095] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[4.825825] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[4.827448] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[4.829576] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[4.832503] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_client\x1b[0m\n'}
+[4.835097] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[4.838699] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[4.844524] (-) TimerEvent: {}
+[4.866798] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[4.869437] (rplidar_ros) StdoutLine: {'line': b'[  5%] Built target rplidar_client\n'}
+[4.879448] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_node\x1b[0m\n'}
+[4.882627] (rplidar_ros) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target rplidar_composition\x1b[0m\n'}
+[4.943824] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_composition\n'}
+[4.944129] (rplidar_ros) StdoutLine: {'line': b'[100%] Built target rplidar_node\n'}
+[4.944585] (-) TimerEvent: {}
+[4.964504] (rplidar_ros) CommandEnded: {'returncode': 0}
+[4.967704] (rplidar_ros) JobProgress: {'identifier': 'rplidar_ros', 'progress': 'install'}
+[4.968072] (rplidar_ros) Command: {'cmd': ['/usr/bin/cmake', '--install', '/ros/build/rplidar_ros'], 'cwd': '/ros/build/rplidar_ros', 'env': OrderedDict([('HOSTNAME', 'epiibots-desktop'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib::/opt/ros/humble/opt/rviz_ogre_vendor/lib'), ('HOME', '/root'), ('OLDPWD', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':11.0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('PWD', '/ros/build/rplidar_ros'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[4.983616] (rplidar_ros) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.984402] (rplidar_ros) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[4.988264] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a1_launch.py\n'}
+[4.988411] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m12_launch.py\n'}
+[4.988566] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m7_launch.py\n'}
+[4.988717] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a2m8_launch.py\n'}
+[4.988857] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_a3_launch.py\n'}
+[4.988996] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_c1_launch.py\n'}
+[4.989132] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_launch.py\n'}
+[4.989268] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s1_tcp_launch.py\n'}
+[4.989406] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2_launch.py\n'}
+[4.989548] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s2e_launch.py\n'}
+[4.989693] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_s3_launch.py\n'}
+[4.989829] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/rplidar_t1_launch.py\n'}
+[4.989964] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a1_launch.py\n'}
+[4.990101] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m12_launch.py\n'}
+[4.990237] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m7_launch.py\n'}
+[4.990385] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a2m8_launch.py\n'}
+[4.990525] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_a3_launch.py\n'}
+[4.990668] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_c1_launch.py\n'}
+[4.990800] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_launch.py\n'}
+[4.990947] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s1_tcp_launch.py\n'}
+[4.991074] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2_launch.py\n'}
+[4.991211] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s2e_launch.py\n'}
+[4.991344] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_s3_launch.py\n'}
+[4.991475] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/launch/view_rplidar_t1_launch.py\n'}
+[4.992449] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/rviz/rplidar_ros.rviz\n'}
+[4.993137] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/lib/rplidar_ros/rplidar_node\n'}
+[4.993333] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/lib/rplidar_ros/rplidar_composition\n'}
+[4.993527] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/lib/rplidar_ros/rplidar_client\n'}
+[4.994403] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/ament_index/resource_index/package_run_dependencies/rplidar_ros\n'}
+[4.995216] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/ament_index/resource_index/parent_prefix_path/rplidar_ros\n'}
+[4.995763] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.sh\n'}
+[4.996015] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/environment/ament_prefix_path.dsv\n'}
+[4.996554] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/environment/path.sh\n'}
+[4.996775] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/environment/path.dsv\n'}
+[4.997299] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/local_setup.bash\n'}
+[4.997816] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/local_setup.sh\n'}
+[4.998335] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/local_setup.zsh\n'}
+[4.998546] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/local_setup.dsv\n'}
+[4.998716] (rplidar_ros) StdoutLine: {'line': b'-- Symlinking: /ros/install/rplidar_ros/share/rplidar_ros/package.dsv\n'}
+[5.020269] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/ament_index/resource_index/packages/rplidar_ros\n'}
+[5.021038] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.021557] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.022168] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig.cmake\n'}
+[5.022608] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/cmake/rplidar_rosConfig-version.cmake\n'}
+[5.022805] (rplidar_ros) StdoutLine: {'line': b'-- Up-to-date symlink: /ros/install/rplidar_ros/share/rplidar_ros/package.xml\n'}
+[5.025923] (rplidar_ros) CommandEnded: {'returncode': 0}
+[5.044760] (-) TimerEvent: {}
+[5.053818] (rplidar_ros) JobEnded: {'identifier': 'rplidar_ros', 'rc': 0}
+[5.054882] (-) EventReactorShutdown: {}

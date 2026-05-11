@@ -1,0 +1,3 @@
+[console_scripts]
+apriltags = detector.apriltags:main
+

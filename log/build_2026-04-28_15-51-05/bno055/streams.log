@@ -1,0 +1,30 @@
+[4.274s] Invoking command in '/ros/build/bno055': PYTHONPATH=/ros/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/bno055/build --no-deps symlink_data
+[5.733s] running develop
+[6.473s] running egg_info
+[6.474s] creating bno055.egg-info
+[6.488s] writing bno055.egg-info/PKG-INFO
+[6.493s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[6.493s] writing entry points to bno055.egg-info/entry_points.txt
+[6.494s] writing requirements to bno055.egg-info/requires.txt
+[6.494s] writing top-level names to bno055.egg-info/top_level.txt
+[6.494s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[6.514s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[6.540s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[6.540s] running build_ext
+[6.540s] Creating /ros/install/bno055/lib/python3.10/site-packages/bno055.egg-link (link to .)
+[6.560s] Installing bno055 script to /ros/install/bno055/lib/bno055
+[6.605s] 
+[6.606s] Installed /ros/build/bno055
+[6.606s] running symlink_data
+[6.606s] creating /ros/install/bno055/share/ament_index
+[6.606s] creating /ros/install/bno055/share/ament_index/resource_index
+[6.606s] creating /ros/install/bno055/share/ament_index/resource_index/packages
+[6.607s] symbolically linking /ros/build/bno055/resource/bno055 -> /ros/install/bno055/share/ament_index/resource_index/packages
+[6.607s] symbolically linking /ros/build/bno055/package.xml -> /ros/install/bno055/share/bno055
+[6.607s] creating /ros/install/bno055/share/bno055/launch
+[6.607s] symbolically linking /ros/build/bno055/launch/bno055.launch.py -> /ros/install/bno055/share/bno055/launch
+[6.607s] creating /ros/install/bno055/share/bno055/config
+[6.608s] symbolically linking /ros/build/bno055/bno055/params/bno055_params_test.yaml -> /ros/install/bno055/share/bno055/config
+[6.608s] symbolically linking /ros/build/bno055/bno055/params/bno055_params.yaml -> /ros/install/bno055/share/bno055/config
+[6.608s] symbolically linking /ros/build/bno055/bno055/params/bno055_params_i2c.yaml -> /ros/install/bno055/share/bno055/config
+[7.171s] Invoked command in '/ros/build/bno055' returned '0': PYTHONPATH=/ros/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/bno055/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/bno055/build --no-deps symlink_data

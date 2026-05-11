@@ -1,0 +1,10 @@
+/ros/build/micro_ros_agent/CMakeFiles/uninstall.dir
+/ros/build/micro_ros_agent/CMakeFiles/micro_ros_agent_uninstall.dir
+/ros/build/micro_ros_agent/CMakeFiles/micro_ros_agent.dir
+/ros/build/micro_ros_agent/CMakeFiles/test.dir
+/ros/build/micro_ros_agent/CMakeFiles/edit_cache.dir
+/ros/build/micro_ros_agent/CMakeFiles/rebuild_cache.dir
+/ros/build/micro_ros_agent/CMakeFiles/list_install_components.dir
+/ros/build/micro_ros_agent/CMakeFiles/install.dir
+/ros/build/micro_ros_agent/CMakeFiles/install/local.dir
+/ros/build/micro_ros_agent/CMakeFiles/install/strip.dir

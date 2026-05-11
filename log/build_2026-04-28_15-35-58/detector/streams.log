@@ -1,0 +1,24 @@
+[4.653s] Invoking command in '/ros/build/detector': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/detector/build --no-deps symlink_data
+[7.542s] running develop
+[8.732s] running egg_info
+[8.737s] creating detector.egg-info
+[8.757s] writing detector.egg-info/PKG-INFO
+[8.757s] writing dependency_links to detector.egg-info/dependency_links.txt
+[8.784s] writing entry points to detector.egg-info/entry_points.txt
+[8.790s] writing requirements to detector.egg-info/requires.txt
+[8.791s] writing top-level names to detector.egg-info/top_level.txt
+[8.791s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[8.803s] reading manifest file 'detector.egg-info/SOURCES.txt'
+[8.816s] writing manifest file 'detector.egg-info/SOURCES.txt'
+[8.826s] running build_ext
+[8.827s] Creating /ros/install/detector/lib/python3.10/site-packages/detector.egg-link (link to .)
+[8.851s] Installing apriltags script to /ros/install/detector/lib/detector
+[8.861s] 
+[8.861s] Installed /ros/build/detector
+[8.861s] running symlink_data
+[8.862s] creating /ros/install/detector/share/ament_index
+[8.862s] creating /ros/install/detector/share/ament_index/resource_index
+[8.862s] creating /ros/install/detector/share/ament_index/resource_index/packages
+[8.869s] symbolically linking /ros/build/detector/resource/detector -> /ros/install/detector/share/ament_index/resource_index/packages
+[8.869s] symbolically linking /ros/build/detector/package.xml -> /ros/install/detector/share/detector
+[9.282s] Invoked command in '/ros/build/detector' returned '0': PYTHONPATH=/ros/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/ros/install/detector/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /ros/build/detector/build --no-deps symlink_data
