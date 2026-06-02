@@ -1,0 +1,6 @@
+source;share/controlegeral_carrinho/hook/pythonpath.ps1
+source;share/controlegeral_carrinho/hook/pythonpath.dsv
+source;share/controlegeral_carrinho/hook/pythonpath.sh
+source;share/controlegeral_carrinho/hook/ament_prefix_path.ps1
+source;share/controlegeral_carrinho/hook/ament_prefix_path.dsv
+source;share/controlegeral_carrinho/hook/ament_prefix_path.sh

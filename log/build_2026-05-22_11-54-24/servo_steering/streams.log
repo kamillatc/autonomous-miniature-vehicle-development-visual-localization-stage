@@ -1,0 +1,37 @@
+[3.349s] Invoking command in '/home/epiibots/ros2_ws/src/servo_steering': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/servo_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_steering build --build-base /home/epiibots/ros2_ws/build/servo_steering/build install --record /home/epiibots/ros2_ws/build/servo_steering/install.log --single-version-externally-managed install_data
+[3.988s] running egg_info
+[3.991s] creating ../../build/servo_steering/servo_steering.egg-info
+[4.023s] writing ../../build/servo_steering/servo_steering.egg-info/PKG-INFO
+[4.023s] writing dependency_links to ../../build/servo_steering/servo_steering.egg-info/dependency_links.txt
+[4.023s] writing entry points to ../../build/servo_steering/servo_steering.egg-info/entry_points.txt
+[4.024s] writing requirements to ../../build/servo_steering/servo_steering.egg-info/requires.txt
+[4.024s] writing top-level names to ../../build/servo_steering/servo_steering.egg-info/top_level.txt
+[4.024s] writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+[4.098s] reading manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+[4.098s] writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+[4.098s] running build
+[4.098s] running build_py
+[4.099s] creating /home/epiibots/ros2_ws/build/servo_steering/build
+[4.099s] creating /home/epiibots/ros2_ws/build/servo_steering/build/lib
+[4.099s] creating /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+[4.099s] copying servo_steering/__init__.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+[4.099s] copying servo_steering/servo_node.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+[4.099s] running install
+[4.112s] running install_lib
+[4.140s] creating /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+[4.143s] copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/__init__.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+[4.146s] copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/servo_node.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+[4.146s] byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/__init__.py to __init__.cpython-312.pyc
+[4.147s] byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/servo_node.py to servo_node.cpython-312.pyc
+[4.147s] running install_data
+[4.147s] creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index
+[4.150s] creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index
+[4.151s] creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index/packages
+[4.151s] copying resource/servo_steering -> /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index/packages
+[4.151s] copying package.xml -> /home/epiibots/ros2_ws/install/servo_steering/share/servo_steering
+[4.151s] running install_egg_info
+[4.177s] Copying ../../build/servo_steering/servo_steering.egg-info to /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info
+[4.180s] running install_scripts
+[4.408s] Installing servo_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+[4.411s] writing list of installed files to '/home/epiibots/ros2_ws/build/servo_steering/install.log'
+[4.599s] Invoked command in '/home/epiibots/ros2_ws/src/servo_steering' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/servo_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_steering build --build-base /home/epiibots/ros2_ws/build/servo_steering/build install --record /home/epiibots/ros2_ws/build/servo_steering/install.log --single-version-externally-managed install_data

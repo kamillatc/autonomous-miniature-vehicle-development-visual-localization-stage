@@ -1,0 +1,27 @@
+running develop
+Removing /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho-base.egg-link (link to .)
+running egg_info
+writing ../../build/carrinho_base/carrinho_base.egg-info/PKG-INFO
+writing dependency_links to ../../build/carrinho_base/carrinho_base.egg-info/dependency_links.txt
+writing entry points to ../../build/carrinho_base/carrinho_base.egg-info/entry_points.txt
+writing requirements to ../../build/carrinho_base/carrinho_base.egg-info/requires.txt
+writing top-level names to ../../build/carrinho_base/carrinho_base.egg-info/top_level.txt
+reading manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+writing manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/__init__.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/motor_control.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/motor_control.py to motor_control.cpython-312.pyc
+running install_data
+copying resource/carrinho_base -> /home/epiibots/ros2_ws/install/carrinho_base/share/ament_index/resource_index/packages
+copying package.xml -> /home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base
+running install_egg_info
+Copying ../../build/carrinho_base/carrinho_base.egg-info to /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info
+running install_scripts
+Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_base/install.log'

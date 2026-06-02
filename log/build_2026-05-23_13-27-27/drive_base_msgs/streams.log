@@ -1,0 +1,226 @@
+[0.017s] Invoking command in '/home/epiibots/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[0.226s] [  1%] Built target drive_base_msgs__rosidl_generator_type_description
+[0.231s] [  3%] Built target drive_base_msgs__rs
+[0.270s] [  3%] Built target ament_cmake_python_copy_drive_base_msgs
+[0.346s] [  4%] Built target drive_base_msgs__cpp
+[0.355s] [ 26%] Built target drive_base_msgs__rosidl_generator_c
+[0.532s] [ 35%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp
+[0.540s] [ 50%] Built target drive_base_msgs__rosidl_typesupport_cpp
+[0.540s] [ 53%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c
+[0.699s] [ 63%] Built target drive_base_msgs__rosidl_typesupport_introspection_c
+[0.704s] [ 72%] Built target drive_base_msgs__rosidl_typesupport_c
+[0.714s] [ 81%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp
+[0.851s] [ 81%] Built target drive_base_msgs
+[0.936s] running egg_info
+[1.003s] [ 83%] Built target drive_base_msgs__py
+[1.006s] writing drive_base_msgs.egg-info/PKG-INFO
+[1.007s] writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt
+[1.011s] writing top-level names to drive_base_msgs.egg-info/top_level.txt
+[1.150s] [ 90%] Built target drive_base_msgs__rosidl_generator_py
+[1.171s] reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[1.173s] writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'
+[1.278s] [ 93%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c
+[1.288s] [ 96%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c
+[1.290s] [100%] Built target drive_base_msgs_s__rosidl_typesupport_c
+[1.361s] [100%] Built target ament_cmake_python_build_drive_base_msgs_egg
+[1.394s] Invoked command in '/home/epiibots/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[1.401s] Invoking command in '/home/epiibots/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/drive_base_msgs
+[1.426s] -- Install configuration: ""
+[1.426s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs
+[1.427s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json
+[1.427s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json
+[1.427s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h
+[1.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.c
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.c
+[1.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__description.c
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h
+[1.434s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.c
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__description.c
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.c
+[1.434s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h
+[1.435s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h
+[1.435s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h
+[1.436s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h
+[1.436s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[1.436s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__description.c
+[1.436s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[1.436s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h
+[1.438s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__description.c
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h
+[1.439s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv
+[1.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so
+[1.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp
+[1.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.443s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp
+[1.445s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp
+[1.446s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/dds_fastrtps
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h
+[1.448s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h
+[1.448s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c
+[1.448s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c
+[1.448s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c
+[1.448s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h
+[1.450s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so
+[1.452s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so
+[1.452s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs
+[1.453s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg
+[1.453s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail
+[1.453s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.cpp
+[1.454s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp
+[1.454s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp
+[1.454s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.cpp
+[1.455s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp
+[1.455s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp
+[1.455s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.cpp
+[1.455s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.cpp
+[1.457s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so
+[1.459s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so
+[1.460s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh
+[1.460s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv
+[1.460s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info
+[1.460s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[1.461s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[1.461s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.461s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.462s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs
+[1.463s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py
+[1.464s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py
+[1.465s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py
+[1.465s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c
+[1.465s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c
+[1.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[1.467s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[1.539s] Listing '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...
+[1.540s] Listing '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...
+[1.565s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so
+[1.567s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so
+[1.569s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so
+[1.571s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so
+[1.571s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rust_packages/drive_base_msgs
+[1.571s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust
+[1.572s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/build.rs
+[1.572s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src
+[1.573s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg
+[1.574s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg/rmw.rs
+[1.574s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/lib.rs
+[1.574s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg.rs
+[1.575s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/Cargo.toml
+[1.576s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl
+[1.576s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl
+[1.576s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl
+[1.577s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl
+[1.577s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg
+[1.577s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg
+[1.577s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg
+[1.578s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg
+[1.578s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs
+[1.579s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs
+[1.579s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh
+[1.579s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv
+[1.579s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh
+[1.580s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv
+[1.580s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash
+[1.581s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh
+[1.581s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh
+[1.581s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv
+[1.581s] -- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv
+[1.583s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs
+[1.585s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake
+[1.586s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.587s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.588s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.589s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake
+[1.592s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.592s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.593s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.594s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.595s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake
+[1.596s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.597s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.598s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.599s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake
+[1.600s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.602s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.603s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.603s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.603s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake
+[1.603s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake
+[1.603s] -- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml
+[1.614s] Invoked command in '/home/epiibots/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/drive_base_msgs

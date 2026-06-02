@@ -1,0 +1,19 @@
+[3.263s] Invoking command in '/home/epiibots/ros2_ws/build/lidar_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/epiibots/ros2_ws/build/lidar_teste/build --no-deps symlink_data --force
+[3.889s] running develop
+[4.133s] running egg_info
+[4.157s] writing lidar_teste.egg-info/PKG-INFO
+[4.158s] writing dependency_links to lidar_teste.egg-info/dependency_links.txt
+[4.160s] writing entry points to lidar_teste.egg-info/entry_points.txt
+[4.161s] writing requirements to lidar_teste.egg-info/requires.txt
+[4.161s] writing top-level names to lidar_teste.egg-info/top_level.txt
+[4.211s] reading manifest file 'lidar_teste.egg-info/SOURCES.txt'
+[4.213s] writing manifest file 'lidar_teste.egg-info/SOURCES.txt'
+[4.239s] running build_ext
+[4.249s] Creating /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar-teste.egg-link (link to .)
+[4.249s] Installing save_lidar script to /home/epiibots/ros2_ws/install/lidar_teste/lib/lidar_teste
+[4.249s] 
+[4.249s] Installed /home/epiibots/ros2_ws/build/lidar_teste
+[4.249s] running symlink_data
+[4.249s] symbolically linking /home/epiibots/ros2_ws/build/lidar_teste/resource/lidar_teste -> /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index/resource_index/packages
+[4.249s] symbolically linking /home/epiibots/ros2_ws/build/lidar_teste/package.xml -> /home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste
+[4.565s] Invoked command in '/home/epiibots/ros2_ws/build/lidar_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/epiibots/ros2_ws/build/lidar_teste/build --no-deps symlink_data --force

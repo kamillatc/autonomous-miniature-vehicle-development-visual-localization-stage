@@ -1,0 +1,35 @@
+running egg_info
+creating ../../build/servo_steering/servo_steering.egg-info
+writing ../../build/servo_steering/servo_steering.egg-info/PKG-INFO
+writing dependency_links to ../../build/servo_steering/servo_steering.egg-info/dependency_links.txt
+writing entry points to ../../build/servo_steering/servo_steering.egg-info/entry_points.txt
+writing requirements to ../../build/servo_steering/servo_steering.egg-info/requires.txt
+writing top-level names to ../../build/servo_steering/servo_steering.egg-info/top_level.txt
+writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+reading manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/epiibots/ros2_ws/build/servo_steering/build
+creating /home/epiibots/ros2_ws/build/servo_steering/build/lib
+creating /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+copying servo_steering/__init__.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+copying servo_steering/servo_node.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+running install
+running install_lib
+creating /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/__init__.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/servo_node.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/servo_node.py to servo_node.cpython-312.pyc
+running install_data
+creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index
+creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index
+creating /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index/packages
+copying resource/servo_steering -> /home/epiibots/ros2_ws/install/servo_steering/share/ament_index/resource_index/packages
+copying package.xml -> /home/epiibots/ros2_ws/install/servo_steering/share/servo_steering
+running install_egg_info
+Copying ../../build/servo_steering/servo_steering.egg-info to /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info
+running install_scripts
+Installing servo_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+writing list of installed files to '/home/epiibots/ros2_ws/build/servo_steering/install.log'

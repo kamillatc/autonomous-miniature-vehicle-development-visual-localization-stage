@@ -1,0 +1,52 @@
+[0.445s] Invoking command in '/home/epiibots/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[0.754s] [ 10%] Built target sllidar_client
+[0.781s] [100%] Built target sllidar_node
+[1.425s] Invoked command in '/home/epiibots/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.545s] Invoking command in '/home/epiibots/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/sllidar_ros2
+[1.637s] -- Install configuration: ""
+[1.644s] -- Execute custom install script
+[1.652s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.657s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.659s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.664s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.666s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.671s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.674s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.675s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.677s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.681s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.684s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.688s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.697s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.698s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.700s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.709s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.710s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.712s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.713s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.717s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.724s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.725s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.728s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.730s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.735s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.736s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.739s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.741s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.742s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.742s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.745s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.748s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.751s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.752s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.755s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.757s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.759s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.762s] -- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.811s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.812s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.815s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.819s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.820s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.824s] -- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.829s] Invoked command in '/home/epiibots/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/sllidar_ros2

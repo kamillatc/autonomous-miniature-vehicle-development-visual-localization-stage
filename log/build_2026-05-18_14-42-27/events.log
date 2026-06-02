@@ -1,0 +1,5 @@
+[0.000000] (-) TimerEvent: {}
+[0.000420] (-) JobUnselected: {'identifier': 'carrinho_base'}
+[0.000486] (-) JobUnselected: {'identifier': 'detector'}
+[0.000701] (-) JobUnselected: {'identifier': 'lidar_teste'}
+[0.001021] (-) EventReactorShutdown: {}

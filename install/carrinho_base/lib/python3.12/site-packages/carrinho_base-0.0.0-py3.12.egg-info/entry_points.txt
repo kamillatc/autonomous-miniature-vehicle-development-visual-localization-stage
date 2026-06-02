@@ -1,0 +1,4 @@
+[console_scripts]
+checkpoint_player = carrinho_base.checkpoint_player:main
+checkpoint_recorder = carrinho_base.checkpoint_recorder:main
+motor_control = carrinho_base.motor_control:main

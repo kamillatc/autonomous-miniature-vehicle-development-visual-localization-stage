@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: servo-steering
+Version: 0.1.0
+Summary: Controle de servo Ackermann via ROS2 Jazzy
+Maintainer: todo
+Maintainer-email: todo@todo.com
+License: MIT

@@ -1,0 +1,40 @@
+[0.922s] Invoking command in '/home/epiibots/ros2_ws/build/rplidar_ros': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/epiibots/ros2_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/epiibots/ros2_ws/install/rplidar_ros
+[1.081s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[1.082s]   Compatibility with CMake < 3.5 will be removed from a future version of
+[1.082s]   CMake.
+[1.085s] 
+[1.086s]   Update the VERSION argument <min> value or use a ...<max> suffix to tell
+[1.086s]   CMake that the project does not need compatibility with older versions.
+[1.086s] 
+[1.086s] [0m
+[1.588s] -- The C compiler identification is GNU 13.3.0
+[2.085s] -- The CXX compiler identification is GNU 13.3.0
+[2.153s] -- Detecting C compiler ABI info
+[2.470s] -- Detecting C compiler ABI info - done
+[2.490s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.494s] -- Detecting C compile features
+[2.497s] -- Detecting C compile features - done
+[2.534s] -- Detecting CXX compiler ABI info
+[2.832s] -- Detecting CXX compiler ABI info - done
+[2.856s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.856s] -- Detecting CXX compile features
+[2.856s] -- Detecting CXX compile features - done
+[2.875s] [31mCMake Error at CMakeLists.txt:16 (find_package):
+[2.875s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[2.876s]   asked CMake to find a package configuration file provided by "catkin", but
+[2.877s]   CMake did not find one.
+[2.877s] 
+[2.877s]   Could not find a package configuration file provided by "catkin" with any
+[2.877s]   of the following names:
+[2.877s] 
+[2.877s]     catkinConfig.cmake
+[2.877s]     catkin-config.cmake
+[2.877s] 
+[2.877s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[2.879s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[2.880s]   provides a separate development package or SDK, be sure it has been
+[2.881s]   installed.
+[2.881s] 
+[2.882s] [0m
+[2.883s] -- Configuring incomplete, errors occurred!
+[2.894s] Invoked command in '/home/epiibots/ros2_ws/build/rplidar_ros' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/epiibots/ros2_ws/src/rplidar_ros -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/epiibots/ros2_ws/install/rplidar_ros

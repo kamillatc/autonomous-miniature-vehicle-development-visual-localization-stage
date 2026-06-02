@@ -1,0 +1,25 @@
+[0.716s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[1.154s] [100%] Built target micro_ros_agent
+[1.203s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[1.243s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_agent': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_agent
+[1.270s] -- Install configuration: ""
+[1.271s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+[1.273s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+[1.274s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+[1.274s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+[1.274s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+[1.275s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+[1.275s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+[1.276s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+[1.279s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+[1.279s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+[1.280s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+[1.280s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+[1.280s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.280s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+[1.280s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+[1.280s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml
+[1.281s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+[1.281s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch
+[1.292s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py
+[1.292s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_agent' returned '0': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_agent

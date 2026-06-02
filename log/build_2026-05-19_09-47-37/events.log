@@ -1,0 +1,272 @@
+[0.000000] (-) TimerEvent: {}
+[0.000323] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.000498] (carrinho_base) JobQueued: {'identifier': 'carrinho_base', 'dependencies': OrderedDict()}
+[0.000523] (detector) JobQueued: {'identifier': 'detector', 'dependencies': OrderedDict()}
+[0.000542] (lidar_teste) JobQueued: {'identifier': 'lidar_teste', 'dependencies': OrderedDict()}
+[0.000560] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.000872] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.023785] (carrinho_base) JobStarted: {'identifier': 'carrinho_base'}
+[0.057396] (detector) JobStarted: {'identifier': 'detector'}
+[0.071928] (lidar_teste) JobStarted: {'identifier': 'lidar_teste'}
+[0.099634] (-) TimerEvent: {}
+[0.200017] (-) TimerEvent: {}
+[0.300281] (-) TimerEvent: {}
+[0.400549] (-) TimerEvent: {}
+[0.500878] (-) TimerEvent: {}
+[0.601211] (-) TimerEvent: {}
+[0.701506] (-) TimerEvent: {}
+[0.801933] (-) TimerEvent: {}
+[0.902271] (-) TimerEvent: {}
+[1.002577] (-) TimerEvent: {}
+[1.102938] (-) TimerEvent: {}
+[1.203269] (-) TimerEvent: {}
+[1.303574] (-) TimerEvent: {}
+[1.405153] (-) TimerEvent: {}
+[1.505861] (-) TimerEvent: {}
+[1.609144] (-) TimerEvent: {}
+[1.709690] (-) TimerEvent: {}
+[1.810042] (-) TimerEvent: {}
+[1.910368] (-) TimerEvent: {}
+[2.010732] (-) TimerEvent: {}
+[2.111979] (-) TimerEvent: {}
+[2.212367] (-) TimerEvent: {}
+[2.313722] (-) TimerEvent: {}
+[2.414149] (-) TimerEvent: {}
+[2.514939] (-) TimerEvent: {}
+[2.617099] (-) TimerEvent: {}
+[2.717457] (-) TimerEvent: {}
+[2.819144] (-) TimerEvent: {}
+[2.926728] (-) TimerEvent: {}
+[3.030225] (-) TimerEvent: {}
+[3.131353] (-) TimerEvent: {}
+[3.235304] (-) TimerEvent: {}
+[3.324294] (detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/epiibots/ros2_ws/build/detector/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/epiibots/ros2_ws/build/detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/detector', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.332855] (lidar_teste) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/epiibots/ros2_ws/build/lidar_teste/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/epiibots/ros2_ws/build/lidar_teste', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/lidar_teste', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.335794] (-) TimerEvent: {}
+[3.341282] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/epiibots/ros2_ws/build/bno055/build', '--no-deps', 'symlink_data'], 'cwd': '/home/epiibots/ros2_ws/build/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.358117] (carrinho_base) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/epiibots/ros2_ws/build/carrinho_base/build', '--no-deps', 'symlink_data', '--force'], 'cwd': '/home/epiibots/ros2_ws/build/carrinho_base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/carrinho_base', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[3.438181] (-) TimerEvent: {}
+[3.538870] (-) TimerEvent: {}
+[3.639663] (-) TimerEvent: {}
+[3.742267] (-) TimerEvent: {}
+[3.842674] (-) TimerEvent: {}
+[3.943319] (-) TimerEvent: {}
+[3.952107] (detector) StdoutLine: {'line': b'running develop\n'}
+[3.961134] (lidar_teste) StdoutLine: {'line': b'running develop\n'}
+[3.969343] (carrinho_base) StdoutLine: {'line': b'running develop\n'}
+[3.984533] (bno055) StdoutLine: {'line': b'running develop\n'}
+[4.043440] (-) TimerEvent: {}
+[4.151147] (-) TimerEvent: {}
+[4.192342] (detector) StdoutLine: {'line': b'running egg_info\n'}
+[4.204498] (lidar_teste) StdoutLine: {'line': b'running egg_info\n'}
+[4.212765] (carrinho_base) StdoutLine: {'line': b'running egg_info\n'}
+[4.216581] (detector) StdoutLine: {'line': b'writing detector.egg-info/PKG-INFO\n'}
+[4.220093] (detector) StdoutLine: {'line': b'writing dependency_links to detector.egg-info/dependency_links.txt\n'}
+[4.222213] (detector) StdoutLine: {'line': b'writing entry points to detector.egg-info/entry_points.txt\n'}
+[4.222928] (detector) StdoutLine: {'line': b'writing requirements to detector.egg-info/requires.txt\n'}
+[4.226188] (detector) StdoutLine: {'line': b'writing top-level names to detector.egg-info/top_level.txt\n'}
+[4.229040] (lidar_teste) StdoutLine: {'line': b'writing lidar_teste.egg-info/PKG-INFO\n'}
+[4.230087] (lidar_teste) StdoutLine: {'line': b'writing dependency_links to lidar_teste.egg-info/dependency_links.txt\n'}
+[4.231642] (lidar_teste) StdoutLine: {'line': b'writing entry points to lidar_teste.egg-info/entry_points.txt\n'}
+[4.232529] (lidar_teste) StdoutLine: {'line': b'writing requirements to lidar_teste.egg-info/requires.txt\n'}
+[4.233440] (lidar_teste) StdoutLine: {'line': b'writing top-level names to lidar_teste.egg-info/top_level.txt\n'}
+[4.236497] (carrinho_base) StdoutLine: {'line': b'writing carrinho_base.egg-info/PKG-INFO\n'}
+[4.238023] (carrinho_base) StdoutLine: {'line': b'writing dependency_links to carrinho_base.egg-info/dependency_links.txt\n'}
+[4.238651] (carrinho_base) StdoutLine: {'line': b'writing entry points to carrinho_base.egg-info/entry_points.txt\n'}
+[4.239633] (carrinho_base) StdoutLine: {'line': b'writing requirements to carrinho_base.egg-info/requires.txt\n'}
+[4.241018] (carrinho_base) StdoutLine: {'line': b'writing top-level names to carrinho_base.egg-info/top_level.txt\n'}
+[4.251257] (-) TimerEvent: {}
+[4.255068] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[4.256378] (bno055) StdoutLine: {'line': b'creating bno055.egg-info\n'}
+[4.279249] (detector) StdoutLine: {'line': b"reading manifest file 'detector.egg-info/SOURCES.txt'\n"}
+[4.279879] (bno055) StdoutLine: {'line': b'writing bno055.egg-info/PKG-INFO\n'}
+[4.280367] (bno055) StdoutLine: {'line': b'writing dependency_links to bno055.egg-info/dependency_links.txt\n'}
+[4.280601] (bno055) StdoutLine: {'line': b'writing entry points to bno055.egg-info/entry_points.txt\n'}
+[4.280790] (bno055) StdoutLine: {'line': b'writing requirements to bno055.egg-info/requires.txt\n'}
+[4.281071] (bno055) StdoutLine: {'line': b'writing top-level names to bno055.egg-info/top_level.txt\n'}
+[4.281248] (bno055) StdoutLine: {'line': b"writing manifest file 'bno055.egg-info/SOURCES.txt'\n"}
+[4.283246] (detector) StdoutLine: {'line': b"writing manifest file 'detector.egg-info/SOURCES.txt'\n"}
+[4.283463] (lidar_teste) StdoutLine: {'line': b"reading manifest file 'lidar_teste.egg-info/SOURCES.txt'\n"}
+[4.285213] (lidar_teste) StdoutLine: {'line': b"writing manifest file 'lidar_teste.egg-info/SOURCES.txt'\n"}
+[4.291973] (carrinho_base) StdoutLine: {'line': b"reading manifest file 'carrinho_base.egg-info/SOURCES.txt'\n"}
+[4.292271] (carrinho_base) StdoutLine: {'line': b"writing manifest file 'carrinho_base.egg-info/SOURCES.txt'\n"}
+[4.310788] (detector) StdoutLine: {'line': b'running build_ext\n'}
+[4.311383] (lidar_teste) StdoutLine: {'line': b'running build_ext\n'}
+[4.317485] (detector) StdoutLine: {'line': b'Creating /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector.egg-link (link to .)\n'}
+[4.317790] (detector) StdoutLine: {'line': b'Installing apriltags script to /home/epiibots/ros2_ws/install/detector/lib/detector\n'}
+[4.317904] (detector) StdoutLine: {'line': b'\n'}
+[4.318041] (detector) StdoutLine: {'line': b'Installed /home/epiibots/ros2_ws/build/detector\n'}
+[4.320125] (carrinho_base) StdoutLine: {'line': b'running build_ext\n'}
+[4.320606] (lidar_teste) StdoutLine: {'line': b'Creating /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar-teste.egg-link (link to .)\n'}
+[4.320771] (lidar_teste) StdoutLine: {'line': b'Installing save_lidar script to /home/epiibots/ros2_ws/install/lidar_teste/lib/lidar_teste\n'}
+[4.320877] (lidar_teste) StdoutLine: {'line': b'\n'}
+[4.320978] (lidar_teste) StdoutLine: {'line': b'Installed /home/epiibots/ros2_ws/build/lidar_teste\n'}
+[4.321135] (lidar_teste) StdoutLine: {'line': b'running symlink_data\n'}
+[4.321246] (lidar_teste) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/lidar_teste/resource/lidar_teste -> /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index/resource_index/packages\n'}
+[4.321402] (lidar_teste) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/lidar_teste/package.xml -> /home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste\n'}
+[4.321529] (detector) StdoutLine: {'line': b'running symlink_data\n'}
+[4.324695] (detector) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/detector/resource/detector -> /home/epiibots/ros2_ws/install/detector/share/ament_index/resource_index/packages\n'}
+[4.325050] (carrinho_base) StdoutLine: {'line': b'Creating /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho-base.egg-link (link to .)\n'}
+[4.325503] (detector) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/detector/package.xml -> /home/epiibots/ros2_ws/install/detector/share/detector\n'}
+[4.325842] (carrinho_base) StdoutLine: {'line': b'Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[4.326054] (carrinho_base) StdoutLine: {'line': b'\n'}
+[4.326252] (carrinho_base) StdoutLine: {'line': b'Installed /home/epiibots/ros2_ws/build/carrinho_base\n'}
+[4.326413] (carrinho_base) StdoutLine: {'line': b'running symlink_data\n'}
+[4.326563] (carrinho_base) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/carrinho_base/resource/carrinho_base -> /home/epiibots/ros2_ws/install/carrinho_base/share/ament_index/resource_index/packages\n'}
+[4.326692] (carrinho_base) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/carrinho_base/package.xml -> /home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base\n'}
+[4.353243] (-) TimerEvent: {}
+[4.377215] (bno055) StdoutLine: {'line': b"reading manifest file 'bno055.egg-info/SOURCES.txt'\n"}
+[4.377675] (bno055) StdoutLine: {'line': b"writing manifest file 'bno055.egg-info/SOURCES.txt'\n"}
+[4.453359] (-) TimerEvent: {}
+[4.471977] (bno055) StdoutLine: {'line': b'running build_ext\n'}
+[4.474146] (bno055) StdoutLine: {'line': b'Creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055.egg-link (link to .)\n'}
+[4.478218] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/epiibots/ros2_ws/install/bno055/lib/bno055\n'}
+[4.479411] (bno055) StdoutLine: {'line': b'\n'}
+[4.479775] (bno055) StdoutLine: {'line': b'Installed /home/epiibots/ros2_ws/build/bno055\n'}
+[4.480102] (bno055) StdoutLine: {'line': b'running symlink_data\n'}
+[4.482208] (bno055) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/bno055/share/ament_index\n'}
+[4.484798] (bno055) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index\n'}
+[4.485554] (bno055) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[4.485870] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/resource/bno055 -> /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index/packages\n'}
+[4.486159] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/package.xml -> /home/epiibots/ros2_ws/install/bno055/share/bno055\n'}
+[4.486327] (bno055) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/bno055/share/bno055/launch\n'}
+[4.486428] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/launch/bno055.launch.py -> /home/epiibots/ros2_ws/install/bno055/share/bno055/launch\n'}
+[4.486531] (bno055) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/bno055/share/bno055/config\n'}
+[4.486621] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params_test.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config\n'}
+[4.490298] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config\n'}
+[4.491656] (bno055) StdoutLine: {'line': b'symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params_i2c.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config\n'}
+[4.555413] (-) TimerEvent: {}
+[4.636173] (lidar_teste) CommandEnded: {'returncode': 0}
+[4.655512] (-) TimerEvent: {}
+[4.755942] (-) TimerEvent: {}
+[4.856268] (-) TimerEvent: {}
+[4.857908] (lidar_teste) JobEnded: {'identifier': 'lidar_teste', 'rc': 0}
+[4.859157] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[4.876458] (detector) CommandEnded: {'returncode': 0}
+[4.903840] (detector) JobEnded: {'identifier': 'detector', 'rc': 0}
+[4.904878] (carrinho_base) CommandEnded: {'returncode': 0}
+[4.930867] (carrinho_base) JobEnded: {'identifier': 'carrinho_base', 'rc': 0}
+[4.931846] (bno055) CommandEnded: {'returncode': 0}
+[4.941401] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[4.942792] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[4.956332] (-) TimerEvent: {}
+[5.002641] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '/home/epiibots/ros2_ws/src/sllidar_ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/epiibots/ros2_ws/install/sllidar_ros2'], 'cwd': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.056447] (-) TimerEvent: {}
+[5.156810] (-) TimerEvent: {}
+[5.222954] (sllidar_ros2) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[5.256906] (-) TimerEvent: {}
+[5.357304] (-) TimerEvent: {}
+[5.457696] (-) TimerEvent: {}
+[5.558043] (-) TimerEvent: {}
+[5.561037] (sllidar_ros2) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[5.607954] (sllidar_ros2) StdoutLine: {'line': b'-- Found rclcpp: 28.1.18 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[5.658140] (-) TimerEvent: {}
+[5.679519] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[5.701827] (sllidar_ros2) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[5.734536] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.758214] (-) TimerEvent: {}
+[5.767134] (sllidar_ros2) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.858338] (-) TimerEvent: {}
+[5.909143] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.3 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[5.914506] (sllidar_ros2) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.3 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[5.958411] (-) TimerEvent: {}
+[5.980284] (sllidar_ros2) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[6.058506] (-) TimerEvent: {}
+[6.112319] (sllidar_ros2) StdoutLine: {'line': b'-- Found sensor_msgs: 5.3.7 (/opt/ros/jazzy/share/sensor_msgs/cmake)\n'}
+[6.158601] (-) TimerEvent: {}
+[6.230100] (sllidar_ros2) StdoutLine: {'line': b'-- Found std_srvs: 5.3.7 (/opt/ros/jazzy/share/std_srvs/cmake)\n'}
+[6.258693] (-) TimerEvent: {}
+[6.359002] (-) TimerEvent: {}
+[6.448507] (sllidar_ros2) StdoutLine: {'line': b'-- Configuring done (1.3s)\n'}
+[6.459061] (-) TimerEvent: {}
+[6.529667] (sllidar_ros2) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[6.559129] (-) TimerEvent: {}
+[6.581215] (sllidar_ros2) StdoutLine: {'line': b'-- Build files have been written to: /home/epiibots/ros2_ws/build/sllidar_ros2\n'}
+[6.602046] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[6.602776] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[6.603614] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[6.659281] (-) TimerEvent: {}
+[6.759669] (-) TimerEvent: {}
+[6.802229] (sllidar_ros2) StdoutLine: {'line': b'[  5%] \x1b[32m\x1b[1mLinking CXX executable sllidar_client\x1b[0m\n'}
+[6.803965] (sllidar_ros2) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX executable sllidar_node\x1b[0m\n'}
+[6.859794] (-) TimerEvent: {}
+[6.960194] (-) TimerEvent: {}
+[7.060593] (-) TimerEvent: {}
+[7.161379] (-) TimerEvent: {}
+[7.262584] (-) TimerEvent: {}
+[7.364240] (-) TimerEvent: {}
+[7.465577] (-) TimerEvent: {}
+[7.566588] (-) TimerEvent: {}
+[7.667872] (-) TimerEvent: {}
+[7.769589] (-) TimerEvent: {}
+[7.871593] (-) TimerEvent: {}
+[7.972436] (-) TimerEvent: {}
+[8.073909] (-) TimerEvent: {}
+[8.175208] (-) TimerEvent: {}
+[8.276893] (-) TimerEvent: {}
+[8.377693] (-) TimerEvent: {}
+[8.478234] (-) TimerEvent: {}
+[8.578801] (-) TimerEvent: {}
+[8.671899] (sllidar_ros2) StdoutLine: {'line': b'[ 95%] Built target sllidar_node\n'}
+[8.678944] (-) TimerEvent: {}
+[8.721646] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_client\n'}
+[8.742118] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[8.742931] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[8.759832] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.108 45980 22', 'LC_TIME': 'pt_BR.UTF-8', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '7', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.108 45980 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[8.774722] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.775815] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.778999] (-) TimerEvent: {}
+[8.781671] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[8.799284] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[8.815892] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[8.832385] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[8.849443] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[8.865691] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[8.879135] (-) TimerEvent: {}
+[8.881909] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[8.899035] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[8.915469] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[8.931868] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[8.949262] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[8.965644] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[8.979263] (-) TimerEvent: {}
+[8.982589] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[8.999637] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[9.015905] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[9.032433] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[9.049095] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[9.066630] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[9.079345] (-) TimerEvent: {}
+[9.083059] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[9.098973] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[9.116056] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[9.132494] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[9.149238] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[9.166061] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[9.179454] (-) TimerEvent: {}
+[9.185902] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[9.206752] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[9.224552] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[9.244246] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[9.263428] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[9.279555] (-) TimerEvent: {}
+[9.283179] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[9.300130] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[9.316998] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[9.333550] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[9.349945] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[9.367204] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[9.379656] (-) TimerEvent: {}
+[9.384596] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[9.401338] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[9.418114] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[9.438134] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[9.457649] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[9.474342] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[9.479743] (-) TimerEvent: {}
+[9.491019] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[9.508183] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[9.524483] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[9.544391] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[9.574525] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[9.575794] (-) EventReactorShutdown: {}

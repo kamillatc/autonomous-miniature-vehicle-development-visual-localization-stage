@@ -1,0 +1,5 @@
+[console_scripts]
+motor_node = servo_steering.motor_node:main
+servo_node = servo_steering.servo_node:main
+teleop_kei = servo_steering.teleop_kei:main
+teleop_key = servo_steering.teleop_key:main

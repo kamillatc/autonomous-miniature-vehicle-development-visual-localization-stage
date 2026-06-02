@@ -1,0 +1,15 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/PKG-INFO
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/dependency_links.txt
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/requires.txt
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/top_level.txt
+../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/zip-safe
+controlegeral_carrinho/__init__.py
+resource/controlegeral_carrinho
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,2 @@
+[console_scripts]
+save_lidar = lidar_teste.save_lidar:main

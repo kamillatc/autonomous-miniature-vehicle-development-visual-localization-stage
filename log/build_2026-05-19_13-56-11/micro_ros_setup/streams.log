@@ -1,0 +1,181 @@
+[0.016s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/epiibots/ros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/epiibots/ros2_ws/install/micro_ros_setup
+[0.233s] -- The C compiler identification is GNU 13.3.0
+[0.432s] -- The CXX compiler identification is GNU 13.3.0
+[0.477s] -- Detecting C compiler ABI info
+[0.800s] -- Detecting C compiler ABI info - done
+[0.824s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.825s] -- Detecting C compile features
+[0.826s] -- Detecting C compile features - done
+[0.853s] -- Detecting CXX compiler ABI info
+[1.199s] -- Detecting CXX compiler ABI info - done
+[1.218s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.220s] -- Detecting CXX compile features
+[1.220s] -- Detecting CXX compile features - done
+[1.228s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[1.576s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[2.016s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.404s] -- Configuring done (2.4s)
+[2.414s] -- Generating done (0.0s)
+[2.414s] -- Build files have been written to: /home/epiibots/ros2_ws/build/micro_ros_setup
+[2.433s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/epiibots/ros2_ws/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/epiibots/ros2_ws/install/micro_ros_setup
+[2.440s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[2.583s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[2.613s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_setup
+[2.643s] -- Install configuration: ""
+[2.644s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup
+[2.644s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup
+[2.644s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh
+[2.644s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv
+[2.644s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh
+[2.645s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv
+[2.647s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash
+[2.649s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh
+[2.649s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh
+[2.651s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv
+[2.651s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv
+[2.652s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup
+[2.652s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake
+[2.653s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake
+[2.654s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml
+[2.655s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config
+[2.658s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib
+[2.659s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic
+[2.659s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh
+[2.661s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml
+[2.662s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh
+[2.663s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh
+[2.665s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake
+[2.665s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta
+[2.666s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos
+[2.667s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos
+[2.668s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt
+[2.669s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian
+[2.670s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic
+[2.671s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms
+[2.673s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh
+[2.675s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh
+[2.675s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh
+[2.676s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta
+[2.676s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos
+[2.677s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh
+[2.679s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos
+[2.680s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt
+[2.681s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos
+[2.682s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/utils.sh
+[2.683s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt
+[2.685s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr
+[2.686s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic
+[2.687s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms
+[2.688s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos
+[2.689s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh
+[2.691s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml
+[2.692s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh
+[2.693s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh
+[2.694s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta
+[2.698s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos
+[2.700s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh
+[2.702s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos
+[2.703s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh
+[2.703s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt
+[2.703s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos
+[2.703s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32
+[2.704s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md
+[2.704s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos
+[2.704s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh
+[2.704s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml
+[2.705s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh
+[2.705s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh
+[2.705s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta
+[2.705s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos
+[2.705s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh
+[2.706s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21
+[2.706s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos
+[2.709s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh
+[2.709s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml
+[2.709s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh
+[2.710s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh
+[2.710s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta
+[2.712s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos
+[2.712s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh
+[2.712s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze
+[2.713s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos
+[2.714s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh
+[2.715s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml
+[2.716s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh
+[2.716s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh
+[2.717s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta
+[2.720s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos
+[2.720s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh
+[2.721s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos
+[2.722s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh
+[2.722s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi
+[2.723s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos
+[2.724s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh
+[2.726s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml
+[2.726s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh
+[2.727s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh
+[2.729s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta
+[2.731s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos
+[2.731s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh
+[2.731s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg
+[2.733s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos
+[2.733s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh
+[2.736s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml
+[2.738s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh
+[2.739s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh
+[2.740s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta
+[2.741s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos
+[2.741s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh
+[2.742s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407
+[2.744s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos
+[2.745s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh
+[2.746s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml
+[2.747s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh
+[2.748s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh
+[2.748s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta
+[2.751s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos
+[2.753s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh
+[2.753s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re
+[2.754s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos
+[2.755s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh
+[2.756s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml
+[2.757s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh
+[2.759s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh
+[2.761s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta
+[2.762s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos
+[2.764s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh
+[2.765s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt
+[2.768s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host
+[2.769s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic
+[2.769s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh
+[2.770s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml
+[2.771s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh
+[2.773s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos
+[2.774s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh
+[2.774s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta
+[2.774s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt
+[2.778s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos
+[2.778s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt
+[2.778s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android
+[2.778s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic
+[2.778s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh
+[2.779s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml
+[2.780s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh
+[2.781s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh
+[2.782s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta
+[2.783s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos
+[2.787s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos
+[2.787s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt
+[2.787s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt
+[2.787s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos
+[2.787s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh
+[2.789s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh
+[2.790s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh
+[2.791s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh
+[2.792s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh
+[2.792s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh
+[2.794s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh
+[2.796s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py
+[2.796s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh
+[2.796s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component
+[2.806s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_setup

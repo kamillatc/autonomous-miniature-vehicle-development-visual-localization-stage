@@ -1,0 +1,83 @@
+[3.203s] Invoking command in '/home/epiibots/ros2_ws/build/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/epiibots/ros2_ws/build/bno055/build
+[3.921s] running develop
+[4.378s] Removing /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055.egg-link (link to .)
+[4.674s] Invoked command in '/home/epiibots/ros2_ws/build/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/epiibots/ros2_ws/build/bno055/build
+[4.677s] Invoking command in '/home/epiibots/ros2_ws/src/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data --force
+[5.251s] running egg_info
+[5.286s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[5.286s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[5.291s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[5.292s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[5.293s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[5.367s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[5.371s] adding license file 'LICENSE'
+[5.371s] adding license file 'AUTHORS'
+[5.373s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[5.375s] running build
+[5.375s] running build_py
+[5.376s] creating /home/epiibots/ros2_ws/build/bno055/build
+[5.376s] creating /home/epiibots/ros2_ws/build/bno055/build/lib
+[5.376s] creating /home/epiibots/ros2_ws/build/bno055/build/lib/bno055
+[5.376s] copying bno055/__init__.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055
+[5.376s] copying bno055/bno055.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055
+[5.378s] copying bno055/registers.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055
+[5.379s] creating /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/params
+[5.379s] copying bno055/params/NodeParameters.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/params
+[5.380s] copying bno055/params/__init__.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/params
+[5.382s] creating /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors
+[5.382s] copying bno055/connectors/__init__.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors
+[5.383s] copying bno055/connectors/Connector.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors
+[5.384s] copying bno055/connectors/uart.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors
+[5.384s] copying bno055/connectors/i2c.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors
+[5.385s] creating /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/sensor
+[5.385s] copying bno055/sensor/__init__.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/sensor
+[5.387s] copying bno055/sensor/SensorService.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/sensor
+[5.387s] creating /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[5.387s] copying bno055/error_handling/exceptions.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[5.390s] copying bno055/error_handling/__init__.py -> /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/error_handling
+[5.395s] running install
+[5.408s] running install_lib
+[5.441s] creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[5.442s] creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[5.444s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/params/NodeParameters.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[5.444s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/params/__init__.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params
+[5.445s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/__init__.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[5.447s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/registers.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[5.448s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/bno055.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055
+[5.449s] creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[5.449s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors/__init__.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[5.450s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors/Connector.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[5.450s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors/uart.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[5.451s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/connectors/i2c.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors
+[5.452s] creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[5.452s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/sensor/__init__.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[5.453s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/sensor/SensorService.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor
+[5.453s] creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[5.454s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/error_handling/exceptions.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[5.454s] copying /home/epiibots/ros2_ws/build/bno055/build/lib/bno055/error_handling/__init__.py -> /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling
+[5.456s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/NodeParameters.py to NodeParameters.cpython-312.pyc
+[5.462s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/params/__init__.py to __init__.cpython-312.pyc
+[5.463s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/__init__.py to __init__.cpython-312.pyc
+[5.463s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/registers.py to registers.cpython-312.pyc
+[5.464s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/bno055.py to bno055.cpython-312.pyc
+[5.466s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/__init__.py to __init__.cpython-312.pyc
+[5.469s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/Connector.py to Connector.cpython-312.pyc
+[5.470s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/uart.py to uart.cpython-312.pyc
+[5.470s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/connectors/i2c.py to i2c.cpython-312.pyc
+[5.471s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/__init__.py to __init__.cpython-312.pyc
+[5.473s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/sensor/SensorService.py to SensorService.cpython-312.pyc
+[5.480s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/exceptions.py to exceptions.cpython-312.pyc
+[5.482s] byte-compiling /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055/error_handling/__init__.py to __init__.cpython-312.pyc
+[5.482s] running install_data
+[5.482s] copying resource/bno055 -> /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index/packages
+[5.487s] copying package.xml -> /home/epiibots/ros2_ws/install/bno055/share/bno055
+[5.488s] copying launch/bno055.launch.py -> /home/epiibots/ros2_ws/install/bno055/share/bno055/launch
+[5.490s] copying bno055/params/bno055_params_test.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[5.493s] copying bno055/params/bno055_params.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[5.496s] copying bno055/params/bno055_params_i2c.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[5.498s] running install_egg_info
+[5.551s] Copying ../../build/bno055/bno055.egg-info to /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info
+[5.556s] running install_scripts
+[5.917s] Installing bno055 script to /home/epiibots/ros2_ws/install/bno055/lib/bno055
+[5.918s] writing list of installed files to '/home/epiibots/ros2_ws/build/bno055/install.log'
+[6.627s] Invoked command in '/home/epiibots/ros2_ws/src/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data --force

@@ -1,0 +1,38 @@
+[3.198s] Invoking command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[3.585s] running egg_info
+[3.586s] creating ../../../../build/detector/detector.egg-info
+[3.620s] writing ../../../../build/detector/detector.egg-info/PKG-INFO
+[3.620s] writing dependency_links to ../../../../build/detector/detector.egg-info/dependency_links.txt
+[3.621s] writing entry points to ../../../../build/detector/detector.egg-info/entry_points.txt
+[3.629s] writing requirements to ../../../../build/detector/detector.egg-info/requires.txt
+[3.632s] writing top-level names to ../../../../build/detector/detector.egg-info/top_level.txt
+[3.632s] writing manifest file '../../../../build/detector/detector.egg-info/SOURCES.txt'
+[3.693s] reading manifest file '../../../../build/detector/detector.egg-info/SOURCES.txt'
+[3.693s] adding license file 'LICENSE'
+[3.695s] writing manifest file '../../../../build/detector/detector.egg-info/SOURCES.txt'
+[3.696s] running build
+[3.697s] running build_py
+[3.698s] creating /home/epiibots/ros2_ws/build/detector/build
+[3.699s] creating /home/epiibots/ros2_ws/build/detector/build/lib
+[3.702s] creating /home/epiibots/ros2_ws/build/detector/build/lib/detector
+[3.702s] copying detector/__init__.py -> /home/epiibots/ros2_ws/build/detector/build/lib/detector
+[3.702s] copying detector/apriltags.py -> /home/epiibots/ros2_ws/build/detector/build/lib/detector
+[3.705s] running install
+[3.711s] running install_lib
+[3.737s] creating /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector
+[3.737s] copying /home/epiibots/ros2_ws/build/detector/build/lib/detector/__init__.py -> /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector
+[3.738s] copying /home/epiibots/ros2_ws/build/detector/build/lib/detector/apriltags.py -> /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector
+[3.738s] byte-compiling /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector/__init__.py to __init__.cpython-312.pyc
+[3.739s] byte-compiling /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector/apriltags.py to apriltags.cpython-312.pyc
+[3.741s] running install_data
+[3.742s] creating /home/epiibots/ros2_ws/install/detector/share/ament_index
+[3.742s] creating /home/epiibots/ros2_ws/install/detector/share/ament_index/resource_index
+[3.743s] creating /home/epiibots/ros2_ws/install/detector/share/ament_index/resource_index/packages
+[3.743s] copying resource/detector -> /home/epiibots/ros2_ws/install/detector/share/ament_index/resource_index/packages
+[3.744s] copying package.xml -> /home/epiibots/ros2_ws/install/detector/share/detector
+[3.744s] running install_egg_info
+[3.797s] Copying ../../../../build/detector/detector.egg-info to /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector-0.0.0-py3.12.egg-info
+[3.798s] running install_scripts
+[4.024s] Installing apriltags script to /home/epiibots/ros2_ws/install/detector/lib/detector
+[4.026s] writing list of installed files to '/home/epiibots/ros2_ws/build/detector/install.log'
+[4.223s] Invoked command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data

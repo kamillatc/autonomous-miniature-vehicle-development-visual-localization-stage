@@ -1,0 +1,29 @@
+[4.033s] Invoking command in '/home/epiibots/ros2_ws/src/carrinho_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[4.924s] running egg_info
+[4.954s] writing ../../build/carrinho_base/carrinho_base.egg-info/PKG-INFO
+[4.955s] writing dependency_links to ../../build/carrinho_base/carrinho_base.egg-info/dependency_links.txt
+[4.955s] writing entry points to ../../build/carrinho_base/carrinho_base.egg-info/entry_points.txt
+[4.956s] writing requirements to ../../build/carrinho_base/carrinho_base.egg-info/requires.txt
+[4.957s] writing top-level names to ../../build/carrinho_base/carrinho_base.egg-info/top_level.txt
+[5.060s] reading manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+[5.070s] writing manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+[5.070s] running build
+[5.070s] running build_py
+[5.071s] copying carrinho_base/checkpoint_player.py -> /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base
+[5.072s] copying carrinho_base/checkpoint_recorder.py -> /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base
+[5.076s] running install
+[5.089s] running install_lib
+[5.125s] copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/checkpoint_player.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+[5.127s] copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/checkpoint_recorder.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+[5.133s] byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/checkpoint_player.py to checkpoint_player.cpython-312.pyc
+[5.137s] byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/checkpoint_recorder.py to checkpoint_recorder.cpython-312.pyc
+[5.138s] running install_data
+[5.139s] running install_egg_info
+[5.177s] removing '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info' (and everything under it)
+[5.178s] Copying ../../build/carrinho_base/carrinho_base.egg-info to /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info
+[5.185s] running install_scripts
+[5.510s] Installing checkpoint_player script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[5.516s] Installing checkpoint_recorder script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[5.520s] Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[5.520s] writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_base/install.log'
+[5.818s] Invoked command in '/home/epiibots/ros2_ws/src/carrinho_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data

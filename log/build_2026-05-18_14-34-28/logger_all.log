@@ -1,0 +1,409 @@
+[1.544s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.544s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa16d26c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa188ad80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa188ad80>>, mixin_verb=('build',))
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.620s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/epiibots/ros2_ws'
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.620s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.621s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.750s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.751s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.752s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.753s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['ignore', 'ignore_ament_install']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'ignore'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'ignore_ament_install'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['colcon_pkg']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'colcon_pkg'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['colcon_meta']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'colcon_meta'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['ros']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'ros'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['cmake', 'python']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'cmake'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'python'
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extensions ['python_setup_py']
+[1.754s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage) by extension 'python_setup_py'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/build) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/build) by extension 'ignore'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/build) ignored
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/install) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/install) by extension 'ignore'
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/install) ignored
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/log) by extensions ['ignore', 'ignore_ament_install']
+[1.755s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/log) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/log) ignored
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['ignore', 'ignore_ament_install']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'ignore'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'ignore_ament_install'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['colcon_pkg']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'colcon_pkg'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['colcon_meta']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'colcon_meta'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['ros']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'ros'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['cmake', 'python']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'cmake'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'python'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extensions ['python_setup_py']
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src) by extension 'python_setup_py'
+[1.756s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'ignore'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'ignore_ament_install'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['colcon_pkg']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'colcon_pkg'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['colcon_meta']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'colcon_meta'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['ros']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'ros'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['cmake', 'python']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'cmake'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'python'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extensions ['python_setup_py']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/bno055) by extension 'python_setup_py'
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['ignore', 'ignore_ament_install']
+[1.757s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'ignore'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'ignore_ament_install'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['colcon_pkg']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'colcon_pkg'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['colcon_meta']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'colcon_meta'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['ros']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'ros'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['cmake', 'python']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'cmake'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'python'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extensions ['python_setup_py']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision) by extension 'python_setup_py'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['ignore', 'ignore_ament_install']
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'ignore'
+[1.758s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'ignore_ament_install'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['colcon_pkg']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'colcon_pkg'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['colcon_meta']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'colcon_meta'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['ros']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'ros'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['cmake', 'python']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'cmake'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'python'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extensions ['python_setup_py']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/computervision/aruco) by extension 'python_setup_py'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extensions ['ignore', 'ignore_ament_install']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extension 'ignore'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extension 'ignore_ament_install'
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extensions ['colcon_pkg']
+[1.759s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extension 'colcon_pkg'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extensions ['colcon_meta']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extension 'colcon_meta'
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extensions ['ros']
+[1.760s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector) by extension 'ros'
+[1.791s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector' with type 'ros.ament_python' and name 'detector'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extensions ['ignore', 'ignore_ament_install']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extension 'ignore'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extension 'ignore_ament_install'
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extensions ['colcon_pkg']
+[1.791s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extension 'colcon_pkg'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extensions ['colcon_meta']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extension 'colcon_meta'
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extensions ['ros']
+[1.792s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste) by extension 'ros'
+[1.793s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste' with type 'ros.ament_python' and name 'lidar_teste'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['ignore', 'ignore_ament_install']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'ignore_ament_install'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['colcon_pkg']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'colcon_pkg'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['colcon_meta']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'colcon_meta'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['ros']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'ros'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['cmake', 'python']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'cmake'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'python'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extensions ['python_setup_py']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws) by extension 'python_setup_py'
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/build) by extensions ['ignore', 'ignore_ament_install']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/build) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/build) ignored
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/install) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/install) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/install) ignored
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/log) by extension 'ignore'
+[1.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/log) ignored
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'ignore'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'ignore_ament_install'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['colcon_pkg']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'colcon_pkg'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['colcon_meta']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'colcon_meta'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['ros']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'ros'
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['cmake', 'python']
+[1.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'cmake'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'python'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extensions ['python_setup_py']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src) by extension 'python_setup_py'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'ignore'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'ignore_ament_install'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['colcon_pkg']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'colcon_pkg'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['colcon_meta']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'colcon_meta'
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['ros']
+[1.797s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'ros'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['cmake', 'python']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'cmake'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'python'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extensions ['python_setup_py']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/micro_ros_setup) by extension 'python_setup_py'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'ignore'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'ignore_ament_install'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['colcon_pkg']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'colcon_pkg'
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['colcon_meta']
+[1.798s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'colcon_meta'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['ros']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'ros'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['cmake', 'python']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'cmake'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'python'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extensions ['python_setup_py']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros) by extension 'python_setup_py'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'ignore'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[1.799s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['ros']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'ros'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'cmake'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'python'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'ignore'
+[1.800s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['ros']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'ros'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['cmake', 'python']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'cmake'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'python'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extensions ['python_setup_py']
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/microros_ws/src/uros/micro_ros_msgs) by extension 'python_setup_py'
+[1.801s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'ignore'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'ignore_ament_install'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['colcon_pkg']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'colcon_pkg'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['colcon_meta']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'colcon_meta'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['ros']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'ros'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['cmake', 'python']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'cmake'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'python'
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extensions ['python_setup_py']
+[1.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous-miniature-vehicle-development-visual-localization-stage/src/rplidar_ros) by extension 'python_setup_py'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['ignore', 'ignore_ament_install']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ignore'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ignore_ament_install'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['colcon_pkg']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'colcon_pkg'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['colcon_meta']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'colcon_meta'
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['ros']
+[1.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ros'
+[1.844s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carrinho_base' with type 'ros.ament_python' and name 'carrinho_base'
+[1.844s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.845s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.906s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.915s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 192 installed packages in /opt/ros/jazzy
+[1.916s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_args' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_target' from command line to 'None'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_clean_cache' from command line to 'False'
+[1.975s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_clean_first' from command line to 'False'
+[1.976s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_force_configure' from command line to 'False'
+[1.976s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'ament_cmake_args' from command line to 'None'
+[1.976s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'catkin_cmake_args' from command line to 'None'
+[1.976s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.976s] DEBUG:colcon.colcon_core.verb:Building package 'carrinho_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/carrinho_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/carrinho_base', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/carrinho_base', 'symlink_install': False, 'test_result_base': None}
+[1.976s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_args' from command line to 'None'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_target' from command line to 'None'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_clean_cache' from command line to 'False'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_clean_first' from command line to 'False'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_force_configure' from command line to 'False'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'ament_cmake_args' from command line to 'None'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'catkin_cmake_args' from command line to 'None'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.977s] DEBUG:colcon.colcon_core.verb:Building package 'detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/detector', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector', 'symlink_install': False, 'test_result_base': None}
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_args' from command line to 'None'
+[1.977s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_target' from command line to 'None'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_clean_cache' from command line to 'False'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_clean_first' from command line to 'False'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_force_configure' from command line to 'False'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'ament_cmake_args' from command line to 'None'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'catkin_cmake_args' from command line to 'None'
+[1.978s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.978s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_teste' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/lidar_teste', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/lidar_teste', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste', 'symlink_install': False, 'test_result_base': None}
+[1.978s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.980s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.980s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/carrinho_base' with build type 'ament_python'
+[1.981s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrinho_base', 'ament_prefix_path')
+[1.992s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.992s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.ps1'
+[1.994s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.dsv'
+[1.996s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.sh'
+[2.013s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.013s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.037s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector' with build type 'ament_python'
+[2.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('detector', 'ament_prefix_path')
+[2.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.ps1'
+[2.039s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.dsv'
+[2.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.sh'
+[2.041s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.041s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.045s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste' with build type 'ament_python'
+[2.045s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_teste', 'ament_prefix_path')
+[2.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.ps1'
+[2.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.dsv'
+[2.047s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.sh'
+[2.048s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.048s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.477s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/carrinho_base'
+[2.480s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.481s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.823s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector'
+[2.823s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.823s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.164s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste'
+[3.165s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.165s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[5.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/carrinho_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[5.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[6.147s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[6.159s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste' for CMake module files
+[6.162s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste' for CMake config files
+[6.165s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib'
+[6.166s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/bin'
+[6.167s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib/pkgconfig/lidar_teste.pc'
+[6.169s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages'
+[6.171s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_teste', 'pythonpath')
+[6.173s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.ps1'
+[6.178s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.dsv'
+[6.182s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.sh'
+[6.187s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/bin'
+[6.189s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_teste)
+[6.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.ps1'
+[6.198s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.dsv'
+[6.202s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.sh'
+[6.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.bash'
+[6.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.zsh'
+[6.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/lidar_teste/share/colcon-core/packages/lidar_teste)
+[6.258s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector' for CMake module files
+[6.260s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector' for CMake config files
+[6.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[6.262s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib'
+[6.263s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/bin'
+[6.263s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib/pkgconfig/detector.pc'
+[6.264s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages'
+[6.264s] Level 1:colcon.colcon_core.shell:create_environment_hook('detector', 'pythonpath')
+[6.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.ps1'
+[6.265s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.dsv'
+[6.266s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.sh'
+[6.267s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/bin'
+[6.267s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detector)
+[6.268s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.ps1'
+[6.269s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/package.dsv'
+[6.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.sh'
+[6.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.bash'
+[6.271s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.zsh'
+[6.272s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/detector/share/colcon-core/packages/detector)
+[6.278s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base' for CMake module files
+[6.279s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/carrinho_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base' for CMake config files
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib'
+[6.280s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/bin'
+[6.281s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib/pkgconfig/carrinho_base.pc'
+[6.281s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages'
+[6.281s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrinho_base', 'pythonpath')
+[6.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.ps1'
+[6.282s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.dsv'
+[6.282s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.sh'
+[6.283s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/bin'
+[6.283s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carrinho_base)
+[6.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.ps1'
+[6.284s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.dsv'
+[6.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.sh'
+[6.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.bash'
+[6.286s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.zsh'
+[6.287s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/carrinho_base/share/colcon-core/packages/carrinho_base)
+[6.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.288s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.288s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.288s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.289s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.ps1'
+[6.333s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epiibots/ros2_ws/install/_local_setup_util_ps1.py'
+[6.341s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.ps1'
+[6.368s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.sh'
+[6.371s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epiibots/ros2_ws/install/_local_setup_util_sh.py'
+[6.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.sh'
+[6.384s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.bash'
+[6.399s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.bash'
+[6.405s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.zsh'
+[6.417s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.zsh'

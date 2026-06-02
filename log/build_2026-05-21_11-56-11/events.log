@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000395] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000712] (-) JobUnselected: {'identifier': 'controlegeral_carrinho'}
+[0.000902] (-) JobUnselected: {'identifier': 'detector'}
+[0.001118] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.001267] (-) JobUnselected: {'identifier': 'lidar_teste'}
+[0.001310] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001350] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001675] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001702] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001728] (carrinho_base) JobQueued: {'identifier': 'carrinho_base', 'dependencies': OrderedDict()}
+[0.001770] (carrinho_base) JobStarted: {'identifier': 'carrinho_base'}
+[0.099664] (-) TimerEvent: {}
+[0.200025] (-) TimerEvent: {}
+[0.300408] (-) TimerEvent: {}
+[0.400903] (-) TimerEvent: {}
+[0.501336] (-) TimerEvent: {}
+[0.601661] (-) TimerEvent: {}
+[0.701983] (-) TimerEvent: {}
+[0.802332] (-) TimerEvent: {}
+[0.902660] (-) TimerEvent: {}
+[1.002970] (-) TimerEvent: {}
+[1.103334] (-) TimerEvent: {}
+[1.187300] (carrinho_base) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/carrinho_base', 'build', '--build-base', '/home/epiibots/ros2_ws/build/carrinho_base/build', 'install', '--record', '/home/epiibots/ros2_ws/build/carrinho_base/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/carrinho_base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.107 47788 22', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/epiibots/ros2_ws/install/micro_ros_agent/lib:/home/epiibots/ros2_ws/install/micro_ros_msgs/lib:/home/epiibots/ros2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots', 'SSH_TTY': '/dev/pts/2', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/epiibots/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '22', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/drive_base_msgs:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/carrinho_base', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.107 47788 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.203412] (-) TimerEvent: {}
+[1.303785] (-) TimerEvent: {}
+[1.404138] (-) TimerEvent: {}
+[1.504484] (-) TimerEvent: {}
+[1.556351] (carrinho_base) StdoutLine: {'line': b'running egg_info\n'}
+[1.580259] (carrinho_base) StdoutLine: {'line': b'writing ../../build/carrinho_base/carrinho_base.egg-info/PKG-INFO\n'}
+[1.580675] (carrinho_base) StdoutLine: {'line': b'writing dependency_links to ../../build/carrinho_base/carrinho_base.egg-info/dependency_links.txt\n'}
+[1.584576] (carrinho_base) StdoutLine: {'line': b'writing entry points to ../../build/carrinho_base/carrinho_base.egg-info/entry_points.txt\n'}
+[1.585444] (carrinho_base) StdoutLine: {'line': b'writing requirements to ../../build/carrinho_base/carrinho_base.egg-info/requires.txt\n'}
+[1.586110] (carrinho_base) StdoutLine: {'line': b'writing top-level names to ../../build/carrinho_base/carrinho_base.egg-info/top_level.txt\n'}
+[1.604563] (-) TimerEvent: {}
+[1.639280] (carrinho_base) StdoutLine: {'line': b"reading manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'\n"}
+[1.640573] (carrinho_base) StdoutLine: {'line': b"writing manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'\n"}
+[1.640906] (carrinho_base) StdoutLine: {'line': b'running build\n'}
+[1.641210] (carrinho_base) StdoutLine: {'line': b'running build_py\n'}
+[1.641419] (carrinho_base) StdoutLine: {'line': b'copying carrinho_base/motor_control.py -> /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base\n'}
+[1.641891] (carrinho_base) StdoutLine: {'line': b'running install\n'}
+[1.651071] (carrinho_base) StdoutLine: {'line': b'running install_lib\n'}
+[1.675475] (carrinho_base) StdoutLine: {'line': b'copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/motor_control.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base\n'}
+[1.676531] (carrinho_base) StdoutLine: {'line': b'byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/motor_control.py to motor_control.cpython-312.pyc\n'}
+[1.678350] (carrinho_base) StdoutLine: {'line': b'running install_data\n'}
+[1.678545] (carrinho_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.704649] (-) TimerEvent: {}
+[1.704986] (carrinho_base) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[1.707377] (carrinho_base) StdoutLine: {'line': b'Copying ../../build/carrinho_base/carrinho_base.egg-info to /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info\n'}
+[1.707733] (carrinho_base) StdoutLine: {'line': b'running install_scripts\n'}
+[1.804749] (-) TimerEvent: {}
+[1.878192] (carrinho_base) StdoutLine: {'line': b'Installing checkpoint_player script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[1.878597] (carrinho_base) StdoutLine: {'line': b'Installing checkpoint_recorder script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[1.881504] (carrinho_base) StdoutLine: {'line': b'Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[1.882661] (carrinho_base) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_base/install.log'\n"}
+[1.904930] (-) TimerEvent: {}
+[1.970229] (carrinho_base) CommandEnded: {'returncode': 0}
+[1.988218] (carrinho_base) JobEnded: {'identifier': 'carrinho_base', 'rc': 0}
+[1.989383] (-) EventReactorShutdown: {}

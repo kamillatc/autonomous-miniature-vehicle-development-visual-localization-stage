@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing carrinho_base.egg-info/PKG-INFO
+writing dependency_links to carrinho_base.egg-info/dependency_links.txt
+writing entry points to carrinho_base.egg-info/entry_points.txt
+writing requirements to carrinho_base.egg-info/requires.txt
+writing top-level names to carrinho_base.egg-info/top_level.txt
+reading manifest file 'carrinho_base.egg-info/SOURCES.txt'
+writing manifest file 'carrinho_base.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho-base.egg-link (link to .)
+Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+
+Installed /home/epiibots/ros2_ws/build/carrinho_base
+running symlink_data
+symbolically linking /home/epiibots/ros2_ws/build/carrinho_base/resource/carrinho_base -> /home/epiibots/ros2_ws/install/carrinho_base/share/ament_index/resource_index/packages
+symbolically linking /home/epiibots/ros2_ws/build/carrinho_base/package.xml -> /home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base

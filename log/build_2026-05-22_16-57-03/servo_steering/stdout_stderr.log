@@ -1,0 +1,25 @@
+running egg_info
+writing ../../build/servo_steering/servo_steering.egg-info/PKG-INFO
+writing dependency_links to ../../build/servo_steering/servo_steering.egg-info/dependency_links.txt
+writing entry points to ../../build/servo_steering/servo_steering.egg-info/entry_points.txt
+writing requirements to ../../build/servo_steering/servo_steering.egg-info/requires.txt
+writing top-level names to ../../build/servo_steering/servo_steering.egg-info/top_level.txt
+reading manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'
+running build
+running build_py
+copying servo_steering/teleop_kei.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering
+running install
+running install_lib
+copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/teleop_kei.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering
+byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/teleop_kei.py to teleop_kei.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/servo_steering/servo_steering.egg-info to /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info
+running install_scripts
+Installing motor_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+Installing servo_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+Installing teleop_kei script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+Installing teleop_key script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering
+writing list of installed files to '/home/epiibots/ros2_ws/build/servo_steering/install.log'

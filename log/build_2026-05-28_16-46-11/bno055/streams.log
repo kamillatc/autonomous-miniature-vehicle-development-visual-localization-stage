@@ -1,0 +1,23 @@
+[2.957s] Invoking command in '/home/epiibots/ros2_ws/src/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
+[3.990s] running egg_info
+[4.069s] writing ../../build/bno055/bno055.egg-info/PKG-INFO
+[4.070s] writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt
+[4.077s] writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt
+[4.078s] writing requirements to ../../build/bno055/bno055.egg-info/requires.txt
+[4.078s] writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt
+[4.218s] reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.219s] adding license file 'LICENSE'
+[4.219s] adding license file 'AUTHORS'
+[4.221s] writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'
+[4.222s] running build
+[4.222s] running build_py
+[4.224s] running install
+[4.235s] running install_lib
+[4.268s] running install_data
+[4.269s] running install_egg_info
+[4.300s] removing '/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info' (and everything under it)
+[4.301s] Copying ../../build/bno055/bno055.egg-info to /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info
+[4.302s] running install_scripts
+[4.722s] Installing bno055 script to /home/epiibots/ros2_ws/install/bno055/lib/bno055
+[4.723s] writing list of installed files to '/home/epiibots/ros2_ws/build/bno055/install.log'
+[4.879s] Invoked command in '/home/epiibots/ros2_ws/src/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data

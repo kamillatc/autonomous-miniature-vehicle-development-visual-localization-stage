@@ -1,0 +1,22 @@
+[4.255s] Invoking command in '/home/epiibots/ros2_ws/src/lidar_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[5.418s] running egg_info
+[5.598s] writing ../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO
+[5.599s] writing dependency_links to ../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt
+[5.604s] writing entry points to ../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt
+[5.605s] writing requirements to ../../build/lidar_teste/lidar_teste.egg-info/requires.txt
+[5.612s] writing top-level names to ../../build/lidar_teste/lidar_teste.egg-info/top_level.txt
+[5.829s] reading manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[5.832s] adding license file 'LICENSE'
+[5.834s] writing manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[5.834s] running build
+[5.834s] running build_py
+[5.834s] running install
+[5.859s] running install_lib
+[5.965s] running install_data
+[5.965s] running install_egg_info
+[6.021s] removing '/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste-0.0.0-py3.12.egg-info' (and everything under it)
+[6.021s] Copying ../../build/lidar_teste/lidar_teste.egg-info to /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste-0.0.0-py3.12.egg-info
+[6.021s] running install_scripts
+[6.670s] Installing save_lidar script to /home/epiibots/ros2_ws/install/lidar_teste/lib/lidar_teste
+[6.670s] writing list of installed files to '/home/epiibots/ros2_ws/build/lidar_teste/install.log'
+[7.023s] Invoked command in '/home/epiibots/ros2_ws/src/lidar_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data

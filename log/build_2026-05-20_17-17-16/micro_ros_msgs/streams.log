@@ -1,0 +1,203 @@
+[0.452s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[0.682s] [  1%] Built target micro_ros_msgs__rosidl_generator_type_description
+[0.779s] [  3%] Built target micro_ros_msgs__rs
+[0.820s] [  3%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.832s] [  5%] Built target micro_ros_msgs__cpp
+[0.871s] [ 25%] Built target micro_ros_msgs__rosidl_generator_c
+[0.987s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[1.025s] [ 43%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[1.056s] [ 52%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[1.159s] [ 61%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[1.165s] [ 70%] Built target micro_ros_msgs__rosidl_typesupport_c
+[1.191s] [ 80%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[1.281s] [ 80%] Built target micro_ros_msgs
+[1.374s] [ 81%] Built target micro_ros_msgs__py
+[1.489s] [ 89%] Built target micro_ros_msgs__rosidl_generator_py
+[1.719s] [ 92%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c
+[1.722s] [ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c
+[1.740s] [100%] Built target micro_ros_msgs_s__rosidl_typesupport_c
+[1.767s] running egg_info
+[1.842s] writing micro_ros_msgs.egg-info/PKG-INFO
+[1.848s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[1.848s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[2.091s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.092s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[2.303s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[3.286s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[3.295s] Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_msgs
+[3.389s] -- Install configuration: ""
+[3.389s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[3.390s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json
+[3.390s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json
+[3.390s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json
+[3.390s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.391s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.391s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[3.391s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[3.391s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[3.398s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.398s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.398s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c
+[3.400s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[3.401s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[3.401s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[3.401s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[3.401s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c
+[3.402s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[3.402s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[3.402s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[3.402s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[3.403s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[3.408s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[3.408s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[3.409s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[3.409s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[3.409s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c
+[3.409s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[3.410s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[3.411s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[3.411s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[3.415s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[3.415s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.415s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.416s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.416s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.416s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[3.416s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[3.417s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[3.418s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[3.418s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.419s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.419s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.419s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.419s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[3.420s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[3.420s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[3.420s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[3.420s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[3.421s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[3.426s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[3.428s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[3.428s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.428s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.428s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[3.429s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.429s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[3.429s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.429s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp
+[3.430s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[3.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[3.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[3.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp
+[3.431s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp
+[3.432s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[3.432s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[3.432s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[3.432s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[3.438s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[3.438s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[3.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[3.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.439s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[3.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[3.440s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[3.441s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[3.441s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.441s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[3.441s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[3.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[3.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[3.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[3.442s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[3.443s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[3.443s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[3.447s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[3.452s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[3.455s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[3.458s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[3.459s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[3.461s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info
+[3.462s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt
+[3.462s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO
+[3.463s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt
+[3.463s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt
+[3.463s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs
+[3.465s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[3.466s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg
+[3.468s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c
+[3.469s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py
+[3.469s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py
+[3.470s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py
+[3.470s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c
+[3.470s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c
+[3.470s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py
+[3.471s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py
+[3.471s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[3.471s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.473s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[3.474s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.475s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.621s] Listing '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...
+[3.622s] Listing '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...
+[3.646s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so
+[3.648s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so
+[3.649s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so
+[3.650s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[3.651s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rust_packages/micro_ros_msgs
+[3.653s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust
+[3.654s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs
+[3.654s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src
+[3.660s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg
+[3.661s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs
+[3.661s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs
+[3.664s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs
+[3.668s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml
+[3.670s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[3.670s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[3.670s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[3.672s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[3.674s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[3.675s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[3.677s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[3.678s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[3.678s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[3.679s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[3.682s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[3.683s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[3.683s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[3.683s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[3.684s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[3.684s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[3.684s] -- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[3.685s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[3.689s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[3.690s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.693s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.695s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.695s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.695s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.698s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[3.699s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.702s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[3.703s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.704s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.706s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.706s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.707s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[3.710s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.710s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[3.710s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.713s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[3.714s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.718s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.719s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.719s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.722s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.723s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.723s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[3.726s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[3.728s] -- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[3.730s] Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_msgs

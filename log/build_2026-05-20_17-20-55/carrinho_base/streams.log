@@ -1,0 +1,26 @@
+[4.261s] Invoking command in '/home/epiibots/ros2_ws/src/carrinho_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[5.296s] running egg_info
+[5.356s] writing ../../build/carrinho_base/carrinho_base.egg-info/PKG-INFO
+[5.358s] writing dependency_links to ../../build/carrinho_base/carrinho_base.egg-info/dependency_links.txt
+[5.363s] writing entry points to ../../build/carrinho_base/carrinho_base.egg-info/entry_points.txt
+[5.366s] writing requirements to ../../build/carrinho_base/carrinho_base.egg-info/requires.txt
+[5.366s] writing top-level names to ../../build/carrinho_base/carrinho_base.egg-info/top_level.txt
+[5.504s] reading manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+[5.510s] writing manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'
+[5.511s] running build
+[5.511s] running build_py
+[5.512s] copying carrinho_base/motor_control.py -> /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base
+[5.515s] running install
+[5.544s] running install_lib
+[5.626s] copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/motor_control.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base
+[5.630s] byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/motor_control.py to motor_control.cpython-312.pyc
+[5.636s] running install_data
+[5.639s] running install_egg_info
+[5.725s] removing '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info' (and everything under it)
+[5.727s] Copying ../../build/carrinho_base/carrinho_base.egg-info to /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info
+[5.731s] running install_scripts
+[6.237s] Installing checkpoint_player script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[6.240s] Installing checkpoint_recorder script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[6.242s] Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base
+[6.245s] writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_base/install.log'
+[7.110s] Invoked command in '/home/epiibots/ros2_ws/src/carrinho_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data

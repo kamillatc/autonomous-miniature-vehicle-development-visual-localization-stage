@@ -1,0 +1,60 @@
+[0.000000] (-) TimerEvent: {}
+[0.000394] (-) JobUnselected: {'identifier': 'bno055'}
+[0.000681] (-) JobUnselected: {'identifier': 'carrinho_base'}
+[0.000705] (-) JobUnselected: {'identifier': 'controlegeral_carrinho'}
+[0.000724] (-) JobUnselected: {'identifier': 'detector'}
+[0.000741] (-) JobUnselected: {'identifier': 'drive_base_msgs'}
+[0.000759] (-) JobUnselected: {'identifier': 'lidar_teste'}
+[0.000775] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000791] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000807] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000823] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.000842] (servo_steering) JobQueued: {'identifier': 'servo_steering', 'dependencies': OrderedDict()}
+[0.000864] (servo_steering) JobStarted: {'identifier': 'servo_steering'}
+[0.099672] (-) TimerEvent: {}
+[0.199995] (-) TimerEvent: {}
+[0.300329] (-) TimerEvent: {}
+[0.400695] (-) TimerEvent: {}
+[0.500989] (-) TimerEvent: {}
+[0.601275] (-) TimerEvent: {}
+[0.701593] (-) TimerEvent: {}
+[0.801877] (-) TimerEvent: {}
+[0.902165] (-) TimerEvent: {}
+[1.002479] (-) TimerEvent: {}
+[1.102816] (-) TimerEvent: {}
+[1.135519] (servo_steering) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/servo_steering', 'build', '--build-base', '/home/epiibots/ros2_ws/build/servo_steering/build', 'install', '--record', '/home/epiibots/ros2_ws/build/servo_steering/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/servo_steering', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.111 47224 22', 'LC_TIME': 'pt_BR.UTF-8', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/1', 'ROS_PYTHON_VERSION': '3', 'LC_MONETARY': 'pt_BR.UTF-8', 'LC_CTYPE': 'pt_BR.UTF-8', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '6', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'LC_ADDRESS': 'pt_BR.UTF-8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': 'localhost:11.0', 'LANG': 'en_US.UTF-8', 'LC_TELEPHONE': 'pt_BR.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LC_NAME': 'pt_BR.UTF-8', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'pt_BR.UTF-8', 'LC_IDENTIFICATION': 'pt_BR.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/epiibots/ros2_ws/build/servo_steering', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.111 47224 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/servo_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'LC_NUMERIC': 'pt_BR.UTF-8', 'LC_PAPER': 'pt_BR.UTF-8', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.202917] (-) TimerEvent: {}
+[1.303236] (-) TimerEvent: {}
+[1.403523] (-) TimerEvent: {}
+[1.478667] (servo_steering) StdoutLine: {'line': b'running egg_info\n'}
+[1.502551] (servo_steering) StdoutLine: {'line': b'writing ../../build/servo_steering/servo_steering.egg-info/PKG-INFO\n'}
+[1.502932] (servo_steering) StdoutLine: {'line': b'writing dependency_links to ../../build/servo_steering/servo_steering.egg-info/dependency_links.txt\n'}
+[1.503580] (-) TimerEvent: {}
+[1.506844] (servo_steering) StdoutLine: {'line': b'writing entry points to ../../build/servo_steering/servo_steering.egg-info/entry_points.txt\n'}
+[1.508559] (servo_steering) StdoutLine: {'line': b'writing requirements to ../../build/servo_steering/servo_steering.egg-info/requires.txt\n'}
+[1.509495] (servo_steering) StdoutLine: {'line': b'writing top-level names to ../../build/servo_steering/servo_steering.egg-info/top_level.txt\n'}
+[1.560749] (servo_steering) StdoutLine: {'line': b"reading manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'\n"}
+[1.561773] (servo_steering) StdoutLine: {'line': b"writing manifest file '../../build/servo_steering/servo_steering.egg-info/SOURCES.txt'\n"}
+[1.561965] (servo_steering) StdoutLine: {'line': b'running build\n'}
+[1.562082] (servo_steering) StdoutLine: {'line': b'running build_py\n'}
+[1.562439] (servo_steering) StdoutLine: {'line': b'copying servo_steering/servo_node.py -> /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering\n'}
+[1.562832] (servo_steering) StdoutLine: {'line': b'running install\n'}
+[1.571933] (servo_steering) StdoutLine: {'line': b'running install_lib\n'}
+[1.596671] (servo_steering) StdoutLine: {'line': b'copying /home/epiibots/ros2_ws/build/servo_steering/build/lib/servo_steering/servo_node.py -> /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering\n'}
+[1.597613] (servo_steering) StdoutLine: {'line': b'byte-compiling /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering/servo_node.py to servo_node.cpython-312.pyc\n'}
+[1.599002] (servo_steering) StdoutLine: {'line': b'running install_data\n'}
+[1.599178] (servo_steering) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.603652] (-) TimerEvent: {}
+[1.624832] (servo_steering) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info' (and everything under it)\n"}
+[1.625257] (servo_steering) StdoutLine: {'line': b'Copying ../../build/servo_steering/servo_steering.egg-info to /home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages/servo_steering-0.1.0-py3.12.egg-info\n'}
+[1.626449] (servo_steering) StdoutLine: {'line': b'running install_scripts\n'}
+[1.703762] (-) TimerEvent: {}
+[1.791311] (servo_steering) StdoutLine: {'line': b'Installing motor_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering\n'}
+[1.791549] (servo_steering) StdoutLine: {'line': b'Installing servo_node script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering\n'}
+[1.795905] (servo_steering) StdoutLine: {'line': b'Installing teleop_kei script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering\n'}
+[1.796716] (servo_steering) StdoutLine: {'line': b'Installing teleop_key script to /home/epiibots/ros2_ws/install/servo_steering/lib/servo_steering\n'}
+[1.800111] (servo_steering) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/servo_steering/install.log'\n"}
+[1.803865] (-) TimerEvent: {}
+[1.881683] (servo_steering) CommandEnded: {'returncode': 0}
+[1.900059] (servo_steering) JobEnded: {'identifier': 'servo_steering', 'rc': 0}
+[1.901080] (-) EventReactorShutdown: {}

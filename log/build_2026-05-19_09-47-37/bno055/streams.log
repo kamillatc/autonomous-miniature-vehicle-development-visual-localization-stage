@@ -1,0 +1,30 @@
+[3.343s] Invoking command in '/home/epiibots/ros2_ws/build/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/epiibots/ros2_ws/build/bno055/build --no-deps symlink_data
+[3.984s] running develop
+[4.255s] running egg_info
+[4.256s] creating bno055.egg-info
+[4.279s] writing bno055.egg-info/PKG-INFO
+[4.280s] writing dependency_links to bno055.egg-info/dependency_links.txt
+[4.280s] writing entry points to bno055.egg-info/entry_points.txt
+[4.280s] writing requirements to bno055.egg-info/requires.txt
+[4.280s] writing top-level names to bno055.egg-info/top_level.txt
+[4.280s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[4.377s] reading manifest file 'bno055.egg-info/SOURCES.txt'
+[4.377s] writing manifest file 'bno055.egg-info/SOURCES.txt'
+[4.472s] running build_ext
+[4.474s] Creating /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055.egg-link (link to .)
+[4.478s] Installing bno055 script to /home/epiibots/ros2_ws/install/bno055/lib/bno055
+[4.479s] 
+[4.479s] Installed /home/epiibots/ros2_ws/build/bno055
+[4.481s] running symlink_data
+[4.484s] creating /home/epiibots/ros2_ws/install/bno055/share/ament_index
+[4.485s] creating /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index
+[4.485s] creating /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index/packages
+[4.485s] symbolically linking /home/epiibots/ros2_ws/build/bno055/resource/bno055 -> /home/epiibots/ros2_ws/install/bno055/share/ament_index/resource_index/packages
+[4.485s] symbolically linking /home/epiibots/ros2_ws/build/bno055/package.xml -> /home/epiibots/ros2_ws/install/bno055/share/bno055
+[4.486s] creating /home/epiibots/ros2_ws/install/bno055/share/bno055/launch
+[4.486s] symbolically linking /home/epiibots/ros2_ws/build/bno055/launch/bno055.launch.py -> /home/epiibots/ros2_ws/install/bno055/share/bno055/launch
+[4.486s] creating /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[4.486s] symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params_test.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[4.490s] symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[4.491s] symbolically linking /home/epiibots/ros2_ws/build/bno055/bno055/params/bno055_params_i2c.yaml -> /home/epiibots/ros2_ws/install/bno055/share/bno055/config
+[4.931s] Invoked command in '/home/epiibots/ros2_ws/build/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/epiibots/ros2_ws/build/bno055/build --no-deps symlink_data

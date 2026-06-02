@@ -1,0 +1,38 @@
+[3.169s] Invoking command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[3.563s] running egg_info
+[3.564s] creating ../../../../build/lidar_teste/lidar_teste.egg-info
+[3.586s] writing ../../../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO
+[3.586s] writing dependency_links to ../../../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt
+[3.587s] writing entry points to ../../../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt
+[3.588s] writing requirements to ../../../../build/lidar_teste/lidar_teste.egg-info/requires.txt
+[3.588s] writing top-level names to ../../../../build/lidar_teste/lidar_teste.egg-info/top_level.txt
+[3.591s] writing manifest file '../../../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[3.648s] reading manifest file '../../../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[3.649s] adding license file 'LICENSE'
+[3.650s] writing manifest file '../../../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'
+[3.650s] running build
+[3.650s] running build_py
+[3.650s] creating /home/epiibots/ros2_ws/build/lidar_teste/build
+[3.650s] creating /home/epiibots/ros2_ws/build/lidar_teste/build/lib
+[3.650s] creating /home/epiibots/ros2_ws/build/lidar_teste/build/lib/lidar_teste
+[3.651s] copying lidar_teste/__init__.py -> /home/epiibots/ros2_ws/build/lidar_teste/build/lib/lidar_teste
+[3.651s] copying lidar_teste/save_lidar.py -> /home/epiibots/ros2_ws/build/lidar_teste/build/lib/lidar_teste
+[3.651s] running install
+[3.662s] running install_lib
+[3.686s] creating /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste
+[3.686s] copying /home/epiibots/ros2_ws/build/lidar_teste/build/lib/lidar_teste/__init__.py -> /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste
+[3.687s] copying /home/epiibots/ros2_ws/build/lidar_teste/build/lib/lidar_teste/save_lidar.py -> /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste
+[3.688s] byte-compiling /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste/__init__.py to __init__.cpython-312.pyc
+[3.690s] byte-compiling /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste/save_lidar.py to save_lidar.cpython-312.pyc
+[3.694s] running install_data
+[3.695s] creating /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index
+[3.695s] creating /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index/resource_index
+[3.696s] creating /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index/resource_index/packages
+[3.696s] copying resource/lidar_teste -> /home/epiibots/ros2_ws/install/lidar_teste/share/ament_index/resource_index/packages
+[3.696s] copying package.xml -> /home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste
+[3.697s] running install_egg_info
+[3.719s] Copying ../../../../build/lidar_teste/lidar_teste.egg-info to /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste-0.0.0-py3.12.egg-info
+[3.725s] running install_scripts
+[3.933s] Installing save_lidar script to /home/epiibots/ros2_ws/install/lidar_teste/lib/lidar_teste
+[3.935s] writing list of installed files to '/home/epiibots/ros2_ws/build/lidar_teste/install.log'
+[4.102s] Invoked command in '/home/epiibots/ros2_ws/src/autonomous-miniature-vehicle-development-visual-localization-stage/src/lidar_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data

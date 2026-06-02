@@ -1,0 +1,33 @@
+[3.076s] Invoking command in '/home/epiibots/ros2_ws/src/controlegeral_carrinho': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/bno055 CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/sllidar_ros2 DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/controlegeral_carrinho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlegeral_carrinho build --build-base /home/epiibots/ros2_ws/build/controlegeral_carrinho/build install --record /home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log --single-version-externally-managed install_data
+[4.071s] running egg_info
+[4.071s] creating ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info
+[4.128s] writing ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/PKG-INFO
+[4.134s] writing dependency_links to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/dependency_links.txt
+[4.140s] writing requirements to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/requires.txt
+[4.140s] writing top-level names to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/top_level.txt
+[4.140s] writing manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'
+[4.224s] reading manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'
+[4.226s] adding license file 'LICENSE'
+[4.227s] writing manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'
+[4.227s] running build
+[4.227s] running build_py
+[4.228s] creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build
+[4.229s] creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib
+[4.229s] creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho
+[4.232s] copying controlegeral_carrinho/__init__.py -> /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho
+[4.233s] running install
+[4.260s] running install_lib
+[4.296s] creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho
+[4.298s] copying /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho/__init__.py -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho
+[4.301s] byte-compiling /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho/__init__.py to __init__.cpython-312.pyc
+[4.302s] running install_data
+[4.303s] creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index
+[4.304s] creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index
+[4.304s] creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index/packages
+[4.307s] copying resource/controlegeral_carrinho -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index/packages
+[4.308s] copying package.xml -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho
+[4.308s] running install_egg_info
+[4.346s] Copying ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info to /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho-0.0.0-py3.12.egg-info
+[4.347s] running install_scripts
+[4.633s] writing list of installed files to '/home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log'
+[4.774s] Invoked command in '/home/epiibots/ros2_ws/src/controlegeral_carrinho' returned '0': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/bno055 CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/sllidar_ros2 DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/controlegeral_carrinho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlegeral_carrinho build --build-base /home/epiibots/ros2_ws/build/controlegeral_carrinho/build install --record /home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log --single-version-externally-managed install_data

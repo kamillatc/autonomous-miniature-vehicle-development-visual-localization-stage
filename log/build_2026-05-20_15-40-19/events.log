@@ -1,0 +1,941 @@
+[0.000000] (-) TimerEvent: {}
+[0.000689] (bno055) JobQueued: {'identifier': 'bno055', 'dependencies': OrderedDict()}
+[0.001055] (carrinho_base) JobQueued: {'identifier': 'carrinho_base', 'dependencies': OrderedDict()}
+[0.001285] (detector) JobQueued: {'identifier': 'detector', 'dependencies': OrderedDict()}
+[0.001422] (drive_base_msgs) JobQueued: {'identifier': 'drive_base_msgs', 'dependencies': OrderedDict()}
+[0.001464] (lidar_teste) JobQueued: {'identifier': 'lidar_teste', 'dependencies': OrderedDict()}
+[0.001510] (micro_ros_msgs) JobQueued: {'identifier': 'micro_ros_msgs', 'dependencies': OrderedDict()}
+[0.001539] (micro_ros_setup) JobQueued: {'identifier': 'micro_ros_setup', 'dependencies': OrderedDict()}
+[0.001566] (sllidar_ros2) JobQueued: {'identifier': 'sllidar_ros2', 'dependencies': OrderedDict()}
+[0.001858] (controlegeral_carrinho) JobQueued: {'identifier': 'controlegeral_carrinho', 'dependencies': OrderedDict({'bno055': '/home/epiibots/ros2_ws/install/bno055', 'sllidar_ros2': '/home/epiibots/ros2_ws/install/sllidar_ros2'})}
+[0.001975] (micro_ros_agent) JobQueued: {'identifier': 'micro_ros_agent', 'dependencies': OrderedDict({'micro_ros_msgs': '/home/epiibots/ros2_ws/install/micro_ros_msgs'})}
+[0.002020] (bno055) JobStarted: {'identifier': 'bno055'}
+[0.010854] (micro_ros_msgs) JobStarted: {'identifier': 'micro_ros_msgs'}
+[0.013937] (sllidar_ros2) JobStarted: {'identifier': 'sllidar_ros2'}
+[0.017164] (carrinho_base) JobStarted: {'identifier': 'carrinho_base'}
+[0.099730] (-) TimerEvent: {}
+[0.200297] (-) TimerEvent: {}
+[0.300881] (-) TimerEvent: {}
+[0.305169] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'cmake'}
+[0.308208] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'build'}
+[0.309143] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/micro_ros_msgs', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[0.314324] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'cmake'}
+[0.320487] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'build'}
+[0.321884] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/sllidar_ros2', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[0.400991] (-) TimerEvent: {}
+[0.501482] (-) TimerEvent: {}
+[0.562830] (micro_ros_msgs) StdoutLine: {'line': b'[  1%] Built target micro_ros_msgs__rs\n'}
+[0.577976] (micro_ros_msgs) StdoutLine: {'line': b'[  3%] Built target micro_ros_msgs__rosidl_generator_type_description\n'}
+[0.602183] (-) TimerEvent: {}
+[0.617730] (micro_ros_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_micro_ros_msgs\n'}
+[0.630302] (sllidar_ros2) StdoutLine: {'line': b'[ 30%] Built target sllidar_client\n'}
+[0.637220] (sllidar_ros2) StdoutLine: {'line': b'[100%] Built target sllidar_node\n'}
+[0.675230] (micro_ros_msgs) StdoutLine: {'line': b'[ 23%] Built target micro_ros_msgs__rosidl_generator_c\n'}
+[0.681319] (micro_ros_msgs) StdoutLine: {'line': b'[ 25%] Built target micro_ros_msgs__cpp\n'}
+[0.702474] (-) TimerEvent: {}
+[0.729151] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[0.735502] (sllidar_ros2) JobProgress: {'identifier': 'sllidar_ros2', 'progress': 'install'}
+[0.779967] (sllidar_ros2) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/sllidar_ros2'], 'cwd': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[0.781657] (micro_ros_msgs) StdoutLine: {'line': b'[ 34%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.784110] (micro_ros_msgs) StdoutLine: {'line': b'[ 43%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.788151] (micro_ros_msgs) StdoutLine: {'line': b'[ 52%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.802646] (-) TimerEvent: {}
+[0.818177] (sllidar_ros2) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.824256] (sllidar_ros2) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[0.826570] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py\n'}
+[0.827154] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py\n'}
+[0.827673] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py\n'}
+[0.830338] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py\n'}
+[0.830705] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py\n'}
+[0.830882] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py\n'}
+[0.831272] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py\n'}
+[0.837039] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py\n'}
+[0.837399] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py\n'}
+[0.837570] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py\n'}
+[0.837712] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py\n'}
+[0.837861] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py\n'}
+[0.839872] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py\n'}
+[0.841313] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py\n'}
+[0.841532] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py\n'}
+[0.841679] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py\n'}
+[0.841807] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py\n'}
+[0.841940] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py\n'}
+[0.844312] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py\n'}
+[0.845593] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py\n'}
+[0.846661] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py\n'}
+[0.846863] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py\n'}
+[0.846996] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py\n'}
+[0.847177] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py\n'}
+[0.847326] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz\n'}
+[0.852348] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node\n'}
+[0.852763] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client\n'}
+[0.853054] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2\n'}
+[0.853273] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2\n'}
+[0.853434] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh\n'}
+[0.854013] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv\n'}
+[0.859198] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh\n'}
+[0.859614] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv\n'}
+[0.859784] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash\n'}
+[0.859948] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh\n'}
+[0.861420] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh\n'}
+[0.861791] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv\n'}
+[0.863217] (sllidar_ros2) StdoutLine: {'line': b'-- Symlinking: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv\n'}
+[0.898186] (micro_ros_msgs) StdoutLine: {'line': b'[ 69%] Built target micro_ros_msgs__rosidl_typesupport_cpp\n'}
+[0.898723] (micro_ros_msgs) StdoutLine: {'line': b'[ 70%] Built target micro_ros_msgs__rosidl_typesupport_c\n'}
+[0.904207] (-) TimerEvent: {}
+[0.908485] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2\n'}
+[0.909595] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.913353] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.914170] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake\n'}
+[0.919171] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake\n'}
+[0.919627] (sllidar_ros2) StdoutLine: {'line': b'-- Up-to-date symlink: /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.xml\n'}
+[0.927351] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c\n'}
+[0.941262] (sllidar_ros2) CommandEnded: {'returncode': 0}
+[1.001802] (sllidar_ros2) JobEnded: {'identifier': 'sllidar_ros2', 'rc': 0}
+[1.004230] (-) TimerEvent: {}
+[1.006483] (detector) JobStarted: {'identifier': 'detector'}
+[1.032256] (micro_ros_msgs) StdoutLine: {'line': b'[ 80%] Built target micro_ros_msgs\n'}
+[1.104378] (-) TimerEvent: {}
+[1.115539] (micro_ros_msgs) StdoutLine: {'line': b'[ 81%] Built target micro_ros_msgs__py\n'}
+[1.117363] (micro_ros_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.140262] (micro_ros_msgs) StdoutLine: {'line': b'writing micro_ros_msgs.egg-info/PKG-INFO\n'}
+[1.142141] (micro_ros_msgs) StdoutLine: {'line': b'writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt\n'}
+[1.144640] (micro_ros_msgs) StdoutLine: {'line': b'writing top-level names to micro_ros_msgs.egg-info/top_level.txt\n'}
+[1.204495] (-) TimerEvent: {}
+[1.224705] (micro_ros_msgs) StdoutLine: {'line': b'[ 89%] Built target micro_ros_msgs__rosidl_generator_py\n'}
+[1.235169] (micro_ros_msgs) StdoutLine: {'line': b"reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.240164] (micro_ros_msgs) StdoutLine: {'line': b"writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'\n"}
+[1.307197] (-) TimerEvent: {}
+[1.334127] (micro_ros_msgs) StdoutLine: {'line': b'[ 92%] Built target micro_ros_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[1.358328] (micro_ros_msgs) StdoutLine: {'line': b'[ 96%] Built target micro_ros_msgs_s__rosidl_typesupport_c\n'}
+[1.365459] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target micro_ros_msgs_s__rosidl_typesupport_introspection_c\n'}
+[1.391179] (micro_ros_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_micro_ros_msgs_egg\n'}
+[1.407333] (-) TimerEvent: {}
+[1.434736] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[1.436935] (micro_ros_msgs) JobProgress: {'identifier': 'micro_ros_msgs', 'progress': 'install'}
+[1.437422] (micro_ros_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/micro_ros_msgs'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[1.459715] (micro_ros_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.460779] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs\n'}
+[1.462891] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.json\n'}
+[1.464826] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.json\n'}
+[1.467019] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.json\n'}
+[1.468273] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.469406] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.471016] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h\n'}
+[1.473235] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h\n'}
+[1.475034] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h\n'}
+[1.476221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.477274] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.478595] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__description.c\n'}
+[1.479385] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h\n'}
+[1.480371] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h\n'}
+[1.480904] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h\n'}
+[1.481763] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h\n'}
+[1.482754] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__description.c\n'}
+[1.484036] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h\n'}
+[1.484613] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h\n'}
+[1.485064] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c\n'}
+[1.485768] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c\n'}
+[1.486711] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c\n'}
+[1.488045] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h\n'}
+[1.489504] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[1.490988] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h\n'}
+[1.492941] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[1.494440] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__description.c\n'}
+[1.495764] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[1.496938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h\n'}
+[1.497606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh\n'}
+[1.498179] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv\n'}
+[1.498693] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so\n'}
+[1.499191] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.499849] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.500552] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.501600] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.502182] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h\n'}
+[1.502530] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h\n'}
+[1.502748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h\n'}
+[1.502937] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[1.505662] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.506850] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.507507] (-) TimerEvent: {}
+[1.507924] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.508683] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.510361] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h\n'}
+[1.511200] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h\n'}
+[1.511873] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c\n'}
+[1.512554] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h\n'}
+[1.513612] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c\n'}
+[1.514991] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c\n'}
+[1.516052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so\n'}
+[1.517498] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so\n'}
+[1.517949] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.519505] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.521614] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp\n'}
+[1.523169] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[1.524965] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp\n'}
+[1.526387] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.527632] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.hpp\n'}
+[1.528495] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp\n'}
+[1.528674] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp\n'}
+[1.528812] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp\n'}
+[1.528943] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.hpp\n'}
+[1.531118] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.hpp\n'}
+[1.534500] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp\n'}
+[1.534713] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp\n'}
+[1.534850] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp\n'}
+[1.534980] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp\n'}
+[1.535135] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp\n'}
+[1.535288] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp\n'}
+[1.535424] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp\n'}
+[1.535553] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.535684] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.535819] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.535945] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.537437] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.538435] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.539220] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.539905] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps\n'}
+[1.541177] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.542178] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs\n'}
+[1.543221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg\n'}
+[1.544051] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail\n'}
+[1.545027] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp\n'}
+[1.546068] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.546910] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp\n'}
+[1.547748] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.547951] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.548186] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp\n'}
+[1.548334] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[1.548470] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so\n'}
+[1.548601] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh\n'}
+[1.548733] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv\n'}
+[1.548860] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info\n'}
+[1.548989] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/top_level.txt\n'}
+[1.550016] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/PKG-INFO\n'}
+[1.550916] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/SOURCES.txt\n'}
+[1.551936] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs-5.0.2-py3.12.egg-info/dependency_links.txt\n'}
+[1.552847] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs\n'}
+[1.553741] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[1.554667] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg\n'}
+[1.555567] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity_s.c\n'}
+[1.556326] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/__init__.py\n'}
+[1.557299] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_entity.py\n'}
+[1.558393] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph.py\n'}
+[1.559052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node_s.c\n'}
+[1.559305] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_graph_s.c\n'}
+[1.559466] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg/_node.py\n'}
+[1.559606] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/__init__.py\n'}
+[1.559726] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[1.559857] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.559994] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[1.560168] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[1.560317] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.610166] (-) TimerEvent: {}
+[1.713338] (-) TimerEvent: {}
+[1.815561] (-) TimerEvent: {}
+[1.917284] (-) TimerEvent: {}
+[1.997191] (bno055) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/bno055', 'build', '--build-base', '/home/epiibots/ros2_ws/build/bno055/build', 'install', '--record', '/home/epiibots/ros2_ws/build/bno055/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/bno055', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/bno055', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:'}, 'shell': False}
+[2.028217] (-) TimerEvent: {}
+[2.049988] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs'...\n"}
+[2.050413] (micro_ros_msgs) StdoutLine: {'line': b"Listing '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/msg'...\n"}
+[2.087949] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[2.104102] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[2.110211] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.so\n'}
+[2.117378] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so\n'}
+[2.117763] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/rust_packages/micro_ros_msgs\n'}
+[2.117938] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust\n'}
+[2.118119] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/build.rs\n'}
+[2.118318] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src\n'}
+[2.118493] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg\n'}
+[2.118641] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg/rmw.rs\n'}
+[2.118784] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/lib.rs\n'}
+[2.118927] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/src/msg.rs\n'}
+[2.119071] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/rust/Cargo.toml\n'}
+[2.122713] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl\n'}
+[2.122904] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl\n'}
+[2.123052] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl\n'}
+[2.123240] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg\n'}
+[2.123451] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg\n'}
+[2.123642] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg\n'}
+[2.123792] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs\n'}
+[2.126568] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs\n'}
+[2.128405] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh\n'}
+[2.128756] (-) TimerEvent: {}
+[2.128949] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv\n'}
+[2.130709] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh\n'}
+[2.132875] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv\n'}
+[2.137772] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash\n'}
+[2.139393] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh\n'}
+[2.139726] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh\n'}
+[2.139905] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv\n'}
+[2.140103] (micro_ros_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv\n'}
+[2.141302] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs\n'}
+[2.141655] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake\n'}
+[2.141795] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.141920] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.142032] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.150244] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.150590] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.154519] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.156221] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.156666] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.164513] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.164967] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.165250] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.166213] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.171206] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.171634] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.173550] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.173859] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.174012] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.176042] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.176492] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.176691] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.176856] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.179574] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.179804] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.179958] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake\n'}
+[2.180114] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake\n'}
+[2.180277] (micro_ros_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.xml\n'}
+[2.193163] (micro_ros_msgs) CommandEnded: {'returncode': 0}
+[2.234162] (-) TimerEvent: {}
+[2.318388] (micro_ros_msgs) JobEnded: {'identifier': 'micro_ros_msgs', 'rc': 0}
+[2.319717] (drive_base_msgs) JobStarted: {'identifier': 'drive_base_msgs'}
+[2.334301] (-) TimerEvent: {}
+[2.337763] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'cmake'}
+[2.353874] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'build'}
+[2.354179] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/drive_base_msgs', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/drive_base_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/drive_base_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[2.434458] (-) TimerEvent: {}
+[2.536170] (-) TimerEvent: {}
+[2.556286] (bno055) StdoutLine: {'line': b'running egg_info\n'}
+[2.573737] (carrinho_base) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/carrinho_base', 'build', '--build-base', '/home/epiibots/ros2_ws/build/carrinho_base/build', 'install', '--record', '/home/epiibots/ros2_ws/build/carrinho_base/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/carrinho_base', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/carrinho_base', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:'}, 'shell': False}
+[2.600700] (bno055) StdoutLine: {'line': b'writing ../../build/bno055/bno055.egg-info/PKG-INFO\n'}
+[2.609660] (bno055) StdoutLine: {'line': b'writing dependency_links to ../../build/bno055/bno055.egg-info/dependency_links.txt\n'}
+[2.617616] (bno055) StdoutLine: {'line': b'writing entry points to ../../build/bno055/bno055.egg-info/entry_points.txt\n'}
+[2.619371] (bno055) StdoutLine: {'line': b'writing requirements to ../../build/bno055/bno055.egg-info/requires.txt\n'}
+[2.620561] (bno055) StdoutLine: {'line': b'writing top-level names to ../../build/bno055/bno055.egg-info/top_level.txt\n'}
+[2.638217] (-) TimerEvent: {}
+[2.722145] (drive_base_msgs) StdoutLine: {'line': b'[  1%] Built target drive_base_msgs__rosidl_generator_type_description\n'}
+[2.723423] (drive_base_msgs) StdoutLine: {'line': b'[  3%] Built target drive_base_msgs__rs\n'}
+[2.738394] (-) TimerEvent: {}
+[2.823690] (drive_base_msgs) StdoutLine: {'line': b'[  3%] Built target ament_cmake_python_copy_drive_base_msgs\n'}
+[2.839181] (-) TimerEvent: {}
+[2.864980] (drive_base_msgs) StdoutLine: {'line': b'[  4%] Built target drive_base_msgs__cpp\n'}
+[2.915172] (bno055) StdoutLine: {'line': b"reading manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[2.921561] (bno055) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[2.921814] (bno055) StdoutLine: {'line': b"adding license file 'AUTHORS'\n"}
+[2.932290] (bno055) StdoutLine: {'line': b"writing manifest file '../../build/bno055/bno055.egg-info/SOURCES.txt'\n"}
+[2.932692] (bno055) StdoutLine: {'line': b'running build\n'}
+[2.932874] (bno055) StdoutLine: {'line': b'running build_py\n'}
+[2.941249] (bno055) StdoutLine: {'line': b'running install\n'}
+[2.941640] (-) TimerEvent: {}
+[2.987314] (bno055) StdoutLine: {'line': b'running install_lib\n'}
+[3.027176] (drive_base_msgs) StdoutLine: {'line': b'[ 26%] Built target drive_base_msgs__rosidl_generator_c\n'}
+[3.044184] (-) TimerEvent: {}
+[3.154215] (-) TimerEvent: {}
+[3.234260] (bno055) StdoutLine: {'line': b'running install_data\n'}
+[3.234605] (bno055) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.242895] (drive_base_msgs) StdoutLine: {'line': b'[ 35%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.254398] (-) TimerEvent: {}
+[3.297033] (drive_base_msgs) StdoutLine: {'line': b'[ 44%] Built target drive_base_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.329573] (drive_base_msgs) StdoutLine: {'line': b'[ 53%] Built target drive_base_msgs__rosidl_typesupport_cpp\n'}
+[3.355184] (-) TimerEvent: {}
+[3.421468] (bno055) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info' (and everything under it)\n"}
+[3.422404] (bno055) StdoutLine: {'line': b'Copying ../../build/bno055/bno055.egg-info to /home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages/bno055-0.5.0-py3.12.egg-info\n'}
+[3.428988] (bno055) StdoutLine: {'line': b'running install_scripts\n'}
+[3.458210] (-) TimerEvent: {}
+[3.532195] (drive_base_msgs) StdoutLine: {'line': b'[ 63%] Built target drive_base_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.538253] (drive_base_msgs) StdoutLine: {'line': b'[ 72%] Built target drive_base_msgs__rosidl_typesupport_introspection_c\n'}
+[3.547532] (drive_base_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[3.557072] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs__rosidl_typesupport_c\n'}
+[3.558324] (-) TimerEvent: {}
+[3.575205] (drive_base_msgs) StdoutLine: {'line': b'writing drive_base_msgs.egg-info/PKG-INFO\n'}
+[3.580489] (drive_base_msgs) StdoutLine: {'line': b'writing dependency_links to drive_base_msgs.egg-info/dependency_links.txt\n'}
+[3.582188] (drive_base_msgs) StdoutLine: {'line': b'writing top-level names to drive_base_msgs.egg-info/top_level.txt\n'}
+[3.658450] (-) TimerEvent: {}
+[3.675253] (carrinho_base) StdoutLine: {'line': b'running egg_info\n'}
+[3.681170] (drive_base_msgs) StdoutLine: {'line': b'[ 81%] Built target drive_base_msgs\n'}
+[3.702243] (carrinho_base) StdoutLine: {'line': b'writing ../../build/carrinho_base/carrinho_base.egg-info/PKG-INFO\n'}
+[3.702556] (carrinho_base) StdoutLine: {'line': b'writing dependency_links to ../../build/carrinho_base/carrinho_base.egg-info/dependency_links.txt\n'}
+[3.712312] (carrinho_base) StdoutLine: {'line': b'writing entry points to ../../build/carrinho_base/carrinho_base.egg-info/entry_points.txt\n'}
+[3.712790] (carrinho_base) StdoutLine: {'line': b'writing requirements to ../../build/carrinho_base/carrinho_base.egg-info/requires.txt\n'}
+[3.712982] (carrinho_base) StdoutLine: {'line': b'writing top-level names to ../../build/carrinho_base/carrinho_base.egg-info/top_level.txt\n'}
+[3.763166] (-) TimerEvent: {}
+[3.764027] (drive_base_msgs) StdoutLine: {'line': b"reading manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[3.772217] (drive_base_msgs) StdoutLine: {'line': b"writing manifest file 'drive_base_msgs.egg-info/SOURCES.txt'\n"}
+[3.786873] (bno055) StdoutLine: {'line': b'Installing bno055 script to /home/epiibots/ros2_ws/install/bno055/lib/bno055\n'}
+[3.793154] (drive_base_msgs) StdoutLine: {'line': b'[ 83%] Built target drive_base_msgs__py\n'}
+[3.798258] (bno055) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/bno055/install.log'\n"}
+[3.828321] (carrinho_base) StdoutLine: {'line': b"reading manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'\n"}
+[3.835293] (carrinho_base) StdoutLine: {'line': b"writing manifest file '../../build/carrinho_base/carrinho_base.egg-info/SOURCES.txt'\n"}
+[3.835664] (carrinho_base) StdoutLine: {'line': b'running build\n'}
+[3.835838] (carrinho_base) StdoutLine: {'line': b'running build_py\n'}
+[3.835997] (carrinho_base) StdoutLine: {'line': b'copying carrinho_base/checkpoint_recorder.py -> /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base\n'}
+[3.847309] (carrinho_base) StdoutLine: {'line': b'running install\n'}
+[3.892215] (carrinho_base) StdoutLine: {'line': b'running install_lib\n'}
+[3.892716] (-) TimerEvent: {}
+[3.892923] (carrinho_base) StdoutLine: {'line': b'copying /home/epiibots/ros2_ws/build/carrinho_base/build/lib/carrinho_base/checkpoint_recorder.py -> /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base\n'}
+[3.893634] (carrinho_base) StdoutLine: {'line': b'byte-compiling /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base/checkpoint_recorder.py to checkpoint_recorder.cpython-312.pyc\n'}
+[3.893950] (carrinho_base) StdoutLine: {'line': b'running install_data\n'}
+[3.897287] (carrinho_base) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.926437] (bno055) CommandEnded: {'returncode': 0}
+[3.956260] (carrinho_base) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[3.956618] (carrinho_base) StdoutLine: {'line': b'Copying ../../build/carrinho_base/carrinho_base.egg-info to /home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages/carrinho_base-0.0.0-py3.12.egg-info\n'}
+[3.956832] (drive_base_msgs) StdoutLine: {'line': b'[ 90%] Built target drive_base_msgs__rosidl_generator_py\n'}
+[3.992446] (carrinho_base) StdoutLine: {'line': b'running install_scripts\n'}
+[3.992806] (-) TimerEvent: {}
+[4.097253] (bno055) JobEnded: {'identifier': 'bno055', 'rc': 0}
+[4.099936] (-) TimerEvent: {}
+[4.100167] (lidar_teste) JobStarted: {'identifier': 'lidar_teste'}
+[4.100280] (drive_base_msgs) StdoutLine: {'line': b'[ 93%] Built target drive_base_msgs_s__rosidl_typesupport_introspection_c\n'}
+[4.204197] (drive_base_msgs) StdoutLine: {'line': b'[ 96%] Built target drive_base_msgs_s__rosidl_typesupport_fastrtps_c\n'}
+[4.205122] (-) TimerEvent: {}
+[4.222262] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target drive_base_msgs_s__rosidl_typesupport_c\n'}
+[4.241032] (drive_base_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_drive_base_msgs_egg\n'}
+[4.308137] (-) TimerEvent: {}
+[4.333662] (carrinho_base) StdoutLine: {'line': b'Installing checkpoint_player script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[4.380504] (carrinho_base) StdoutLine: {'line': b'Installing checkpoint_recorder script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[4.381068] (carrinho_base) StdoutLine: {'line': b'Installing motor_control script to /home/epiibots/ros2_ws/install/carrinho_base/lib/carrinho_base\n'}
+[4.383603] (carrinho_base) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_base/install.log'\n"}
+[4.410307] (-) TimerEvent: {}
+[4.523190] (-) TimerEvent: {}
+[4.623705] (-) TimerEvent: {}
+[4.724244] (-) TimerEvent: {}
+[4.824767] (-) TimerEvent: {}
+[4.883916] (detector) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/detector', 'build', '--build-base', '/home/epiibots/ros2_ws/build/detector/build', 'install', '--record', '/home/epiibots/ros2_ws/build/detector/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/detector', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/detector', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:'}, 'shell': False}
+[4.892544] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[4.898556] (drive_base_msgs) JobProgress: {'identifier': 'drive_base_msgs', 'progress': 'install'}
+[4.899202] (drive_base_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/drive_base_msgs'], 'cwd': '/home/epiibots/ros2_ws/build/drive_base_msgs', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/drive_base_msgs', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[4.910221] (carrinho_base) CommandEnded: {'returncode': 0}
+[4.924897] (-) TimerEvent: {}
+[4.956293] (carrinho_base) JobEnded: {'identifier': 'carrinho_base', 'rc': 0}
+[4.957209] (micro_ros_setup) JobStarted: {'identifier': 'micro_ros_setup'}
+[4.957362] (drive_base_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.957676] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rosidl_interfaces/drive_base_msgs\n'}
+[4.957909] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.json\n'}
+[4.958154] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.json\n'}
+[4.958397] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.json\n'}
+[4.958591] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.json\n'}
+[4.958772] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[4.958965] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[4.962608] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.h\n'}
+[4.962863] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.h\n'}
+[4.963038] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.h\n'}
+[4.963255] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.963426] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[4.963569] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.c\n'}
+[4.963730] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.h\n'}
+[4.963924] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.c\n'}
+[4.974281] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.h\n'}
+[4.974704] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__description.c\n'}
+[4.974888] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__functions.h\n'}
+[4.975056] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.h\n'}
+[4.975282] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c\n'}
+[4.975448] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.c\n'}
+[4.975643] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__description.c\n'}
+[4.975866] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.h\n'}
+[4.976123] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__functions.c\n'}
+[4.976337] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.h\n'}
+[4.976509] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.h\n'}
+[4.976687] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__functions.h\n'}
+[4.976839] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.h\n'}
+[4.976999] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c\n'}
+[4.980791] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__description.c\n'}
+[4.982233] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c\n'}
+[4.982606] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__functions.h\n'}
+[4.982783] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__description.c\n'}
+[4.982950] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.h\n'}
+[4.987790] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c\n'}
+[4.988183] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.h\n'}
+[4.988426] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.h\n'}
+[4.988639] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.sh\n'}
+[4.988810] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/library_path.dsv\n'}
+[4.988985] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_c.so\n'}
+[4.989170] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[4.989373] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[4.989620] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.989819] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[4.989995] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_c.h\n'}
+[4.995037] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_c.h\n'}
+[4.995385] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_c.h\n'}
+[4.995596] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.995749] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.995903] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[4.996121] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[4.996368] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/base_info.hpp\n'}
+[4.996551] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_header.hpp\n'}
+[4.996748] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.996959] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/trv_command.hpp\n'}
+[5.002734] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[5.002934] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__struct.hpp\n'}
+[5.003108] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__builder.hpp\n'}
+[5.003293] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__builder.hpp\n'}
+[5.003484] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__traits.hpp\n'}
+[5.003673] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__struct.hpp\n'}
+[5.003849] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.hpp\n'}
+[5.004006] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__traits.hpp\n'}
+[5.004199] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__builder.hpp\n'}
+[5.004376] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.hpp\n'}
+[5.004510] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.hpp\n'}
+[5.004639] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.hpp\n'}
+[5.004760] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__struct.hpp\n'}
+[5.004885] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__traits.hpp\n'}
+[5.005014] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__struct.hpp\n'}
+[5.009017] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__traits.hpp\n'}
+[5.015513] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__builder.hpp\n'}
+[5.015777] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/command_status.hpp\n'}
+[5.015980] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[5.016243] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[5.016444] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[5.016587] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[5.016747] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.016929] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.018984] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.019460] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/dds_fastrtps\n'}
+[5.019689] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[5.019882] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[5.020045] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[5.022497] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[5.022681] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[5.022817] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[5.022953] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_c.h\n'}
+[5.023101] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.c\n'}
+[5.023277] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_c.h\n'}
+[5.023413] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_c.h\n'}
+[5.023530] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.c\n'}
+[5.023651] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.c\n'}
+[5.023774] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.c\n'}
+[5.023893] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_c.h\n'}
+[5.024011] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'cmake'}
+[5.024042] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_c.so\n'}
+[5.033063] (-) TimerEvent: {}
+[5.033367] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_c.so\n'}
+[5.033635] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs\n'}
+[5.033797] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg\n'}
+[5.033945] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail\n'}
+[5.034153] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__type_support.cpp\n'}
+[5.034336] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.034466] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/base_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.034586] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/trv_command__type_support.cpp\n'}
+[5.034705] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.034825] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[5.034948] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_header__type_support.cpp\n'}
+[5.035072] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/include/drive_base_msgs/drive_base_msgs/msg/detail/command_status__type_support.cpp\n'}
+[5.046908] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'build'}
+[5.046973] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/micro_ros_setup', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_setup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[5.048378] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[5.048652] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_typesupport_cpp.so\n'}
+[5.048829] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.sh\n'}
+[5.048973] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/pythonpath.dsv\n'}
+[5.049234] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info\n'}
+[5.049448] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[5.049636] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[5.049781] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[5.049943] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[5.051395] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs\n'}
+[5.051681] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg\n'}
+[5.051855] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header_s.c\n'}
+[5.052008] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command.py\n'}
+[5.055555] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_trv_command_s.c\n'}
+[5.055780] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/__init__.py\n'}
+[5.055966] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info.py\n'}
+[5.056225] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status.py\n'}
+[5.056401] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_header.py\n'}
+[5.056545] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_base_info_s.c\n'}
+[5.056724] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg/_command_status_s.c\n'}
+[5.056922] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/__init__.py\n'}
+[5.057071] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[5.057269] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.057388] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[5.057501] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/_drive_base_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[5.057621] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.057764] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so\n'}
+[5.143212] (-) TimerEvent: {}
+[5.245175] (-) TimerEvent: {}
+[5.271486] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[5.278333] (micro_ros_setup) JobProgress: {'identifier': 'micro_ros_setup', 'progress': 'install'}
+[5.282295] (micro_ros_setup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/micro_ros_setup'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_setup', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_setup', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1'}), 'shell': False}
+[5.319819] (micro_ros_setup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.322252] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/package_run_dependencies/micro_ros_setup\n'}
+[5.322683] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/parent_prefix_path/micro_ros_setup\n'}
+[5.322875] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.sh\n'}
+[5.325733] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/ament_prefix_path.dsv\n'}
+[5.327759] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.sh\n'}
+[5.327966] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/environment/path.dsv\n'}
+[5.330904] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.bash\n'}
+[5.337578] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.sh\n'}
+[5.337866] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.zsh\n'}
+[5.338145] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/local_setup.dsv\n'}
+[5.338595] (micro_ros_setup) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv\n'}
+[5.338764] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs'...\n"}
+[5.338961] (drive_base_msgs) StdoutLine: {'line': b"Listing '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/msg'...\n"}
+[5.339182] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/ament_index/resource_index/packages/micro_ros_setup\n'}
+[5.339392] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig.cmake\n'}
+[5.339560] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/cmake/micro_ros_setupConfig-version.cmake\n'}
+[5.339715] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.xml\n'}
+[5.339855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config\n'}
+[5.339989] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib\n'}
+[5.347448] (-) TimerEvent: {}
+[5.347665] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic\n'}
+[5.347929] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/create.sh\n'}
+[5.353951] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/package.xml\n'}
+[5.354219] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/flash.sh\n'}
+[5.354371] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/build.sh\n'}
+[5.354515] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/demo_toolchain.cmake\n'}
+[5.354657] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client-colcon.meta\n'}
+[5.354779] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/generic/client_uros_packages.repos\n'}
+[5.354902] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_uros_packages.repos\n'}
+[5.355019] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/generate_lib/dev_ros2_packages.txt\n'}
+[5.369501] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian\n'}
+[5.369716] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic\n'}
+[5.369864] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/supported_platforms\n'}
+[5.370001] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/create.sh\n'}
+[5.370250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/flash.sh\n'}
+[5.370435] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/build.sh\n'}
+[5.370581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client-colcon.meta\n'}
+[5.370714] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/client_uros_packages.repos\n'}
+[5.370843] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/generic/configure.sh\n'}
+[5.370976] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_uros_packages.repos\n'}
+[5.371160] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/raspbian/dev_ros2_packages.txt\n'}
+[5.382504] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/agent_uros_packages.repos\n'}
+[5.382737] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/utils.sh\n'}
+[5.382895] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/client_ros2_packages.txt\n'}
+[5.383035] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr\n'}
+[5.383216] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic\n'}
+[5.383376] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/supported_platforms\n'}
+[5.383518] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/board.repos\n'}
+[5.383659] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/create.sh\n'}
+[5.383793] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/package.xml\n'}
+[5.383916] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/flash.sh\n'}
+[5.384044] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/build.sh\n'}
+[5.384229] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client-colcon.meta\n'}
+[5.384391] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/client_uros_packages.repos\n'}
+[5.384551] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/generic/configure.sh\n'}
+[5.384701] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_uros_packages.repos\n'}
+[5.384855] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/list_apps.sh\n'}
+[5.385010] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/zephyr/dev_ros2_packages.txt\n'}
+[5.395425] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos\n'}
+[5.395614] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32\n'}
+[5.395746] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/README.md\n'}
+[5.395884] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/board.repos\n'}
+[5.396016] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/create.sh\n'}
+[5.403177] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/package.xml\n'}
+[5.403490] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/flash.sh\n'}
+[5.403638] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/build.sh\n'}
+[5.403775] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client-colcon.meta\n'}
+[5.403903] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/client_uros_packages.repos\n'}
+[5.404044] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/esp32/configure.sh\n'}
+[5.407511] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21\n'}
+[5.407766] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/board.repos\n'}
+[5.407948] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/create.sh\n'}
+[5.408151] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/package.xml\n'}
+[5.408326] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/flash.sh\n'}
+[5.408455] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/build.sh\n'}
+[5.408619] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client-colcon.meta\n'}
+[5.408753] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/client_uros_packages.repos\n'}
+[5.408889] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/crazyflie21/configure.sh\n'}
+[5.409017] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze\n'}
+[5.414818] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/board.repos\n'}
+[5.415046] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/create.sh\n'}
+[5.418018] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/package.xml\n'}
+[5.418246] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/flash.sh\n'}
+[5.418392] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/build.sh\n'}
+[5.418567] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client-colcon.meta\n'}
+[5.418706] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/client_uros_packages.repos\n'}
+[5.418845] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446ze/configure.sh\n'}
+[5.418981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/dev_uros_packages.repos\n'}
+[5.428015] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/list_apps.sh\n'}
+[5.428363] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi\n'}
+[5.428543] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/board.repos\n'}
+[5.428687] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/create.sh\n'}
+[5.428831] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/package.xml\n'}
+[5.428962] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/flash.sh\n'}
+[5.432194] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/build.sh\n'}
+[5.432581] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client-colcon.meta\n'}
+[5.432724] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/client_uros_packages.repos\n'}
+[5.432851] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f767zi/configure.sh\n'}
+[5.432965] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg\n'}
+[5.433979] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/board.repos\n'}
+[5.443649] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/create.sh\n'}
+[5.443827] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/package.xml\n'}
+[5.443992] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/flash.sh\n'}
+[5.444183] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/build.sh\n'}
+[5.444319] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client-colcon.meta\n'}
+[5.444443] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/client_uros_packages.repos\n'}
+[5.444570] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f746zg/configure.sh\n'}
+[5.444699] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407\n'}
+[5.444844] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/board.repos\n'}
+[5.444980] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/create.sh\n'}
+[5.449986] (-) TimerEvent: {}
+[5.450235] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/package.xml\n'}
+[5.450553] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/flash.sh\n'}
+[5.450734] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/build.sh\n'}
+[5.450896] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client-colcon.meta\n'}
+[5.451036] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/client_uros_packages.repos\n'}
+[5.451204] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/olimex-stm32-e407/configure.sh\n'}
+[5.451347] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re\n'}
+[5.451478] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/board.repos\n'}
+[5.451603] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/create.sh\n'}
+[5.451736] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/package.xml\n'}
+[5.451859] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/flash.sh\n'}
+[5.451981] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/build.sh\n'}
+[5.471019] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client-colcon.meta\n'}
+[5.471313] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/client_uros_packages.repos\n'}
+[5.471489] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/nucleo_f446re/configure.sh\n'}
+[5.471662] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/freertos/dev_ros2_packages.txt\n'}
+[5.471801] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host\n'}
+[5.471931] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic\n'}
+[5.472061] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/create.sh\n'}
+[5.472234] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/package.xml\n'}
+[5.472373] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/flash.sh\n'}
+[5.472498] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/client_host_packages.repos\n'}
+[5.472625] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/build.sh\n'}
+[5.472755] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/generic/client-host-colcon.meta\n'}
+[5.472880] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/client_ros2_packages.txt\n'}
+[5.473006] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/dev_uros_packages.repos\n'}
+[5.476378] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/host/dev_ros2_packages.txt\n'}
+[5.490115] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android\n'}
+[5.490333] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic\n'}
+[5.490480] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/create.sh\n'}
+[5.490604] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/package.xml\n'}
+[5.490748] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/flash.sh\n'}
+[5.490913] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/build.sh\n'}
+[5.491431] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/client-colcon.meta\n'}
+[5.491699] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/generic/client_uros_packages.repos\n'}
+[5.491894] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/dev_uros_packages.repos\n'}
+[5.492058] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/android/dev_ros2_packages.txt\n'}
+[5.492250] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/agent_ros2_packages.txt\n'}
+[5.492398] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/./config/client_uros_packages.repos\n'}
+[5.492542] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_ws.sh\n'}
+[5.492673] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_agent_ws.sh\n'}
+[5.492813] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/create_firmware_ws.sh\n'}
+[5.493010] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/configure_firmware.sh\n'}
+[5.505509] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/flash_firmware.sh\n'}
+[5.505757] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_firmware.sh\n'}
+[5.505929] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/build_agent.sh\n'}
+[5.506117] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/yaml_filter.py\n'}
+[5.506308] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/clean_env.sh\n'}
+[5.506458] (micro_ros_setup) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_setup/lib/micro_ros_setup/component\n'}
+[5.506597] (micro_ros_setup) CommandEnded: {'returncode': 0}
+[5.506966] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_fastrtps_c.so\n'}
+[5.507184] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_introspection_c.so\n'}
+[5.507346] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages/drive_base_msgs/drive_base_msgs_s__rosidl_typesupport_c.so\n'}
+[5.507491] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/lib/libdrive_base_msgs__rosidl_generator_py.so\n'}
+[5.507631] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/rust_packages/drive_base_msgs\n'}
+[5.507773] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust\n'}
+[5.507951] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/build.rs\n'}
+[5.526099] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src\n'}
+[5.532672] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg\n'}
+[5.533734] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg/rmw.rs\n'}
+[5.533926] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/lib.rs\n'}
+[5.534065] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/src/msg.rs\n'}
+[5.534251] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/rust/Cargo.toml\n'}
+[5.534400] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.idl\n'}
+[5.534530] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.idl\n'}
+[5.534653] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.idl\n'}
+[5.534780] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.idl\n'}
+[5.534932] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandHeader.msg\n'}
+[5.535062] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/BaseInfo.msg\n'}
+[5.539626] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/CommandStatus.msg\n'}
+[5.543646] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/msg/TRVCommand.msg\n'}
+[5.545549] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/package_run_dependencies/drive_base_msgs\n'}
+[5.545725] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/parent_prefix_path/drive_base_msgs\n'}
+[5.550588] (-) TimerEvent: {}
+[5.550820] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.sh\n'}
+[5.551074] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/ament_prefix_path.dsv\n'}
+[5.551285] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.sh\n'}
+[5.551438] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/environment/path.dsv\n'}
+[5.551586] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.bash\n'}
+[5.551732] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.sh\n'}
+[5.551876] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.zsh\n'}
+[5.552051] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/local_setup.dsv\n'}
+[5.557292] (drive_base_msgs) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv\n'}
+[5.557557] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/ament_index/resource_index/packages/drive_base_msgs\n'}
+[5.557781] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport.cmake\n'}
+[5.557975] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[5.568436] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[5.568698] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[5.568874] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_cppExport.cmake\n'}
+[5.569020] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[5.569192] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[5.569353] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[5.569506] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[5.569637] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport.cmake\n'}
+[5.569772] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[5.569896] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[5.570022] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[5.570180] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[5.570317] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[5.570433] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport.cmake\n'}
+[5.570549] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/export_drive_base_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[5.570692] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[5.570841] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[5.570994] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[5.576014] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[5.576226] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[5.576360] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[5.576486] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[5.576608] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig.cmake\n'}
+[5.576730] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/cmake/drive_base_msgsConfig-version.cmake\n'}
+[5.576848] (drive_base_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.xml\n'}
+[5.585439] (micro_ros_setup) JobEnded: {'identifier': 'micro_ros_setup', 'rc': 0}
+[5.588201] (controlegeral_carrinho) JobStarted: {'identifier': 'controlegeral_carrinho'}
+[5.604249] (drive_base_msgs) CommandEnded: {'returncode': 0}
+[5.633037] (detector) StdoutLine: {'line': b'running egg_info\n'}
+[5.653167] (-) TimerEvent: {}
+[5.684237] (detector) StdoutLine: {'line': b'writing ../../build/detector/detector.egg-info/PKG-INFO\n'}
+[5.684577] (detector) StdoutLine: {'line': b'writing dependency_links to ../../build/detector/detector.egg-info/dependency_links.txt\n'}
+[5.684744] (detector) StdoutLine: {'line': b'writing entry points to ../../build/detector/detector.egg-info/entry_points.txt\n'}
+[5.685946] (detector) StdoutLine: {'line': b'writing requirements to ../../build/detector/detector.egg-info/requires.txt\n'}
+[5.686391] (detector) StdoutLine: {'line': b'writing top-level names to ../../build/detector/detector.egg-info/top_level.txt\n'}
+[5.724815] (drive_base_msgs) JobEnded: {'identifier': 'drive_base_msgs', 'rc': 0}
+[5.726246] (micro_ros_agent) JobStarted: {'identifier': 'micro_ros_agent'}
+[5.756168] (-) TimerEvent: {}
+[5.806231] (detector) StdoutLine: {'line': b"reading manifest file '../../build/detector/detector.egg-info/SOURCES.txt'\n"}
+[5.807450] (detector) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[5.811610] (detector) StdoutLine: {'line': b"writing manifest file '../../build/detector/detector.egg-info/SOURCES.txt'\n"}
+[5.812121] (detector) StdoutLine: {'line': b'running build\n'}
+[5.812423] (detector) StdoutLine: {'line': b'running build_py\n'}
+[5.819621] (detector) StdoutLine: {'line': b'running install\n'}
+[5.858168] (-) TimerEvent: {}
+[5.865538] (detector) StdoutLine: {'line': b'running install_lib\n'}
+[5.918280] (detector) StdoutLine: {'line': b'running install_data\n'}
+[5.918689] (detector) StdoutLine: {'line': b'running install_egg_info\n'}
+[5.958299] (-) TimerEvent: {}
+[6.012691] (detector) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[6.016156] (detector) StdoutLine: {'line': b'Copying ../../build/detector/detector.egg-info to /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector-0.0.0-py3.12.egg-info\n'}
+[6.025532] (detector) StdoutLine: {'line': b'running install_scripts\n'}
+[6.058407] (-) TimerEvent: {}
+[6.158878] (-) TimerEvent: {}
+[6.259501] (-) TimerEvent: {}
+[6.360060] (-) TimerEvent: {}
+[6.433780] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'cmake'}
+[6.441151] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'build'}
+[6.441296] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/epiibots/ros2_ws/build/micro_ros_agent', '--', '-j4', '-l4'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs'}), 'shell': False}
+[6.461174] (-) TimerEvent: {}
+[6.567452] (-) TimerEvent: {}
+[6.686189] (-) TimerEvent: {}
+[6.708219] (detector) StdoutLine: {'line': b'Installing apriltags script to /home/epiibots/ros2_ws/install/detector/lib/detector\n'}
+[6.716128] (detector) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/detector/install.log'\n"}
+[6.786339] (-) TimerEvent: {}
+[6.880002] (micro_ros_agent) StdoutLine: {'line': b'[100%] Built target micro_ros_agent\n'}
+[6.886502] (-) TimerEvent: {}
+[6.928251] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[6.968308] (micro_ros_agent) JobProgress: {'identifier': 'micro_ros_agent', 'progress': 'install'}
+[6.968803] (micro_ros_agent) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/epiibots/ros2_ws/build/micro_ros_agent'], 'cwd': '/home/epiibots/ros2_ws/build/micro_ros_agent', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/micro_ros_agent', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/epiibots/ros2_ws/install/micro_ros_msgs'}), 'shell': False}
+[6.986627] (-) TimerEvent: {}
+[6.996319] (micro_ros_agent) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.996692] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent\n'}
+[6.996869] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent\n'}
+[6.999901] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh\n'}
+[7.000291] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv\n'}
+[7.000489] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh\n'}
+[7.000660] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv\n'}
+[7.000855] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash\n'}
+[7.001007] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh\n'}
+[7.002465] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh\n'}
+[7.005450] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv\n'}
+[7.005663] (micro_ros_agent) StdoutLine: {'line': b'-- Installing: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv\n'}
+[7.005960] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent\n'}
+[7.006160] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.006331] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake\n'}
+[7.006496] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake\n'}
+[7.006642] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.xml\n'}
+[7.006779] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent\n'}
+[7.006906] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch\n'}
+[7.007022] (micro_ros_agent) StdoutLine: {'line': b'-- Up-to-date: /home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py\n'}
+[7.018513] (micro_ros_agent) CommandEnded: {'returncode': 0}
+[7.088203] (-) TimerEvent: {}
+[7.203161] (-) TimerEvent: {}
+[7.228312] (micro_ros_agent) JobEnded: {'identifier': 'micro_ros_agent', 'rc': 0}
+[7.263356] (detector) CommandEnded: {'returncode': 0}
+[7.303307] (-) TimerEvent: {}
+[7.347682] (detector) JobEnded: {'identifier': 'detector', 'rc': 0}
+[7.405190] (-) TimerEvent: {}
+[7.505693] (-) TimerEvent: {}
+[7.606216] (-) TimerEvent: {}
+[7.706720] (-) TimerEvent: {}
+[7.711914] (lidar_teste) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_teste', 'build', '--build-base', '/home/epiibots/ros2_ws/build/lidar_teste/build', 'install', '--record', '/home/epiibots/ros2_ws/build/lidar_teste/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/lidar_teste', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/lidar_teste', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'COLCON': '1', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:'}, 'shell': False}
+[7.812164] (-) TimerEvent: {}
+[7.912579] (-) TimerEvent: {}
+[8.013134] (-) TimerEvent: {}
+[8.113642] (-) TimerEvent: {}
+[8.217404] (-) TimerEvent: {}
+[8.320169] (-) TimerEvent: {}
+[8.420624] (-) TimerEvent: {}
+[8.494237] (lidar_teste) StdoutLine: {'line': b'running egg_info\n'}
+[8.523273] (-) TimerEvent: {}
+[8.563973] (lidar_teste) StdoutLine: {'line': b'writing ../../build/lidar_teste/lidar_teste.egg-info/PKG-INFO\n'}
+[8.570437] (lidar_teste) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_teste/lidar_teste.egg-info/dependency_links.txt\n'}
+[8.572831] (lidar_teste) StdoutLine: {'line': b'writing entry points to ../../build/lidar_teste/lidar_teste.egg-info/entry_points.txt\n'}
+[8.580416] (lidar_teste) StdoutLine: {'line': b'writing requirements to ../../build/lidar_teste/lidar_teste.egg-info/requires.txt\n'}
+[8.586247] (lidar_teste) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_teste/lidar_teste.egg-info/top_level.txt\n'}
+[8.628257] (-) TimerEvent: {}
+[8.663008] (controlegeral_carrinho) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/controlegeral_carrinho', 'build', '--build-base', '/home/epiibots/ros2_ws/build/controlegeral_carrinho/build', 'install', '--record', '/home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/epiibots/ros2_ws/src/controlegeral_carrinho', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'epiibots', 'SSH_CLIENT': '192.168.0.112 58842 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'HOME': '/home/epiibots', 'OLDPWD': '/home/epiibots/ros2_ws/src', 'SSH_TTY': '/dev/pts/3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'LOGNAME': 'epiibots', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '63', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/bno055', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/epiibots/ros2_ws/build/controlegeral_carrinho', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '192.168.0.112 58842 192.168.0.100 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/epiibots/ros2_ws/build/controlegeral_carrinho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/epiibots/ros2_ws/install/sllidar_ros2'}, 'shell': False}
+[8.730692] (-) TimerEvent: {}
+[8.740361] (lidar_teste) StdoutLine: {'line': b"reading manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'\n"}
+[8.742540] (lidar_teste) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[8.748524] (lidar_teste) StdoutLine: {'line': b"writing manifest file '../../build/lidar_teste/lidar_teste.egg-info/SOURCES.txt'\n"}
+[8.749799] (lidar_teste) StdoutLine: {'line': b'running build\n'}
+[8.750040] (lidar_teste) StdoutLine: {'line': b'running build_py\n'}
+[8.750341] (lidar_teste) StdoutLine: {'line': b'running install\n'}
+[8.789341] (lidar_teste) StdoutLine: {'line': b'running install_lib\n'}
+[8.830863] (-) TimerEvent: {}
+[8.880292] (lidar_teste) StdoutLine: {'line': b'running install_data\n'}
+[8.880874] (lidar_teste) StdoutLine: {'line': b'running install_egg_info\n'}
+[8.932045] (-) TimerEvent: {}
+[8.957275] (lidar_teste) StdoutLine: {'line': b"removing '/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[8.957671] (lidar_teste) StdoutLine: {'line': b'Copying ../../build/lidar_teste/lidar_teste.egg-info to /home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages/lidar_teste-0.0.0-py3.12.egg-info\n'}
+[8.970206] (lidar_teste) StdoutLine: {'line': b'running install_scripts\n'}
+[9.033910] (-) TimerEvent: {}
+[9.137213] (-) TimerEvent: {}
+[9.237675] (-) TimerEvent: {}
+[9.338176] (-) TimerEvent: {}
+[9.372222] (lidar_teste) StdoutLine: {'line': b'Installing save_lidar script to /home/epiibots/ros2_ws/install/lidar_teste/lib/lidar_teste\n'}
+[9.376198] (lidar_teste) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/lidar_teste/install.log'\n"}
+[9.438341] (-) TimerEvent: {}
+[9.540177] (-) TimerEvent: {}
+[9.623705] (lidar_teste) CommandEnded: {'returncode': 0}
+[9.641419] (-) TimerEvent: {}
+[9.658842] (controlegeral_carrinho) StdoutLine: {'line': b'running egg_info\n'}
+[9.659446] (controlegeral_carrinho) StdoutLine: {'line': b'creating ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info\n'}
+[9.694715] (lidar_teste) JobEnded: {'identifier': 'lidar_teste', 'rc': 0}
+[9.715835] (controlegeral_carrinho) StdoutLine: {'line': b'writing ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/PKG-INFO\n'}
+[9.722178] (controlegeral_carrinho) StdoutLine: {'line': b'writing dependency_links to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/dependency_links.txt\n'}
+[9.727579] (controlegeral_carrinho) StdoutLine: {'line': b'writing requirements to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/requires.txt\n'}
+[9.728192] (controlegeral_carrinho) StdoutLine: {'line': b'writing top-level names to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/top_level.txt\n'}
+[9.728432] (controlegeral_carrinho) StdoutLine: {'line': b"writing manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'\n"}
+[9.741549] (-) TimerEvent: {}
+[9.811230] (controlegeral_carrinho) StdoutLine: {'line': b"reading manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'\n"}
+[9.812008] (controlegeral_carrinho) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[9.814707] (controlegeral_carrinho) StdoutLine: {'line': b"writing manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'\n"}
+[9.814972] (controlegeral_carrinho) StdoutLine: {'line': b'running build\n'}
+[9.815280] (controlegeral_carrinho) StdoutLine: {'line': b'running build_py\n'}
+[9.816173] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build\n'}
+[9.817063] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib\n'}
+[9.817331] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho\n'}
+[9.819636] (controlegeral_carrinho) StdoutLine: {'line': b'copying controlegeral_carrinho/__init__.py -> /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho\n'}
+[9.820410] (controlegeral_carrinho) StdoutLine: {'line': b'running install\n'}
+[9.847321] (controlegeral_carrinho) StdoutLine: {'line': b'running install_lib\n'}
+[9.848027] (-) TimerEvent: {}
+[9.883839] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho\n'}
+[9.885835] (controlegeral_carrinho) StdoutLine: {'line': b'copying /home/epiibots/ros2_ws/build/controlegeral_carrinho/build/lib/controlegeral_carrinho/__init__.py -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho\n'}
+[9.889269] (controlegeral_carrinho) StdoutLine: {'line': b'byte-compiling /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho/__init__.py to __init__.cpython-312.pyc\n'}
+[9.889876] (controlegeral_carrinho) StdoutLine: {'line': b'running install_data\n'}
+[9.891316] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index\n'}
+[9.891739] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index\n'}
+[9.891952] (controlegeral_carrinho) StdoutLine: {'line': b'creating /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index/packages\n'}
+[9.895214] (controlegeral_carrinho) StdoutLine: {'line': b'copying resource/controlegeral_carrinho -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/ament_index/resource_index/packages\n'}
+[9.895651] (controlegeral_carrinho) StdoutLine: {'line': b'copying package.xml -> /home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho\n'}
+[9.895883] (controlegeral_carrinho) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.934211] (controlegeral_carrinho) StdoutLine: {'line': b'Copying ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info to /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho-0.0.0-py3.12.egg-info\n'}
+[9.934851] (controlegeral_carrinho) StdoutLine: {'line': b'running install_scripts\n'}
+[9.951194] (-) TimerEvent: {}
+[10.054189] (-) TimerEvent: {}
+[10.154665] (-) TimerEvent: {}
+[10.220608] (controlegeral_carrinho) StdoutLine: {'line': b"writing list of installed files to '/home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log'\n"}
+[10.254849] (-) TimerEvent: {}
+[10.355821] (-) TimerEvent: {}
+[10.362216] (controlegeral_carrinho) CommandEnded: {'returncode': 0}
+[10.386318] (controlegeral_carrinho) JobEnded: {'identifier': 'controlegeral_carrinho', 'rc': 0}
+[10.388777] (-) EventReactorShutdown: {}
