@@ -16,6 +16,7 @@ The main technologies below are necessary for coding, assembly, and control:
 + ROS 2 Jazzy Jalisco and its tools
 + Arduino IDE
 + OpenCV
++ Visual Studio Code
 ## Setup
 1. Clone this repository
 2. Follow ROS 2 Jazzy Jalisco documentation to install it
