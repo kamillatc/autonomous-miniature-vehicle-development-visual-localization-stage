@@ -22,8 +22,8 @@ The main technologies below are necessary for coding, assembly, and control:
 3. Upload the ESP32 code with Arduino IDE
 4. `cd ros2_ws`
 5. `source /opt/ros/jazzy/setup.bash`
-6. `source install/setup.bash`
-7. `colcon build`
+6. `colcon build`
+7. `source install/setup.bash`
 ## Current Stage
 The project is currently focused on visual localization, using SLAM Toolbox and robot_localization.
 Next steps: sensor fusion with IMU, LiDAR, ArUco markers, and classic odometry.
