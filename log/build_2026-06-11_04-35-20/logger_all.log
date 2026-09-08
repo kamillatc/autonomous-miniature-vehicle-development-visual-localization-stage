@@ -1,0 +1,946 @@
+[0.154s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.154s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffffa1148b90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa12fa180>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa12fa180>>, mixin_verb=('build',))
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.214s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.214s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/epiibots/ros2_ws'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.214s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.215s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.254s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.255s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.256s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ignore', 'ignore_ament_install']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ignore_ament_install'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_pkg']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_pkg'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['colcon_meta']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'colcon_meta'
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extensions ['ros']
+[0.257s] Level 1:colcon.colcon_core.package_identification:_identify(src/bno055) by extension 'ros'
+[0.261s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bno055' with type 'ros.ament_python' and name 'bno055'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore_ament_install'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_pkg']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_pkg'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_meta']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_meta'
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ros']
+[0.261s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ros'
+[0.262s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calibration' with type 'ros.ament_python' and name 'calibration'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['colcon_pkg']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'colcon_pkg'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['colcon_meta']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'colcon_meta'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extensions ['ros']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/carrinho_base) by extension 'ros'
+[0.263s] DEBUG:colcon.colcon_core.package_identification:Package 'src/carrinho_base' with type 'ros.ament_python' and name 'carrinho_base'
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['ignore', 'ignore_ament_install']
+[0.263s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'colcon_meta'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['ros']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'ros'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['cmake', 'python']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'cmake'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'python'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extensions ['python_setup_py']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision) by extension 'python_setup_py'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['ignore', 'ignore_ament_install']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'ignore'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'ignore_ament_install'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['colcon_pkg']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'colcon_pkg'
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['colcon_meta']
+[0.264s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'ros'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['cmake', 'python']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'cmake'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'python'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extensions ['python_setup_py']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/computervision/aruco) by extension 'python_setup_py'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extensions ['ignore', 'ignore_ament_install']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extension 'ignore'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extension 'ignore_ament_install'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extensions ['colcon_pkg']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extension 'colcon_pkg'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extensions ['colcon_meta']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extension 'colcon_meta'
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extensions ['ros']
+[0.265s] Level 1:colcon.colcon_core.package_identification:_identify(src/controlegeral_carrinho) by extension 'ros'
+[0.266s] DEBUG:colcon.colcon_core.package_identification:Package 'src/controlegeral_carrinho' with type 'ros.ament_python' and name 'controlegeral_carrinho'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extensions ['ignore', 'ignore_ament_install']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extension 'ignore'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extension 'ignore_ament_install'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extensions ['colcon_pkg']
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extension 'colcon_pkg'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extensions ['colcon_meta']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extension 'colcon_meta'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extensions ['ros']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/detector) by extension 'ros'
+[0.267s] DEBUG:colcon.colcon_core.package_identification:Package 'src/detector' with type 'ros.ament_python' and name 'detector'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extensions ['ignore', 'ignore_ament_install']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extension 'ignore'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extension 'ignore_ament_install'
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extensions ['colcon_pkg']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extensions ['colcon_meta']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extension 'colcon_meta'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extensions ['ros']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar_teste) by extension 'ros'
+[0.268s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar_teste' with type 'ros.ament_python' and name 'lidar_teste'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_pkg'
+[0.268s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['colcon_meta']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'colcon_meta'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extensions ['ros']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/micro_ros_setup) by extension 'ros'
+[0.269s] DEBUG:colcon.colcon_core.package_identification:Package 'src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extensions ['ignore', 'ignore_ament_install']
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extension 'ignore'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extension 'ignore_ament_install'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extensions ['colcon_pkg']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extension 'colcon_pkg'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extensions ['colcon_meta']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extension 'colcon_meta'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extensions ['ros']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/pwm_rec) by extension 'ros'
+[0.270s] DEBUG:colcon.colcon_core.package_identification:Package 'src/pwm_rec' with type 'ros.ament_python' and name 'pwm_rec'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extensions ['ignore', 'ignore_ament_install']
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extension 'ignore_ament_install'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extensions ['colcon_pkg']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extension 'colcon_pkg'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extensions ['colcon_meta']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extension 'colcon_meta'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extensions ['ros']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/servo_steering) by extension 'ros'
+[0.271s] DEBUG:colcon.colcon_core.package_identification:Package 'src/servo_steering' with type 'ros.ament_python' and name 'servo_steering'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore'
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_pkg'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['colcon_meta']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'colcon_meta'
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extensions ['ros']
+[0.272s] Level 1:colcon.colcon_core.package_identification:_identify(src/sllidar_ros2) by extension 'ros'
+[0.272s] DEBUG:colcon.colcon_core.package_identification:Package 'src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ignore_ament_install'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_pkg']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_pkg'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['colcon_meta']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'colcon_meta'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['ros']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'ros'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['cmake', 'python']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'cmake'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python'
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extensions ['python_setup_py']
+[0.273s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros) by extension 'python_setup_py'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ignore', 'ignore_ament_install']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ignore_ament_install'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_pkg']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_pkg'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['colcon_meta']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'colcon_meta'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['ros']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'ros'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['cmake', 'python']
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'cmake'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python'
+[0.274s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extensions ['python_setup_py']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ignore_ament_install'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_pkg']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_pkg'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['colcon_meta']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'colcon_meta'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extensions ['ros']
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/drive_base/drive_base_msgs) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/drive_base/drive_base_msgs' with type 'ros.ament_cmake' and name 'drive_base_msgs'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'ros'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.279s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extensions ['ros']
+[0.282s] Level 1:colcon.colcon_core.package_identification:_identify(src/uros/micro_ros_msgs) by extension 'ros'
+[0.282s] DEBUG:colcon.colcon_core.package_identification:Package 'src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.282s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.310s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.313s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/epiibots/ros2_ws/install
+[0.315s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 310 installed packages in /opt/ros/jazzy
+[0.318s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'cmake_force_configure' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'ament_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'bno055' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.377s] DEBUG:colcon.colcon_core.verb:Building package 'bno055' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/bno055', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/bno055', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/bno055', 'symlink_install': False, 'test_result_base': None}
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_args' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target' from command line to 'None'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/calibration', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/calibration', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_target' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_clean_first' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'cmake_force_configure' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'ament_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'catkin_cmake_args' from command line to 'None'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'carrinho_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.378s] DEBUG:colcon.colcon_core.verb:Building package 'carrinho_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/carrinho_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/carrinho_base', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/carrinho_base', 'symlink_install': False, 'test_result_base': None}
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'detector' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'detector' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/detector', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/detector', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/detector', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'drive_base_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'drive_base_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/drive_base_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/drive_base_msgs', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/uros/drive_base/drive_base_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'lidar_teste' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'lidar_teste' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/lidar_teste', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/lidar_teste', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/lidar_teste', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/micro_ros_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/micro_ros_msgs', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/uros/micro_ros_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_setup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_setup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/micro_ros_setup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/micro_ros_setup', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/micro_ros_setup', 'symlink_install': False, 'test_result_base': None}
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_target' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_clean_cache' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_clean_first' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'cmake_force_configure' from command line to 'False'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'ament_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'pwm_rec' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.381s] DEBUG:colcon.colcon_core.verb:Building package 'pwm_rec' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/pwm_rec', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/pwm_rec', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/pwm_rec', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'servo_steering' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'servo_steering' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/servo_steering', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/servo_steering', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/servo_steering', 'symlink_install': False, 'test_result_base': None}
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_clean_first' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'cmake_force_configure' from command line to 'False'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'ament_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.382s] Level 5:colcon.colcon_core.verb:set package 'sllidar_ros2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'sllidar_ros2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/sllidar_ros2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/sllidar_ros2', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/sllidar_ros2', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'ament_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'catkin_cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'controlegeral_carrinho' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.383s] DEBUG:colcon.colcon_core.verb:Building package 'controlegeral_carrinho' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/controlegeral_carrinho', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/controlegeral_carrinho', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/controlegeral_carrinho', 'symlink_install': False, 'test_result_base': None}
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_args' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target' from command line to 'None'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_cache' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_clean_first' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'cmake_force_configure' from command line to 'False'
+[0.383s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'ament_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_cmake_args' from command line to 'None'
+[0.384s] Level 5:colcon.colcon_core.verb:set package 'micro_ros_agent' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.384s] DEBUG:colcon.colcon_core.verb:Building package 'micro_ros_agent' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/epiibots/ros2_ws/build/micro_ros_agent', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/epiibots/ros2_ws/install/micro_ros_agent', 'merge_install': False, 'path': '/home/epiibots/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent', 'symlink_install': False, 'test_result_base': None}
+[0.384s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.385s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.385s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/bno055' with build type 'ament_python'
+[0.386s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'ament_prefix_path')
+[0.388s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.389s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/ament_prefix_path.ps1'
+[0.433s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/ament_prefix_path.dsv'
+[0.437s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/ament_prefix_path.sh'
+[0.440s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.440s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.447s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epiibots/ros2_ws/src/uros/micro_ros_msgs' with build type 'ament_cmake'
+[0.447s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epiibots/ros2_ws/src/uros/micro_ros_msgs'
+[0.448s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.448s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.455s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epiibots/ros2_ws/src/sllidar_ros2' with build type 'ament_cmake'
+[0.455s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epiibots/ros2_ws/src/sllidar_ros2'
+[0.455s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.455s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.461s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/calibration' with build type 'ament_python'
+[0.461s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'ament_prefix_path')
+[0.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/ament_prefix_path.ps1'
+[0.464s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/ament_prefix_path.dsv'
+[0.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/ament_prefix_path.sh'
+[0.470s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.470s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.815s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/bno055'
+[0.816s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.816s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.834s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[0.844s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.626s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/calibration'
+[1.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.676s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/sllidar_ros2 -- -j4 -l4
+[1.725s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/sllidar_ros2
+[2.031s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[2.033s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/sllidar_ros2
+[2.084s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2' for CMake module files
+[2.094s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2' for CMake config files
+[2.108s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[2.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[2.124s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[2.138s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[2.149s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib'
+[2.157s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/bin'
+[2.162s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[2.163s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[2.171s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/bin'
+[2.171s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[2.181s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[2.189s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[2.197s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[2.205s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[2.216s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[2.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sllidar_ros2)
+[2.230s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2' for CMake module files
+[2.234s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2' for CMake config files
+[2.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('sllidar_ros2', 'cmake_prefix_path')
+[2.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.ps1'
+[2.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.dsv'
+[2.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/hook/cmake_prefix_path.sh'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/bin'
+[2.264s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib/pkgconfig/sllidar_ros2.pc'
+[2.266s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/lib/python3.12/site-packages'
+[2.269s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/sllidar_ros2/bin'
+[2.270s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.ps1'
+[2.274s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.dsv'
+[2.276s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.sh'
+[2.279s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.bash'
+[2.281s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/package.zsh'
+[2.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/sllidar_ros2/share/colcon-core/packages/sllidar_ros2)
+[2.288s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/carrinho_base' with build type 'ament_python'
+[2.289s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrinho_base', 'ament_prefix_path')
+[2.291s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.ps1'
+[2.295s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.dsv'
+[2.298s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/ament_prefix_path.sh'
+[2.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.138s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/carrinho_base'
+[3.139s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.139s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.150s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_msgs -- -j4 -l4
+[3.152s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_msgs
+[3.399s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[3.400s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs' for CMake module files
+[3.408s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs' for CMake config files
+[3.424s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.434s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.464s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib'
+[3.465s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.469s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_msgs
+[3.475s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.485s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/bin'
+[3.485s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.487s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[3.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[3.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[3.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[3.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[3.506s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/bin'
+[3.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.509s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.515s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.519s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.533s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_msgs)
+[3.536s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs' for CMake module files
+[3.541s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs' for CMake config files
+[3.544s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'cmake_prefix_path')
+[3.546s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.ps1'
+[3.553s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.dsv'
+[3.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/cmake_prefix_path.sh'
+[3.562s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib'
+[3.562s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'ld_library_path_lib')
+[3.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.ps1'
+[3.572s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.dsv'
+[3.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/ld_library_path_lib.sh'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/bin'
+[3.585s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/pkgconfig/micro_ros_msgs.pc'
+[3.588s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages'
+[3.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_msgs', 'pythonpath')
+[3.594s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.ps1'
+[3.602s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.dsv'
+[3.610s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/hook/pythonpath.sh'
+[3.625s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_msgs/bin'
+[3.628s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.ps1'
+[3.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv'
+[3.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.sh'
+[3.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.bash'
+[3.674s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_msgs/share/micro_ros_msgs/package.zsh'
+[3.682s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_msgs/share/colcon-core/packages/micro_ros_msgs)
+[3.690s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/detector' with build type 'ament_python'
+[3.692s] Level 1:colcon.colcon_core.shell:create_environment_hook('detector', 'ament_prefix_path')
+[3.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.ps1'
+[3.704s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.dsv'
+[3.712s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/ament_prefix_path.sh'
+[3.722s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.724s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.852s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/detector'
+[4.854s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.854s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/bno055': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
+[4.907s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /home/epiibots/ros2_ws/build/calibration/build install --record /home/epiibots/ros2_ws/build/calibration/install.log --single-version-externally-managed install_data
+[5.822s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/carrinho_base': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[6.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[7.563s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055' for CMake module files
+[7.564s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/bno055' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/bno055/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/bno055 build --build-base /home/epiibots/ros2_ws/build/bno055/build install --record /home/epiibots/ros2_ws/build/bno055/install.log --single-version-externally-managed install_data
+[7.569s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055' for CMake config files
+[7.575s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055/lib'
+[7.577s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055/bin'
+[7.578s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055/lib/pkgconfig/bno055.pc'
+[7.579s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages'
+[7.581s] Level 1:colcon.colcon_core.shell:create_environment_hook('bno055', 'pythonpath')
+[7.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/pythonpath.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/pythonpath.dsv'
+[7.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/bno055/share/bno055/hook/pythonpath.sh'
+[7.606s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/bno055/bin'
+[7.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bno055)
+[7.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/bno055/share/bno055/package.ps1'
+[7.619s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/bno055/share/bno055/package.dsv'
+[7.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/bno055/share/bno055/package.sh'
+[7.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/bno055/share/bno055/package.bash'
+[7.652s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/bno055/share/bno055/package.zsh'
+[7.657s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/bno055/share/colcon-core/packages/bno055)
+[7.659s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epiibots/ros2_ws/src/uros/drive_base/drive_base_msgs' with build type 'ament_cmake'
+[7.660s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epiibots/ros2_ws/src/uros/drive_base/drive_base_msgs'
+[7.661s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.661s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.714s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[8.950s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration' for CMake module files
+[8.951s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /home/epiibots/ros2_ws/build/calibration/build install --record /home/epiibots/ros2_ws/build/calibration/install.log --single-version-externally-managed install_data
+[8.953s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration' for CMake config files
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration/lib'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration/bin'
+[8.960s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration/lib/pkgconfig/calibration.pc'
+[8.962s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages'
+[8.965s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'pythonpath')
+[8.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/pythonpath.ps1'
+[8.976s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/pythonpath.dsv'
+[8.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/calibration/share/calibration/hook/pythonpath.sh'
+[8.981s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/calibration/bin'
+[8.982s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calibration)
+[8.983s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/calibration/share/calibration/package.ps1'
+[8.986s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/calibration/share/calibration/package.dsv'
+[8.988s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/calibration/share/calibration/package.sh'
+[8.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/calibration/share/calibration/package.bash'
+[8.991s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/calibration/share/calibration/package.zsh'
+[8.992s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/calibration/share/colcon-core/packages/calibration)
+[8.994s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/lidar_teste' with build type 'ament_python'
+[8.995s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_teste', 'ament_prefix_path')
+[8.997s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.ps1'
+[8.998s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.dsv'
+[8.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/ament_prefix_path.sh'
+[9.001s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.001s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.387s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/lidar_teste'
+[10.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.402s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base' for CMake module files
+[10.403s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base' for CMake config files
+[10.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/carrinho_base' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_base/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_base build --build-base /home/epiibots/ros2_ws/build/carrinho_base/build install --record /home/epiibots/ros2_ws/build/carrinho_base/install.log --single-version-externally-managed install_data
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib'
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/bin'
+[10.406s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib/pkgconfig/carrinho_base.pc'
+[10.407s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages'
+[10.407s] Level 1:colcon.colcon_core.shell:create_environment_hook('carrinho_base', 'pythonpath')
+[10.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.ps1'
+[10.408s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.dsv'
+[10.412s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/hook/pythonpath.sh'
+[10.420s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/carrinho_base/bin'
+[10.420s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(carrinho_base)
+[10.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.ps1'
+[10.426s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.dsv'
+[10.426s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.sh'
+[10.427s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.bash'
+[10.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/carrinho_base/share/carrinho_base/package.zsh'
+[10.432s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/carrinho_base/share/colcon-core/packages/carrinho_base)
+[10.436s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector' for CMake module files
+[10.443s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector' for CMake config files
+[10.446s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[10.448s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib'
+[10.448s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/bin'
+[10.448s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib/pkgconfig/detector.pc'
+[10.449s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages'
+[10.449s] Level 1:colcon.colcon_core.shell:create_environment_hook('detector', 'pythonpath')
+[10.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.ps1'
+[10.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.dsv'
+[10.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/detector/share/detector/hook/pythonpath.sh'
+[10.455s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/detector/bin'
+[10.455s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(detector)
+[10.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.ps1'
+[10.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/detector/share/detector/package.dsv'
+[10.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.sh'
+[10.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.bash'
+[10.459s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/detector/share/detector/package.zsh'
+[10.460s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/detector/share/colcon-core/packages/detector)
+[10.462s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epiibots/ros2_ws/src/micro_ros_setup' with build type 'ament_cmake'
+[10.462s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epiibots/ros2_ws/src/micro_ros_setup'
+[10.463s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.463s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.477s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/pwm_rec' with build type 'ament_python'
+[10.478s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_rec', 'ament_prefix_path')
+[10.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/ament_prefix_path.ps1'
+[10.481s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/ament_prefix_path.dsv'
+[10.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/ament_prefix_path.sh'
+[10.485s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[10.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.510s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/drive_base_msgs -- -j4 -l4
+[10.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/drive_base_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/drive_base_msgs
+[10.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[11.607s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/pwm_rec'
+[11.608s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.608s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.626s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_setup -- -j4 -l4
+[11.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_setup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_setup
+[11.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[11.638s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs' for CMake module files
+[11.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/drive_base_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/drive_base_msgs
+[11.642s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs' for CMake config files
+[11.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[11.647s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[11.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[11.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[11.662s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib'
+[11.663s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[11.664s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[11.667s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[11.669s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[11.674s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/bin'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[11.675s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[11.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[11.680s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[11.681s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[11.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[11.693s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/bin'
+[11.701s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[11.712s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[11.729s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[11.740s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[11.749s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[11.762s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[11.770s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drive_base_msgs)
+[11.779s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs' for CMake module files
+[11.792s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs' for CMake config files
+[11.793s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'cmake_prefix_path')
+[11.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.ps1'
+[11.800s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.dsv'
+[11.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/cmake_prefix_path.sh'
+[11.809s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib'
+[11.809s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'ld_library_path_lib')
+[11.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.ps1'
+[11.812s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.dsv'
+[11.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/ld_library_path_lib.sh'
+[11.821s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/bin'
+[11.821s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/pkgconfig/drive_base_msgs.pc'
+[11.822s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages'
+[11.827s] Level 1:colcon.colcon_core.shell:create_environment_hook('drive_base_msgs', 'pythonpath')
+[11.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.ps1'
+[11.829s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.dsv'
+[11.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/hook/pythonpath.sh'
+[11.843s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/drive_base_msgs/bin'
+[11.844s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.ps1'
+[11.846s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.dsv'
+[11.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.sh'
+[11.851s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.bash'
+[11.852s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/drive_base_msgs/share/drive_base_msgs/package.zsh'
+[11.853s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/drive_base_msgs/share/colcon-core/packages/drive_base_msgs)
+[11.857s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/servo_steering' with build type 'ament_python'
+[11.858s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_steering', 'ament_prefix_path')
+[11.858s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/ament_prefix_path.ps1'
+[11.861s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/ament_prefix_path.dsv'
+[11.864s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/ament_prefix_path.sh'
+[11.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.515s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/servo_steering'
+[13.516s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.516s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.542s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[13.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_setup
+[13.544s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup' for CMake module files
+[13.546s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup' for CMake config files
+[13.547s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[13.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[13.549s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[13.553s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[13.555s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib'
+[13.555s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/bin'
+[13.556s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[13.558s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[13.559s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/bin'
+[13.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[13.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[13.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[13.567s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[13.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[13.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[13.577s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_setup)
+[13.578s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup' for CMake module files
+[13.582s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup' for CMake config files
+[13.583s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_setup', 'cmake_prefix_path')
+[13.583s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.ps1'
+[13.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.dsv'
+[13.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/hook/cmake_prefix_path.sh'
+[13.598s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib'
+[13.598s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/bin'
+[13.598s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib/pkgconfig/micro_ros_setup.pc'
+[13.599s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/lib/python3.12/site-packages'
+[13.600s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_setup/bin'
+[13.601s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.ps1'
+[13.603s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.dsv'
+[13.606s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.sh'
+[13.608s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.bash'
+[13.610s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_setup/share/micro_ros_setup/package.zsh'
+[13.612s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_setup/share/colcon-core/packages/micro_ros_setup)
+[13.616s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/epiibots/ros2_ws/src/controlegeral_carrinho' with build type 'ament_python'
+[13.616s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlegeral_carrinho', 'ament_prefix_path')
+[13.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/ament_prefix_path.ps1'
+[13.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/ament_prefix_path.dsv'
+[13.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/ament_prefix_path.sh'
+[13.623s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[13.623s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[13.646s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/lidar_teste': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[15.506s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/epiibots/ros2_ws/src/controlegeral_carrinho'
+[15.507s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.507s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.771s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste' for CMake module files
+[15.772s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/lidar_teste' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/lidar_teste/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lidar_teste build --build-base /home/epiibots/ros2_ws/build/lidar_teste/build install --record /home/epiibots/ros2_ws/build/lidar_teste/install.log --single-version-externally-managed install_data
+[15.773s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste' for CMake config files
+[15.776s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib'
+[15.777s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/bin'
+[15.777s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib/pkgconfig/lidar_teste.pc'
+[15.779s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages'
+[15.779s] Level 1:colcon.colcon_core.shell:create_environment_hook('lidar_teste', 'pythonpath')
+[15.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.ps1'
+[15.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.dsv'
+[15.787s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/hook/pythonpath.sh'
+[15.794s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/lidar_teste/bin'
+[15.794s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lidar_teste)
+[15.796s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.ps1'
+[15.809s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.dsv'
+[15.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.sh'
+[15.830s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.bash'
+[15.848s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/lidar_teste/share/lidar_teste/package.zsh'
+[15.858s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/lidar_teste/share/colcon-core/packages/lidar_teste)
+[15.868s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/epiibots/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent' with build type 'ament_cmake'
+[15.884s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/epiibots/ros2_ws/src/uros/micro-ROS-Agent/micro_ros_agent'
+[15.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.893s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib:/home/epiibots/ros2_ws/install/micro_ros_agent/lib:/home/epiibots/ros2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[16.142s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/servo_steering': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/servo_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_steering build --build-base /home/epiibots/ros2_ws/build/servo_steering/build install --record /home/epiibots/ros2_ws/build/servo_steering/install.log --single-version-externally-managed install_data
+[16.367s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib:/home/epiibots/ros2_ws/install/micro_ros_agent/lib:/home/epiibots/ros2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/epiibots/ros2_ws/build/micro_ros_agent -- -j4 -l4
+[16.375s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/build/micro_ros_agent': CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib:/home/epiibots/ros2_ws/install/micro_ros_agent/lib:/home/epiibots/ros2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_agent
+[16.447s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[16.448s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent' for CMake module files
+[16.458s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent' for CMake config files
+[16.460s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[16.462s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[16.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/pwm_rec': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/pwm_rec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pwm_rec build --build-base /home/epiibots/ros2_ws/build/pwm_rec/build install --record /home/epiibots/ros2_ws/build/pwm_rec/install.log --single-version-externally-managed install_data
+[16.469s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[16.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/build/micro_ros_agent' returned '0': CMAKE_PREFIX_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/drive_base_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/home/epiibots/ros2_ws/install/bno055:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib:/home/epiibots/ros2_ws/install/micro_ros_agent/lib:/home/epiibots/ros2_ws/install/drive_base_msgs/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib PYTHONPATH=/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --install /home/epiibots/ros2_ws/build/micro_ros_agent
+[16.476s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[16.482s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib'
+[16.484s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[16.486s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[16.491s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[16.494s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[16.498s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/bin'
+[16.500s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[16.501s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[16.506s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/bin'
+[16.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[16.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[16.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[16.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[16.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[16.533s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[16.537s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(micro_ros_agent)
+[16.539s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent' for CMake module files
+[16.541s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent' for CMake config files
+[16.543s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'cmake_prefix_path')
+[16.545s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.ps1'
+[16.547s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.dsv'
+[16.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/cmake_prefix_path.sh'
+[16.554s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib'
+[16.556s] Level 1:colcon.colcon_core.shell:create_environment_hook('micro_ros_agent', 'ld_library_path_lib')
+[16.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.ps1'
+[16.560s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.dsv'
+[16.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/hook/ld_library_path_lib.sh'
+[16.566s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/bin'
+[16.566s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib/pkgconfig/micro_ros_agent.pc'
+[16.567s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/lib/python3.12/site-packages'
+[16.568s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/micro_ros_agent/bin'
+[16.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.ps1'
+[16.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.dsv'
+[16.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.sh'
+[16.582s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.bash'
+[16.709s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/micro_ros_agent/share/micro_ros_agent/package.zsh'
+[16.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/micro_ros_agent/share/colcon-core/packages/micro_ros_agent)
+[18.094s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/epiibots/ros2_ws/src/controlegeral_carrinho': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/bno055:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/drive_base_msgs:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/controlegeral_carrinho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlegeral_carrinho build --build-base /home/epiibots/ros2_ws/build/controlegeral_carrinho/build install --record /home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log --single-version-externally-managed install_data
+[18.694s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering' for CMake module files
+[18.701s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering' for CMake config files
+[18.703s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering/lib'
+[18.708s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering/bin'
+[18.708s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering/lib/pkgconfig/servo_steering.pc'
+[18.709s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages'
+[18.709s] Level 1:colcon.colcon_core.shell:create_environment_hook('servo_steering', 'pythonpath')
+[18.707s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/servo_steering' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/servo_steering/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/servo_steering build --build-base /home/epiibots/ros2_ws/build/servo_steering/build install --record /home/epiibots/ros2_ws/build/servo_steering/install.log --single-version-externally-managed install_data
+[18.710s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/pythonpath.ps1'
+[18.712s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/pythonpath.dsv'
+[18.715s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/hook/pythonpath.sh'
+[18.721s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/servo_steering/bin'
+[18.724s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(servo_steering)
+[18.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/package.ps1'
+[18.729s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/package.dsv'
+[18.732s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/package.sh'
+[18.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/package.bash'
+[18.739s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/servo_steering/share/servo_steering/package.zsh'
+[18.741s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/servo_steering/share/colcon-core/packages/servo_steering)
+[18.929s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec' for CMake module files
+[18.932s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec' for CMake config files
+[18.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/pwm_rec' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/pwm_rec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pwm_rec build --build-base /home/epiibots/ros2_ws/build/pwm_rec/build install --record /home/epiibots/ros2_ws/build/pwm_rec/install.log --single-version-externally-managed install_data
+[18.934s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec/lib'
+[18.934s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec/bin'
+[18.935s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec/lib/pkgconfig/pwm_rec.pc'
+[18.936s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages'
+[18.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('pwm_rec', 'pythonpath')
+[18.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/pythonpath.ps1'
+[18.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/pythonpath.dsv'
+[18.941s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/hook/pythonpath.sh'
+[18.946s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/pwm_rec/bin'
+[18.947s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pwm_rec)
+[18.948s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/package.ps1'
+[18.950s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/package.dsv'
+[18.952s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/package.sh'
+[18.954s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/package.bash'
+[18.956s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/pwm_rec/share/pwm_rec/package.zsh'
+[18.958s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/pwm_rec/share/colcon-core/packages/pwm_rec)
+[20.196s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho' for CMake module files
+[20.197s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho' for CMake config files
+[20.198s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib'
+[20.199s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/epiibots/ros2_ws/src/controlegeral_carrinho' returned '0': AMENT_PREFIX_PATH=/home/epiibots/ros2_ws/install/bno055:/home/epiibots/ros2_ws/install/controlegeral_carrinho:/home/epiibots/ros2_ws/install/sllidar_ros2:/home/epiibots/ros2_ws/install/servo_steering:/home/epiibots/ros2_ws/install/pwm_rec:/home/epiibots/ros2_ws/install/micro_ros_setup:/home/epiibots/ros2_ws/install/micro_ros_agent:/home/epiibots/ros2_ws/install/micro_ros_msgs:/home/epiibots/ros2_ws/install/lidar_teste:/home/epiibots/ros2_ws/install/drive_base_msgs:/home/epiibots/ros2_ws/install/detector:/home/epiibots/ros2_ws/install/carrinho_base:/home/epiibots/ros2_ws/install/calibration:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/controlegeral_carrinho/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/bno055/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/servo_steering/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/micro_ros_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/lidar_teste/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/drive_base_msgs/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/carrinho_base/lib/python3.12/site-packages:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/controlegeral_carrinho build --build-base /home/epiibots/ros2_ws/build/controlegeral_carrinho/build install --record /home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log --single-version-externally-managed install_data
+[20.199s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho/bin'
+[20.199s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/pkgconfig/controlegeral_carrinho.pc'
+[20.200s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages'
+[20.200s] Level 1:colcon.colcon_core.shell:create_environment_hook('controlegeral_carrinho', 'pythonpath')
+[20.201s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/pythonpath.ps1'
+[20.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/pythonpath.dsv'
+[20.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/hook/pythonpath.sh'
+[20.207s] Level 1:colcon.colcon_core.environment:checking '/home/epiibots/ros2_ws/install/controlegeral_carrinho/bin'
+[20.207s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controlegeral_carrinho)
+[20.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/package.ps1'
+[20.209s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/package.dsv'
+[20.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/package.sh'
+[20.212s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/package.bash'
+[20.213s] INFO:colcon.colcon_core.shell:Creating package script '/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/controlegeral_carrinho/package.zsh'
+[20.214s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/epiibots/ros2_ws/install/controlegeral_carrinho/share/colcon-core/packages/controlegeral_carrinho)
+[20.216s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[20.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[20.217s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[20.217s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[20.221s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[20.222s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.ps1'
+[20.224s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epiibots/ros2_ws/install/_local_setup_util_ps1.py'
+[20.227s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.ps1'
+[20.231s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.sh'
+[20.233s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/epiibots/ros2_ws/install/_local_setup_util_sh.py'
+[20.234s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.sh'
+[20.243s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.bash'
+[20.248s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.bash'
+[20.255s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/epiibots/ros2_ws/install/local_setup.zsh'
+[20.258s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/epiibots/ros2_ws/install/setup.zsh'

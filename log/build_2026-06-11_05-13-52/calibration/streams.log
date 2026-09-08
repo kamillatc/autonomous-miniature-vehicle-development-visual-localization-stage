@@ -1,0 +1,22 @@
+[3.941s] Invoking command in '/home/epiibots/ros2_ws/src/calibration': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /home/epiibots/ros2_ws/build/calibration/build install --record /home/epiibots/ros2_ws/build/calibration/install.log --single-version-externally-managed install_data
+[5.209s] running egg_info
+[5.309s] writing ../../build/calibration/calibration.egg-info/PKG-INFO
+[5.316s] writing dependency_links to ../../build/calibration/calibration.egg-info/dependency_links.txt
+[5.317s] writing entry points to ../../build/calibration/calibration.egg-info/entry_points.txt
+[5.320s] writing requirements to ../../build/calibration/calibration.egg-info/requires.txt
+[5.322s] writing top-level names to ../../build/calibration/calibration.egg-info/top_level.txt
+[5.584s] reading manifest file '../../build/calibration/calibration.egg-info/SOURCES.txt'
+[5.594s] adding license file 'LICENSE'
+[5.602s] writing manifest file '../../build/calibration/calibration.egg-info/SOURCES.txt'
+[5.608s] running build
+[5.608s] running build_py
+[5.608s] running install
+[5.664s] running install_lib
+[5.791s] running install_data
+[5.793s] running install_egg_info
+[5.972s] removing '/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages/calibration-0.0.0-py3.12.egg-info' (and everything under it)
+[5.978s] Copying ../../build/calibration/calibration.egg-info to /home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages/calibration-0.0.0-py3.12.egg-info
+[5.988s] running install_scripts
+[6.419s] Installing imu_save script to /home/epiibots/ros2_ws/install/calibration/lib/calibration
+[6.419s] writing list of installed files to '/home/epiibots/ros2_ws/build/calibration/install.log'
+[6.750s] Invoked command in '/home/epiibots/ros2_ws/src/calibration' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/calibration/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/calibration build --build-base /home/epiibots/ros2_ws/build/calibration/build install --record /home/epiibots/ros2_ws/build/calibration/install.log --single-version-externally-managed install_data

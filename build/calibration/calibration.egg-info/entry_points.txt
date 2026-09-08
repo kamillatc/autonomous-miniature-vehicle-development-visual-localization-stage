@@ -1,0 +1,2 @@
+[console_scripts]
+imu_save = calibration.imu_save:main

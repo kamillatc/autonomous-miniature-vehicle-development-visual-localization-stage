@@ -1,3 +1,4 @@
+
 #!/usr/bin/env python3
 """
 teleop_key.py — ROS2 Jazzy
@@ -91,7 +92,7 @@ class TeleopKey(Node):
         with self._lock:
             pressed = set(self._pressed)
 
-        if 'w' in pressed: linear  = -0.9
+        if 'w' in pressed: linear  = -1.0
         if 's' in pressed: linear  = +1.0
         if 'a' in pressed: angular = -0.8
         if 'd' in pressed: angular = +0.8

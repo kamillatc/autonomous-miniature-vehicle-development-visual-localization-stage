@@ -1,3 +1,4 @@
+/home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/__pycache__/sllidar_c1_launch.cpython-312.pyc
 /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
 /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
 /home/epiibots/ros2_ws/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py

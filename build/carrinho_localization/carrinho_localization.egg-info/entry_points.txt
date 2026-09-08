@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_odom_relay = carrinho_localization.wheel_odom_relay:main

@@ -1,0 +1,37 @@
+[1.506s] Invoking command in '/home/epiibots/ros2_ws/src/carrinho_localization': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_localization build --build-base /home/epiibots/ros2_ws/build/carrinho_localization/build install --record /home/epiibots/ros2_ws/build/carrinho_localization/install.log --single-version-externally-managed install_data
+[1.857s] running egg_info
+[1.858s] creating ../../build/carrinho_localization/carrinho_localization.egg-info
+[1.881s] writing ../../build/carrinho_localization/carrinho_localization.egg-info/PKG-INFO
+[1.882s] writing dependency_links to ../../build/carrinho_localization/carrinho_localization.egg-info/dependency_links.txt
+[1.882s] writing entry points to ../../build/carrinho_localization/carrinho_localization.egg-info/entry_points.txt
+[1.882s] writing requirements to ../../build/carrinho_localization/carrinho_localization.egg-info/requires.txt
+[1.882s] writing top-level names to ../../build/carrinho_localization/carrinho_localization.egg-info/top_level.txt
+[1.882s] writing manifest file '../../build/carrinho_localization/carrinho_localization.egg-info/SOURCES.txt'
+[1.931s] reading manifest file '../../build/carrinho_localization/carrinho_localization.egg-info/SOURCES.txt'
+[1.932s] writing manifest file '../../build/carrinho_localization/carrinho_localization.egg-info/SOURCES.txt'
+[1.932s] running build
+[1.932s] running build_py
+[1.932s] creating /home/epiibots/ros2_ws/build/carrinho_localization/build
+[1.932s] creating /home/epiibots/ros2_ws/build/carrinho_localization/build/lib
+[1.932s] creating /home/epiibots/ros2_ws/build/carrinho_localization/build/lib/carrinho_localization
+[1.933s] copying carrinho_localization/__init__.py -> /home/epiibots/ros2_ws/build/carrinho_localization/build/lib/carrinho_localization
+[1.933s] copying carrinho_localization/wheel_odom_relay.py -> /home/epiibots/ros2_ws/build/carrinho_localization/build/lib/carrinho_localization
+[1.933s] running install
+[1.943s] running install_lib
+[1.968s] creating /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization
+[1.968s] copying /home/epiibots/ros2_ws/build/carrinho_localization/build/lib/carrinho_localization/__init__.py -> /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization
+[1.968s] copying /home/epiibots/ros2_ws/build/carrinho_localization/build/lib/carrinho_localization/wheel_odom_relay.py -> /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization
+[1.969s] byte-compiling /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization/__init__.py to __init__.cpython-312.pyc
+[1.969s] byte-compiling /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization/wheel_odom_relay.py to wheel_odom_relay.cpython-312.pyc
+[1.970s] running install_data
+[1.970s] creating /home/epiibots/ros2_ws/install/carrinho_localization/share/ament_index
+[1.970s] creating /home/epiibots/ros2_ws/install/carrinho_localization/share/ament_index/resource_index
+[1.971s] creating /home/epiibots/ros2_ws/install/carrinho_localization/share/ament_index/resource_index/packages
+[1.971s] copying resource/carrinho_localization -> /home/epiibots/ros2_ws/install/carrinho_localization/share/ament_index/resource_index/packages
+[1.971s] copying package.xml -> /home/epiibots/ros2_ws/install/carrinho_localization/share/carrinho_localization
+[1.971s] running install_egg_info
+[1.997s] Copying ../../build/carrinho_localization/carrinho_localization.egg-info to /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization-0.0.0-py3.12.egg-info
+[1.998s] running install_scripts
+[2.170s] Installing wheel_odom_relay script to /home/epiibots/ros2_ws/install/carrinho_localization/lib/carrinho_localization
+[2.170s] writing list of installed files to '/home/epiibots/ros2_ws/build/carrinho_localization/install.log'
+[2.252s] Invoked command in '/home/epiibots/ros2_ws/src/carrinho_localization' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/carrinho_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/carrinho_localization build --build-base /home/epiibots/ros2_ws/build/carrinho_localization/build install --record /home/epiibots/ros2_ws/build/carrinho_localization/install.log --single-version-externally-managed install_data

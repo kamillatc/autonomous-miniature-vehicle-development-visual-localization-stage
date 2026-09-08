@@ -1,0 +1,22 @@
+[1.695s] Invoking command in '/home/epiibots/ros2_ws/src/pwm_rec': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/pwm_rec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pwm_rec build --build-base /home/epiibots/ros2_ws/build/pwm_rec/build install --record /home/epiibots/ros2_ws/build/pwm_rec/install.log --single-version-externally-managed install_data
+[2.184s] running egg_info
+[2.228s] writing ../../build/pwm_rec/pwm_rec.egg-info/PKG-INFO
+[2.230s] writing dependency_links to ../../build/pwm_rec/pwm_rec.egg-info/dependency_links.txt
+[2.233s] writing entry points to ../../build/pwm_rec/pwm_rec.egg-info/entry_points.txt
+[2.236s] writing requirements to ../../build/pwm_rec/pwm_rec.egg-info/requires.txt
+[2.236s] writing top-level names to ../../build/pwm_rec/pwm_rec.egg-info/top_level.txt
+[2.312s] reading manifest file '../../build/pwm_rec/pwm_rec.egg-info/SOURCES.txt'
+[2.314s] adding license file 'LICENSE'
+[2.314s] writing manifest file '../../build/pwm_rec/pwm_rec.egg-info/SOURCES.txt'
+[2.315s] running build
+[2.315s] running build_py
+[2.322s] running install
+[2.333s] running install_lib
+[2.369s] running install_data
+[2.373s] running install_egg_info
+[2.406s] removing '/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec-0.0.0-py3.12.egg-info' (and everything under it)
+[2.407s] Copying ../../build/pwm_rec/pwm_rec.egg-info to /home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec-0.0.0-py3.12.egg-info
+[2.412s] running install_scripts
+[2.608s] Installing rpm_saver script to /home/epiibots/ros2_ws/install/pwm_rec/lib/pwm_rec
+[2.614s] writing list of installed files to '/home/epiibots/ros2_ws/build/pwm_rec/install.log'
+[2.746s] Invoked command in '/home/epiibots/ros2_ws/src/pwm_rec' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/pwm_rec/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/pwm_rec build --build-base /home/epiibots/ros2_ws/build/pwm_rec/build install --record /home/epiibots/ros2_ws/build/pwm_rec/install.log --single-version-externally-managed install_data

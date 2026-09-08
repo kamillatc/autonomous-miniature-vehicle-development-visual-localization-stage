@@ -1,0 +1,2 @@
+[console_scripts]
+rpm_saver = pwm_rec.rpm_saver:main

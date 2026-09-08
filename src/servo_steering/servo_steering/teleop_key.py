@@ -55,20 +55,20 @@ class TeleopKey(Node):
                 key = get_key(settings)
 
                 if key == 'w':
-                    self._linear = min(self._linear + STEP_LINEAR, MAX_LINEAR)
+                    self._linear = round(min(self._linear + STEP_LINEAR, MAX_LINEAR), 2)
                 elif key == 's':
-                    self._linear = max(self._linear - STEP_LINEAR, -MAX_LINEAR)
+                    self._linear = round(max(self._linear - STEP_LINEAR, -MAX_LINEAR), 2)
                 elif key == 'a':
-                    self._angular = min(self._angular + STEP_ANGULAR, MAX_ANGULAR)
+                    self._angular = round(min(self._angular + STEP_ANGULAR, MAX_ANGULAR), 2)
                 elif key == 'd':
-                    self._angular = max(self._angular - STEP_ANGULAR, -MAX_ANGULAR)
+                    self._angular = round(max(self._angular - STEP_ANGULAR, -MAX_ANGULAR), 2)
                 elif key == ' ':
                     self._linear  = 0.0
                     self._angular = 0.0
                 elif key in ('q', '\x03'):
                     break
                 else:
-                    return
+                    continue  # ignora tecla desconhecida (setas, enter, etc.) sem matar o nó
 
                 msg = Twist()
                 msg.linear.x  = self._linear
@@ -76,8 +76,8 @@ class TeleopKey(Node):
                 self._pub.publish(msg)
 
                 print(
-                    f'\r  linear.x: {self._linear:+.1f}  '
-                    f'angular.z: {self._angular:+.1f}    ',
+                    f'\r  linear.x: {self._linear:+.2f}  '
+                    f'angular.z: {self._angular:+.2f}    ',
                     end='', flush=True
                 )
         finally:

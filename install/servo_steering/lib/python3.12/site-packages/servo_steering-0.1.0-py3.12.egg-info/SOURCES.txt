@@ -11,6 +11,9 @@ setup.py
 resource/servo_steering
 servo_steering/__init__.py
 servo_steering/motor_node.py
+servo_steering/motor_noder.py
+servo_steering/pwm_velocity_logger.py
+servo_steering/pwm_velocity_plot.py
 servo_steering/servo_node.py
 servo_steering/teleop_kei.py
 servo_steering/teleop_key.py

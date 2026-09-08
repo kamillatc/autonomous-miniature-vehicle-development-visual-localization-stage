@@ -1,0 +1,22 @@
+[4.607s] Invoking command in '/home/epiibots/ros2_ws/src/detector': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data
+[6.449s] running egg_info
+[6.541s] writing ../../build/detector/detector.egg-info/PKG-INFO
+[6.543s] writing dependency_links to ../../build/detector/detector.egg-info/dependency_links.txt
+[6.544s] writing entry points to ../../build/detector/detector.egg-info/entry_points.txt
+[6.545s] writing requirements to ../../build/detector/detector.egg-info/requires.txt
+[6.548s] writing top-level names to ../../build/detector/detector.egg-info/top_level.txt
+[6.779s] reading manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+[6.782s] adding license file 'LICENSE'
+[6.786s] writing manifest file '../../build/detector/detector.egg-info/SOURCES.txt'
+[6.787s] running build
+[6.788s] running build_py
+[6.791s] running install
+[6.837s] running install_lib
+[6.908s] running install_data
+[6.909s] running install_egg_info
+[6.983s] removing '/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector-0.0.0-py3.12.egg-info' (and everything under it)
+[6.990s] Copying ../../build/detector/detector.egg-info to /home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages/detector-0.0.0-py3.12.egg-info
+[7.000s] running install_scripts
+[7.550s] Installing apriltags script to /home/epiibots/ros2_ws/install/detector/lib/detector
+[7.603s] writing list of installed files to '/home/epiibots/ros2_ws/build/detector/install.log'
+[7.934s] Invoked command in '/home/epiibots/ros2_ws/src/detector' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/epiibots/ros2_ws/build/detector/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/epiibots/ros2_ws/install/detector/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/detector build --build-base /home/epiibots/ros2_ws/build/detector/build install --record /home/epiibots/ros2_ws/build/detector/install.log --single-version-externally-managed install_data

@@ -1,0 +1,18 @@
+running egg_info
+writing ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/PKG-INFO
+writing dependency_links to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/dependency_links.txt
+writing requirements to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/requires.txt
+writing top-level names to ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/top_level.txt
+reading manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/controlegeral_carrinho/controlegeral_carrinho.egg-info to /home/epiibots/ros2_ws/install/controlegeral_carrinho/lib/python3.12/site-packages/controlegeral_carrinho-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/epiibots/ros2_ws/build/controlegeral_carrinho/install.log'

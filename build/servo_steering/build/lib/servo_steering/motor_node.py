@@ -25,11 +25,13 @@ MAX_LINEAR_MS = 1.0   # m/s que corresponde a 100% de duty cycle
 PWM_FREQ      = 1000  # Hz — ideal para BTS7960 com motores DC
 DEAD_TIME     = 0.05  # 50ms de proteção na inversão de sentido
 
-V_BATERIA      = 12.0  # Tensão real da sua bateria em volts  ← ajuste aqui
-V_MAX_MOTOR    = 6  # Tensão máxima desejada no motor em volts
-
-# Duty cycle máximo permitido (ex: 7.5/12.0 = 0.625 → 62.5%)
+V_BATERIA      = 11.1  # Tensão real da sua bateria em volts  ← ajuste aqui
+#DUTY_CICLE = 0.65
+V_MAX_MOTOR = 7.0
 DUTY_MAX = min(V_MAX_MOTOR / V_BATERIA, 1.0)
+
+# Tensao maxima permitida para o motor (Ex: 11.1*0.666 = 7.4)
+# V_MOTOR = min(V_BATERIA * DUTY_CICLE, V_MAX)
 # ─────────────────────────────────────────────────────────────────────────────
 
 class MotorNode(Node):
@@ -89,12 +91,12 @@ class MotorNode(Node):
         if velocidade > 0:
             self._lpwm.value = 0
             self._rpwm.value = potencia
-            self.get_logger().info(f"linear.x → FRENTE {velocidade:.1f}%")
+            self.get_logger().info(f"linear.x → FRENTE {abs(velocidade):.1f}%")
 
         elif velocidade < 0:
             self._rpwm.value = 0
             self._lpwm.value = potencia
-            self.get_logger().info(f"linear.x → TRÁS   {abs(velocidade):.1f}%")
+            self.get_logger().info(f"linear.x → TRÁS   {velocidade:.1f}%")
 
         else:
             self._parar()

@@ -1,0 +1,21 @@
+running egg_info
+writing ../../build/pwm_rec/pwm_rec.egg-info/PKG-INFO
+writing dependency_links to ../../build/pwm_rec/pwm_rec.egg-info/dependency_links.txt
+writing requirements to ../../build/pwm_rec/pwm_rec.egg-info/requires.txt
+writing top-level names to ../../build/pwm_rec/pwm_rec.egg-info/top_level.txt
+reading manifest file '../../build/pwm_rec/pwm_rec.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/pwm_rec/pwm_rec.egg-info/SOURCES.txt'
+running build
+running build_py
+copying pwm_rec/rpm_saver.py -> /home/epiibots/ros2_ws/build/pwm_rec/build/lib/pwm_rec
+running install
+running install_lib
+copying /home/epiibots/ros2_ws/build/pwm_rec/build/lib/pwm_rec/rpm_saver.py -> /home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec
+byte-compiling /home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec/rpm_saver.py to rpm_saver.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../build/pwm_rec/pwm_rec.egg-info to /home/epiibots/ros2_ws/install/pwm_rec/lib/python3.12/site-packages/pwm_rec-0.0.0-py3.12.egg-info
+running install_scripts
+writing list of installed files to '/home/epiibots/ros2_ws/build/pwm_rec/install.log'
