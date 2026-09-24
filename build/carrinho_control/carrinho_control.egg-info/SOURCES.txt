@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+../../build/carrinho_control/carrinho_control.egg-info/PKG-INFO
+../../build/carrinho_control/carrinho_control.egg-info/SOURCES.txt
+../../build/carrinho_control/carrinho_control.egg-info/dependency_links.txt
+../../build/carrinho_control/carrinho_control.egg-info/entry_points.txt
+../../build/carrinho_control/carrinho_control.egg-info/requires.txt
+../../build/carrinho_control/carrinho_control.egg-info/top_level.txt
+../../build/carrinho_control/carrinho_control.egg-info/zip-safe
+carrinho_control/__init__.py
+carrinho_control/motor_pid_controller.py
+carrinho_control/pid.py
+launch/carrinho_control.launch.py
+resource/carrinho_control

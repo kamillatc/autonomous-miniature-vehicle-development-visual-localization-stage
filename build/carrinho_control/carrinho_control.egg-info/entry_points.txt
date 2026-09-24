@@ -1,0 +1,2 @@
+[console_scripts]
+motor_pid_controller = carrinho_control.motor_pid_controller:main

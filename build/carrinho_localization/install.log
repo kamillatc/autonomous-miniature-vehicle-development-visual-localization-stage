@@ -4,6 +4,8 @@
 /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization/__pycache__/wheel_odom_relay.cpython-312.pyc
 /home/epiibots/ros2_ws/install/carrinho_localization/share/ament_index/resource_index/packages/carrinho_localization
 /home/epiibots/ros2_ws/install/carrinho_localization/share/carrinho_localization/package.xml
+/home/epiibots/ros2_ws/install/carrinho_localization/share/carrinho_localization/config/ekf.yaml
+/home/epiibots/ros2_ws/install/carrinho_localization/share/carrinho_localization/launch/ekf_launch.py
 /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization-0.0.0-py3.12.egg-info/requires.txt
 /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization-0.0.0-py3.12.egg-info/top_level.txt
 /home/epiibots/ros2_ws/install/carrinho_localization/lib/python3.12/site-packages/carrinho_localization-0.0.0-py3.12.egg-info/zip-safe

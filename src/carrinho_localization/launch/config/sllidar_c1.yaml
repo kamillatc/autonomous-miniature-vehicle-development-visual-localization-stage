@@ -1,0 +1,9 @@
+sllidar_node:
+  ros__parameters:
+    channel_type: 'serial'
+    serial_port: '/dev/ttyUSB1'  # Ajuste para a porta que funcionou no comando manual (0 ou 1)
+    serial_baudrate: 460800      # Baudrate correto do C1
+    frame_id: 'laser'
+    inverted: false
+    angle_compensate: true
+    scan_mode: 'Sensitivity'

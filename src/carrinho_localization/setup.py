@@ -1,4 +1,6 @@
 from setuptools import find_packages, setup
+import os
+from glob import glob
 
 package_name = 'carrinho_localization'
 
@@ -10,6 +12,8 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
+        (os.path.join('share', package_name, 'config'), glob('config/*.yaml')),   # ADICIONADO diz: "pegue todos os .yaml da pasta config/ e instale em share/carrinho_localization/config/ quando o pacote for buildado".
+        (os.path.join('share', package_name, 'launch'), glob('launch/*.py')),   # ADICIONADO
     ],
     install_requires=['setuptools'],
     zip_safe=True,

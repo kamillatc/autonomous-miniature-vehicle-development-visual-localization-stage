@@ -3,6 +3,8 @@
 import rclpy
 from rclpy.node import Node
 from geometry_msgs.msg import TwistStamped, TwistWithCovarianceStamped
+from nav_msgs.msg import Odometry   # ALTERADO: era TwistWithCovarianceStamped
+
 
 
 class WheelOdomRelay(Node):
@@ -19,7 +21,7 @@ class WheelOdomRelay(Node):
 
         # Publica já estruturado com covariância, pronto pro robot_localization
         self.pub = self.create_publisher(
-            TwistWithCovarianceStamped,
+            Odometry,          # ALTERADO: agora publica Odometry completo
             'wheel_odom',
             10
         )
@@ -27,12 +29,13 @@ class WheelOdomRelay(Node):
         self.get_logger().info('wheel_odom_relay iniciado: /wheel_odom_raw -> /wheel_odom')
 
     def callback(self, msg: TwistStamped):
-        out = TwistWithCovarianceStamped()
+        out = Odometry()   # ALTERADO
 
         # IMPORTANTE: reaproveita o timestamp ORIGINAL do ESP32,
         # não gera um novo -- preserva o instante real da medição
         out.header.stamp = msg.header.stamp
-        out.header.frame_id = msg.header.frame_id
+        out.header.frame_id = 'odom'          # ADICIONADO: frame de referência da odometria
+        out.child_frame_id = 'base_link'      # ADICIONADO: nav_msgs/Odometry exige esse campo
 
         # Copia a velocidade medida
         out.twist.twist.linear.x = msg.twist.linear.x
@@ -51,6 +54,11 @@ class WheelOdomRelay(Node):
         cov[28] = 99999.0  # angular.y
         cov[35] = 99999.0  # angular.z
         out.twist.covariance = cov
+
+
+        # ADICIONADO: pose não é medida por esse sensor, então deixamos com
+        # covariância altíssima em tudo, pra dizer ao EKF "ignore esses campos"
+        out.pose.covariance = [99999.0] * 36
 
         self.pub.publish(out)
 

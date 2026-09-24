@@ -22,7 +22,7 @@ setup(
             'motor_node = servo_steering.motor_node:main',
             'teleop_key = servo_steering.teleop_key:main',
             'teleop_kei = servo_steering.teleop_kei:main',
-            'motor_node_pwm = motor_noder:main',
+            'motor_node_pwm = servo_steering.motor_node_pwm:main',
         ],
     },
 )

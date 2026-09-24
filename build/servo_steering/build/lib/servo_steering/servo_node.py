@@ -48,8 +48,8 @@ class ServoNode(Node):
         self._move(0.0)
 
 
-        self.create_subscription(Twist, "/cmd_vel", self._cb, 10)
-        self.get_logger().info("servo_node pronto — aguardando /cmd_vel")
+        self.create_subscription(Twist, "/cmd_vel_pid", self._cb, 10)
+        self.get_logger().info("servo_node pronto — aguardando /cmd_vel_pid")
 
     def _cb(self, msg: Twist):
         # angular.z em rad/s → graus

@@ -10,6 +10,8 @@ setup.py
 ../../build/carrinho_localization/carrinho_localization.egg-info/zip-safe
 carrinho_localization/__init__.py
 carrinho_localization/wheel_odom_relay.py
+config/ekf.yaml
+launch/ekf_launch.py
 resource/carrinho_localization
 test/test_copyright.py
 test/test_flake8.py

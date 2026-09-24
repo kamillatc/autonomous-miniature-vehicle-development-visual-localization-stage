@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: carrinho-control
+Version: 0.1.0
+Summary: Camada de controle PID (motor + servo) do carrinho autônomo.
+Maintainer: seu_nome
+Maintainer-email: voce@exemplo.com
+License: Apache-2.0

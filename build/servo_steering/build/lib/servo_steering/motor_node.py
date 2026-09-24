@@ -27,7 +27,7 @@ DEAD_TIME     = 0.05  # 50ms de proteção na inversão de sentido
 
 V_BATERIA      = 11.1  # Tensão real da sua bateria em volts  ← ajuste aqui
 #DUTY_CICLE = 0.65
-V_MAX_MOTOR = 7.0
+V_MAX_MOTOR = 6.0
 DUTY_MAX = min(V_MAX_MOTOR / V_BATERIA, 1.0)
 
 # Tensao maxima permitida para o motor (Ex: 11.1*0.666 = 7.4)
